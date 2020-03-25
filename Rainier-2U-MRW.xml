@@ -1890,6 +1890,10 @@
 		<value>10</value>
 		</enumerator>
 		<enumerator>
+		<name>INTERNAL CABLE</name>
+		<value>14</value>
+		</enumerator>
+		<enumerator>
 		<name>SMP</name>
 		<value>8</value>
 		</enumerator>
@@ -3856,28 +3860,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
-		<enumerator>
-		<name>BIG_ENDIAN</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>LITTLE_ENDIAN</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MSS_OCMB_EXP_STRUCT_MMIO_WORD_SWAP</id>
-		<enumerator>
-		<name>SWAP</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>NO_SWAP</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>MSS_OMI_EDPL_DISABLE</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -5212,6 +5194,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>SPI_CONNECTION_TYPE</id>
+		<enumerator>
+		<name>CFAM</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>NA</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>PIB</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>SPI_FUNCTION</id>
 		<enumerator>
 		<name>NOT_DEFINED</name>
@@ -5294,17 +5291,6 @@
 		<enumerator>
 		<name>MAX5961</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SUPPORTED_MTMS</id>
-		<enumerator>
-		<name>ALL</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>9040-MR9</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -32345,6 +32331,8 @@
 	<instance_name>sys</instance_name>
 	<position>0</position>
 	<child_id>node-0</child_id>
+	<child_id>Rainier-2U-MTMS-0</child_id>
+	<child_id>Rainier-2U-CCINS-0</child_id>
 	<hidden_child_id>system_event_sensor</hidden_child_id>
 	<hidden_child_id>host_status_sensor</hidden_child_id>
 	<hidden_child_id>fw_boot_sensor</hidden_child_id>
@@ -32357,6 +32345,26 @@
 	<hidden_child_id>dimm_freq_sensor</hidden_child_id>
 	<hidden_child_id>ps_redundancy_state_sensor</hidden_child_id>
 	<attribute>
+		<id>ADC_CHANNEL_FUNC_IDS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ADC_CHANNEL_GAINS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ADC_CHANNEL_GNDS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ADC_CHANNEL_OFFSETS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>ADC_CHANNEL_SENSOR_NUMBERS</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0</default>
 	</attribute>
@@ -32367,6 +32375,14 @@
 	<attribute>
 		<id>ALL_MCS_IN_INTERLEAVING_GROUP</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>APSS_GPIO_PORT_MODES</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>APSS_GPIO_PORT_PINS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>ASYNC_NEST_FREQ_MHZ</id>
@@ -32834,14 +32850,6 @@
 		<default>ALLOW_ENTERPRISE</default>
 	</attribute>
 	<attribute>
-		<id>MSS_OCMB_EXP_OMI_CFG_ENDIAN_CTRL</id>
-		<default>LITTLE_ENDIAN</default>
-	</attribute>
-	<attribute>
-		<id>MSS_OCMB_EXP_STRUCT_MMIO_WORD_SWAP</id>
-		<default>NO_SWAP</default>
-	</attribute>
-	<attribute>
 		<id>MSS_OMI_EDPL_DISABLE</id>
 		<default></default>
 	</attribute>
@@ -32913,8 +32921,96 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PAYLOAD_KIND</id>
+		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_ERROR_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_MEM_ERROR_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_MEM_READ_TIMEOUT_SEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_GPU_READ_TIMEOUT_SEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_L3_WEIGHT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_MEMCTRL_READ_TIMEOUT_SEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_N_PLUS_ONE_HPC_BULK_POWER_LIMIT_WATTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_PROC_WEIGHT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_QUAD_WEIGHT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PAYLOAD_KIND</id>
+		<default>PHYP</default>
 	</attribute>
 	<attribute>
 		<id>PCI0_REFCLOCK_RCVR_TERM</id>
@@ -33054,7 +33150,7 @@
 	</attribute>
 	<attribute>
 		<id>SECURITY_ENABLE</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>SMF_CONFIG</id>
@@ -33067,12 +33163,12 @@
 	<attribute>
 		<id>SP_FUNCTIONS</id>
 		<default>
-				<field><id>baseServices</id><value></value></field>
-				<field><id>fsiSlaveInit</id><value></value></field>
-				<field><id>mailboxEnabled</id><value></value></field>
-				<field><id>fsiMasterInit</id><value></value></field>
-				<field><id>hardwareChangeDetection</id><value></value></field>
-				<field><id>powerLineDisturbance</id><value></value></field>
+				<field><id>baseServices</id><value>1</value></field>
+				<field><id>fsiSlaveInit</id><value>1</value></field>
+				<field><id>mailboxEnabled</id><value>1</value></field>
+				<field><id>fsiMasterInit</id><value>1</value></field>
+				<field><id>hardwareChangeDetection</id><value>1</value></field>
+				<field><id>powerLineDisturbance</id><value>1</value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
 	</attribute>
@@ -47053,6 +47149,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-mvpd => proc_socket-0/godel-0/p0-mvpd/spi-slave</bus_id>
@@ -47069,6 +47169,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47087,6 +47191,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-sbebup => proc_socket-0/godel-0/p0-sbe-b/spi-slave</bus_id>
@@ -47103,6 +47211,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47121,6 +47233,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/spi-mvpd => proc_socket-0/godel-0/p1-mvpd/spi-slave</bus_id>
@@ -47137,6 +47253,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47155,6 +47275,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/spi-sbebup => proc_socket-0/godel-0/p1-sbe-b/spi-slave</bus_id>
@@ -47171,6 +47295,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47189,6 +47317,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/spi-mvpd => proc_socket-1/godel-0/p0-mvpd/spi-slave</bus_id>
@@ -47205,6 +47337,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47223,6 +47359,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/spi-sbebup => proc_socket-1/godel-0/p0-sbe-b/spi-slave</bus_id>
@@ -47239,6 +47379,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47257,6 +47401,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/spi-mvpd => proc_socket-1/godel-0/p1-mvpd/spi-slave</bus_id>
@@ -47273,6 +47421,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47291,6 +47443,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/spi-sbebup => proc_socket-1/godel-0/p1-sbe-b/spi-slave</bus_id>
@@ -47307,6 +47463,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -47325,6 +47485,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/spi-adc => rainier-apss-0/apss.SPI-S0</bus_id>
@@ -47341,6 +47505,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -48005,7 +48173,7 @@
 	</attribute>
 	<attribute>
 		<id>DATA_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
@@ -48223,7 +48391,7 @@
 	</attribute>
 	<attribute>
 		<id>ICACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>IO_FILTER_BYPASS</id>
@@ -48267,7 +48435,7 @@
 	</attribute>
 	<attribute>
 		<id>L2_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
@@ -48275,7 +48443,7 @@
 	</attribute>
 	<attribute>
 		<id>L3_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>LEN_OF_SEEPROM_DATA</id>
@@ -48486,6 +48654,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>SPI_BUS_DIV_REF</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>SS_FILTER_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -48510,8 +48682,16 @@
 		<default>FAIL</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_TYPE</id>
+		<default>32</default>
+	</attribute>
+	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>THREAD_COUNT</id>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -48519,7 +48699,7 @@
 	</attribute>
 	<attribute>
 		<id>UNSECURE_HOMER_SIZE</id>
-		<default></default>
+		<default>0x1000</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -51992,6 +52172,10 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>IPMI_SENSORS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -64474,7 +64658,7 @@
 	</attribute>
 	<attribute>
 		<id>DATA_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
@@ -64692,7 +64876,7 @@
 	</attribute>
 	<attribute>
 		<id>ICACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>IO_FILTER_BYPASS</id>
@@ -64736,7 +64920,7 @@
 	</attribute>
 	<attribute>
 		<id>L2_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
@@ -64744,7 +64928,7 @@
 	</attribute>
 	<attribute>
 		<id>L3_CACHE_SIZE</id>
-		<default></default>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>LEN_OF_SEEPROM_DATA</id>
@@ -64955,6 +65139,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>SPI_BUS_DIV_REF</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>SS_FILTER_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -64979,8 +65167,16 @@
 		<default>FAIL</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_TYPE</id>
+		<default>32</default>
+	</attribute>
+	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>THREAD_COUNT</id>
+		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -64988,7 +65184,7 @@
 	</attribute>
 	<attribute>
 		<id>UNSECURE_HOMER_SIZE</id>
-		<default></default>
+		<default>0x1000</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -65128,6 +65324,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>VPD</default>
+	</attribute>
+	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -65839,6 +66039,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -105117,6 +105321,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>0x00</default>
 	</attribute>
@@ -133820,6 +134028,1208 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-MTMS-0</id>
+	<type>targetoverride-Rainier-2U-MTMS</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-MTMS</instance_name>
+	<position>0</position>
+	<child_id>Rainier-2U-MTMS.2s2u-p10-dcm</child_id>
+	<child_id>Rainier-2U-MTMS.2s2u-p10-ioscm</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-MTMS.2s2u-p10-dcm</id>
+	<type>override-system-mtm</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-MTMS.2s2u-p10-dcm</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IM_ID</id>
+		<default>IM-RAINIER</default>
+	</attribute>
+	<attribute>
+		<id>IM_VALUE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_ID</id>
+		<default>RAINIER</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>MTM_NAME</id>
+		<default>9105-22A</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Rainier 2S2U P10-DCM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-MTMS.2s2u-p10-ioscm</id>
+	<type>override-system-mtm</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-MTMS.2s2u-p10-ioscm</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IM_ID</id>
+		<default>IM-RAINIER</default>
+	</attribute>
+	<attribute>
+		<id>IM_VALUE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_ID</id>
+		<default>RAINIER</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>MTM_NAME</id>
+		<default>9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Rainier 2S2U P10-ioSCM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS-0</id>
+	<type>targetoverride-Rainier-2U-CCINS</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS</instance_name>
+	<position>0</position>
+	<child_id>Rainier-2U-CCINS.Nisqually-2S2U</child_id>
+	<child_id>Rainier-2U-CCINS.Ingraham</child_id>
+	<child_id>Rainier-2U-CCINS.Wilson</child_id>
+	<child_id>Rainier-2U-CCINS.Blyth</child_id>
+	<child_id>Rainier-2U-CCINS.Russell</child_id>
+	<child_id>Rainier-2U-CCINS.Flett</child_id>
+	<child_id>Rainier-2U-CCINS.Williwakas</child_id>
+	<child_id>Rainier-2U-CCINS.ProcessorVRM</child_id>
+	<child_id>Rainier-2U-CCINS.16GB-DDIMM-2U</child_id>
+	<child_id>Rainier-2U-CCINS.32GB-DDIMM-2U</child_id>
+	<child_id>Rainier-2U-CCINS.64GB-DDIMM-2U</child_id>
+	<child_id>Rainier-2U-CCINS.128GB-DDIMM-2U</child_id>
+	<child_id>Rainier-2U-CCINS.Puyallup</child_id>
+	<child_id>Rainier-2U-CCINS.BearPaw</child_id>
+	<child_id>Rainier-2U-CCINS.PowerSupply-1400W</child_id>
+	<child_id>Rainier-2U-CCINS.PowerSupply-2000W</child_id>
+	<child_id>Rainier-2U-CCINS.DCM-DD10-30BC-250W</child_id>
+	<child_id>Rainier-2U-CCINS.DCM-DD10-24BC-250W</child_id>
+	<child_id>Rainier-2U-CCINS.DCM-DD10-16BC-250W</child_id>
+	<child_id>Rainier-2U-CCINS.ioSCM-DD10-8BC-150W</child_id>
+	<child_id>Rainier-2U-CCINS.ioSCM-DD10-4BC-150W</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Nisqually-2S2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Nisqually-2S2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>2E2D</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>System Planar</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Ingraham</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Ingraham</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B58</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>eBMC Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Wilson</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Wilson</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B59</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Trusted Platform Module Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Blyth</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Blyth</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B85</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Base Op Panel Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Russell</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Russell</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B86</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Op Panel LCD Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Flett</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Flett</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B87</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>NVMe JBOF Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Williwakas</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Williwakas</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B89</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>NVMe U.2 Backplane</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.ProcessorVRM</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.ProcessorVRM</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>2E32</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Processor VRM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.16GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.16GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>329A</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>16GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.32GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.32GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>329B</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>32GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.64GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.64GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>329C</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>64GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.128GB-DDIMM-2U</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.128GB-DDIMM-2U</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>329D</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-22A,9105-42B,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>128GB 2U DDIMM</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.Puyallup</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.Puyallup</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>6B8A</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>IO Riser 2U Card</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.BearPaw</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.BearPaw</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>58FF</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>MEX 2U Cable Card for Fanout Module</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.PowerSupply-1400W</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.PowerSupply-1400W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>2B1E</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42A,9105-42B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Power Supply 1400W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.PowerSupply-2000W</id>
+	<type>override-ccin-card</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.PowerSupply-2000W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>FIELD</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>51E9</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A,9105-22B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Power Supply 2000W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.DCM-DD10-30BC-250W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.DCM-DD10-30BC-250W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>LAB_ONLY</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C55</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>30BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>1.0</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel DCM DD1.0 30BC 250W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.DCM-DD10-24BC-250W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.DCM-DD10-24BC-250W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>LAB_ONLY</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C54</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>24BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>1.0</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel DCM DD1.0 24BC 250W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.DCM-DD10-16BC-250W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.DCM-DD10-16BC-250W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>LAB_ONLY</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C53</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>16BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>1.0</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-22A</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel DCM DD1.0 16BC 250W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.ioSCM-DD10-8BC-150W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.ioSCM-DD10-8BC-150W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>LAB_ONLY</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C71</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>8BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>1.0</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel ioSCM DD1.0 8BC 150W</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Rainier-2U-CCINS.ioSCM-DD10-4BC-150W</id>
+	<type>override-ccin-cpu</type>
+	<is_root>false</is_root>
+	<instance_name>Rainier-2U-CCINS.ioSCM-DD10-4BC-150W</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>CARD_USE</id>
+		<default>LAB_ONLY</default>
+	</attribute>
+	<attribute>
+		<id>CCIN</id>
+		<default>5C70</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CORES</id>
+		<default>4BC</default>
+	</attribute>
+	<attribute>
+		<id>EC_LEVEL</id>
+		<default>1.0</default>
+	</attribute>
+	<attribute>
+		<id>FREQUENCY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>GROUP_KEY</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TARGET_OVERRIDE</default>
+	</attribute>
+	<attribute>
+		<id>PART_NUMBER</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SUPPORTED_MTMS</id>
+		<default>9105-42B</default>
+	</attribute>
+	<attribute>
+		<id>TARGET_NAME</id>
+		<default>Godel ioSCM DD1.0 4BC 150W</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
