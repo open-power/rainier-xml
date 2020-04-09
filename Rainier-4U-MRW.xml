@@ -2074,8 +2074,132 @@
 <enumerationType>
 	<id>DYNAMIC_INIT_FEATURE_VEC</id>
 		<enumerator>
+		<name>FBC_ASYNC_RT2MC3_NOMINAL</name>
+		<value>0x0000000080000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_PA2RT_NOMINAL</name>
+		<value>0x0000800000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>RUNN_USE_QME_TB_SRC</name>
+		<value>0x0000000000002000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC2_SAFE</name>
+		<value>0x0000000400000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT1_SAFE</name>
+		<value>0x0000000000400000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC1_TURBO</name>
+		<value>0x0000010000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC3_ULTRATURBO</name>
+		<value>0x0000000200000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT1_TURBO</name>
+		<value>0x0000000001000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT1_ULTRATURBO</name>
+		<value>0x0000000002000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT1_NOMINAL</name>
+		<value>0x0000000000800000</value>
+		</enumerator>
+		<enumerator>
+		<name>HV_INITS</name>
+		<value>0x0000000000001000</value>
+		</enumerator>
+		<enumerator>
 		<name>COMMON_CONTAINED</name>
 		<value>0x2000000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC0_SAFE</name>
+		<value>0x0000040000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT0_SAFE</name>
+		<value>0x0000000004000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC0_ULTRATURBO</name>
+		<value>0x0000200000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC3_SAFE</name>
+		<value>0x0000000040000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT3_SAFE</name>
+		<value>0x0000000000004000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC0_TURBO</name>
+		<value>0x0000100000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_MC3_FAST</name>
+		<value>0x0008000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT2_TURBO</name>
+		<value>0x0000000000100000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC1_ULTRATURBO</name>
+		<value>0x0000020000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT2_ULTRATURBO</name>
+		<value>0x0000000000200000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT3_NOMINAL</name>
+		<value>0x0000000000008000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_MC0_FAST</name>
+		<value>0x0040000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC1_NOMINAL</name>
+		<value>0x0000008000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC2_ULTRATURBO</name>
+		<value>0x0000002000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC2_NOMINAL</name>
+		<value>0x0000000800000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT3_ULTRATURBO</name>
+		<value>0x0000000000020000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_MC2_FAST</name>
+		<value>0x0010000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>CACHE_CONTAINED</name>
+		<value>0x8000000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2PA_NOMINAL</name>
+		<value>0x0004000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2PA_SAFE</name>
+		<value>0x0002000000000000</value>
 		</enumerator>
 		<enumerator>
 		<name>RUNN_SRESET_T0</name>
@@ -2094,16 +2218,64 @@
 		<value>0x0080000000000000</value>
 		</enumerator>
 		<enumerator>
+		<name>FBC_ASYNC_MC2RT0_ULTRATURBO</name>
+		<value>0x0000000020000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_PA2RT_TURBO</name>
+		<value>0x0001000000000000</value>
+		</enumerator>
+		<enumerator>
 		<name>HOSTBOOT</name>
 		<value>0x1000000000000000</value>
 		</enumerator>
 		<enumerator>
-		<name>CACHE_CONTAINED</name>
-		<value>0x8000000000000000</value>
+		<name>FBC_ASYNC_RT2MC3_TURBO</name>
+		<value>0x0000000100000000</value>
 		</enumerator>
 		<enumerator>
 		<name>L2RC_HIGH_JITTER</name>
 		<value>0x0800000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_PA2RT_SAFE</name>
+		<value>0x0000400000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT0_TURBO</name>
+		<value>0x0000000010000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_MC1_FAST</name>
+		<value>0x0020000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT0_NOMINAL</name>
+		<value>0x0000000008000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT3_TURBO</name>
+		<value>0x0000000000010000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC0_NOMINAL</name>
+		<value>0x0000080000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT2_SAFE</name>
+		<value>0x0000000000040000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_MC2RT2_NOMINAL</name>
+		<value>0x0000000000080000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC1_SAFE</name>
+		<value>0x0000004000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>FBC_ASYNC_RT2MC2_TURBO</name>
+		<value>0x0000001000000000</value>
 		</enumerator>
 		<enumerator>
 		<name>CHIP_CONTAINED</name>
@@ -2125,12 +2297,28 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
+		<name>WOF_DATA</name>
+		<value>7</value>
+		</enumerator>
+		<enumerator>
 		<name>ISDIMM</name>
 		<value>1</value>
 		</enumerator>
 		<enumerator>
+		<name>KEYSTORE</name>
+		<value>8</value>
+		</enumerator>
+		<enumerator>
 		<name>IBM_MVPD</name>
 		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>SBE_BOOT_CODE</name>
+		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>SBE_MEASUREMENT_CODE</name>
+		<value>6</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3814,12 +4002,12 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
-		<name>FORCE_COMMODITY</name>
-		<value>2</value>
+		<name>REQUIRE_ENTERPRISE</name>
+		<value>1</value>
 		</enumerator>
 		<enumerator>
-		<name>FORCE_ENTERPRISE</name>
-		<value>1</value>
+		<name>FORCE_NONENTERPRISE</name>
+		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4464,6 +4652,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>PROC_MODULE_TYPE</id>
+		<enumerator>
+		<name>BLAISE</name>
+		<value>0x51</value>
+		</enumerator>
+		<enumerator>
+		<name>GODEL</name>
+		<value>0x50</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>PROC_PBIEX_ASYNC_SEL</id>
 		<enumerator>
 		<name>SEL0</name>
@@ -4692,6 +4891,21 @@
 		<enumerator>
 		<name>32_CYCLES</name>
 		<value>0x3</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>PROC_PCIE_IOP_CONFIG</id>
+		<enumerator>
+		<name>BI_FURCATION</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>TRI_FURCATION</name>
+		<value>0x10</value>
+		</enumerator>
+		<enumerator>
+		<name>NO_FURCATION</name>
+		<value>0x00</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5640,6 +5854,10 @@
 		<value>59</value>
 		</enumerator>
 		<enumerator>
+		<name>LPCREFCLKENDPT</name>
+		<value>84</value>
+		</enumerator>
+		<enumerator>
 		<name>NA</name>
 		<value>0</value>
 		</enumerator>
@@ -5649,7 +5867,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>84</value>
+		<value>85</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -37191,6 +37409,26 @@
 		<default>MODE0</default>
 	</attribute>
 	<attribute>
+		<id>PROC_MODULE_TYPE</id>
+		<default>GODEL</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_MMIO_BAR0_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_MMIO_BAR1_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_PHB_REGISTER_BASE_ADDR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
 		<default>0</default>
 	</attribute>
@@ -37268,7 +37506,7 @@
 	</attribute>
 	<attribute>
 		<id>SMF_CONFIG</id>
-		<default></default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>SPIPSS_FREQUENCY</id>
@@ -53171,7 +53409,7 @@
 	</attribute>
 	<attribute>
 		<id>SPI_BUS_DIV_REF</id>
-		<default></default>
+		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SS_FILTER_BYPASS</id>
@@ -57094,10 +57332,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006011C00000000</default>
 	</attribute>
@@ -57175,10 +57409,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -57413,10 +57643,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006011E00000000</default>
 	</attribute>
@@ -57494,10 +57720,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -57853,10 +58075,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012000000000</default>
 	</attribute>
@@ -57934,10 +58152,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -58172,10 +58386,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012200000000</default>
 	</attribute>
@@ -58253,10 +58463,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -58612,10 +58818,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012400000000</default>
 	</attribute>
@@ -58693,10 +58895,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -58931,10 +59129,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012600000000</default>
 	</attribute>
@@ -59012,10 +59206,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -59371,10 +59561,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012800000000</default>
 	</attribute>
@@ -59452,10 +59638,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
@@ -59690,10 +59872,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012A00000000</default>
 	</attribute>
@@ -59773,10 +59951,6 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
-	</attribute>
-	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
 		<default>0x0006012A80000000</default>
 	</attribute>
@@ -59849,6 +60023,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/pec-0</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_IOP_CONFIG</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -59965,6 +60143,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/phb-0</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -60211,6 +60393,10 @@
 		<default>physical:sys-0/node-0/proc-0/phb-0</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -60396,6 +60582,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/phb-1</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -60643,6 +60833,10 @@
 		<default>physical:sys-0/node-0/proc-0/phb-1</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -60830,6 +61024,10 @@
 		<default>physical:sys-0/node-0/proc-0/phb-2</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -61015,6 +61213,10 @@
 		<default>physical:sys-0/node-0/proc-0/pec-1</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_IOP_CONFIG</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -61129,6 +61331,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/phb-3</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -61375,6 +61581,10 @@
 		<default>physical:sys-0/node-0/proc-0/phb-3</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -61560,6 +61770,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/phb-4</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -61807,6 +62021,10 @@
 		<default>physical:sys-0/node-0/proc-0/phb-4</default>
 	</attribute>
 	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -61992,6 +62210,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/phb-5</default>
+	</attribute>
+	<attribute>
+		<id>PROC_PCIE_BAR_ENABLE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -67868,6 +68090,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>5</default>
 	</attribute>
@@ -67909,6 +68135,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -67954,6 +68184,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>5</default>
 	</attribute>
@@ -67995,6 +68229,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -68040,6 +68278,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>5</default>
 	</attribute>
@@ -68083,6 +68325,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>5</default>
 	</attribute>
@@ -68124,6 +68370,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -69656,7 +69906,7 @@
 	</attribute>
 	<attribute>
 		<id>SPI_BUS_DIV_REF</id>
-		<default></default>
+		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SS_FILTER_BYPASS</id>
@@ -69840,10 +70090,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>VPD</default>
-	</attribute>
-	<attribute>
-		<id>SPI_CONNECTION_TYPE</id>
-		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -76870,6 +77116,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -105981,6 +106231,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>SPI_CONNECTION_TYPE</id>
+		<default>CFAM</default>
+	</attribute>
+	<attribute>
 		<id>SPI_ENGINE</id>
 		<default>0x00</default>
 	</attribute>
@@ -109838,10 +110092,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SPI_CONNECTION_TYPE</id>
-		<default>CFAM</default>
 	</attribute>
 	<attribute>
 		<id>SPI_ENGINE</id>
@@ -116238,10 +116488,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_DL_PREIPL_PRBS_TIME</id>
-		<default>0x100</default>
 	</attribute>
 	<attribute>
 		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
