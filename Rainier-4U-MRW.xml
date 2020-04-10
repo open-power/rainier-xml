@@ -62451,7 +62451,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -62693,7 +62693,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -62937,7 +62937,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -63125,7 +63125,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -63425,7 +63425,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -63668,7 +63668,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -63968,7 +63968,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -64211,7 +64211,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>NV</default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
