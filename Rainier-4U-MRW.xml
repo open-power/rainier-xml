@@ -14026,7 +14026,7 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>Enclosure attention</value>
+	<value>Check Log</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
@@ -14124,7 +14124,7 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>Enclosure ID</value>
+	<value>Enclosure Identify</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
@@ -14173,7 +14173,7 @@
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>System Planar</value>
+	<value>System Power</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
