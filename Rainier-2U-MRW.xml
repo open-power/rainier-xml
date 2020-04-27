@@ -11726,7 +11726,7 @@
 	</property>
 	<property>
 	<id>DRIVER_TYPE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 	<property>
 	<id>GPIO_TYPE</id>
@@ -11799,7 +11799,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -12205,7 +12205,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13338,7 +13338,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -33723,7 +33723,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc2/mi2/mcc4/omic4/omi8</id>
 	<property>
 	<id>DIRECTION</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40768,7 +40768,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -137442,7 +137442,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -150149,7 +150149,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>

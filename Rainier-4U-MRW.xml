@@ -13338,7 +13338,7 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34313,7 +34313,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc2/mi2/mcc5/omic5/omi11</id>
 	<property>
 	<id>DIRECTION</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34327,7 +34327,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc3/mi3/mcc6/omic6/omi13</id>
 	<property>
 	<id>DIRECTION</id>
-	<value>null</value>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
