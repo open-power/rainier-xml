@@ -14019,7 +14019,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-attn-0</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-check-log-0</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
@@ -14034,7 +14034,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-attn-0/generic-logic-assoc</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-check-log-0/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value>LED</value>
@@ -14045,7 +14045,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-attn-0/led_enable</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-check-log-0/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14060,7 +14060,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value>Blyth Attention LED enable</value>
+	<value>Blyth Check Log LED enable</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -14068,14 +14068,14 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-fault-0</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-enc-fault-1</id>
 	<property>
 	<id>BLINK_RATE</id>
 	<value></value>
 	</property>
 	<property>
 	<id>FUNCTION</id>
-	<value>Enclosure fault</value>
+	<value>Front enclosure fault</value>
 	</property>
 	<property>
 	<id>LED_TYPE</id>
@@ -14083,7 +14083,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-fault-0/generic-logic-assoc</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-enc-fault-1/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
 	<value>LED</value>
@@ -14094,7 +14094,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-sys-fault-0/led_enable</id>
+	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0/led-enc-fault-1/led_enable</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14109,7 +14109,7 @@
 	</property>
 	<property>
 	<id>PIN_NAME</id>
-	<value>Blyth Fault LED enable</value>
+	<value>Blyth Enclosure Fault LED enable</value>
 	</property>
 	<property>
 	<id>POR_VALUE</id>
@@ -28085,6 +28085,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -28153,6 +28164,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-TOP/presence</id>
 	<property>
 	<id>PRESENCE_DETECT</id>
@@ -28183,6 +28205,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -28191,6 +28228,78 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -28610,6 +28719,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -28655,6 +28775,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -28678,6 +28809,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -28689,6 +28835,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -28697,6 +28881,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -29075,6 +29282,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -29120,6 +29338,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -29143,6 +29372,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -29154,6 +29398,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -29162,6 +29444,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -29556,6 +29861,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -29601,6 +29917,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -29624,6 +29951,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -29635,6 +29977,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -29643,6 +30023,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -30022,6 +30425,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -30067,6 +30481,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -30090,6 +30515,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -30101,6 +30541,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -30109,6 +30587,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -30488,6 +30989,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -30526,6 +31038,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -30549,6 +31072,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -30560,6 +31098,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -30568,6 +31144,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -30940,6 +31539,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-BOT/presence</id>
 	<property>
 	<id>PRESENCE_DETECT</id>
@@ -30985,6 +31595,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -31008,6 +31629,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31019,6 +31655,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31027,6 +31701,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -31391,6 +32088,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-BOT</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-BOT/CXP.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -31403,6 +32107,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -31451,6 +32166,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -31474,6 +32200,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31485,6 +32226,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31493,6 +32272,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -31857,6 +32659,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-BOT</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-BOT/CXP.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -31869,6 +32678,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -31910,6 +32730,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-TOP/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -31933,6 +32764,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31944,6 +32790,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -31952,6 +32836,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -32331,6 +33238,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-BOT/presence/io-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -32354,6 +33272,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-TOP</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-TOP/CXP.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -32366,6 +33291,17 @@
 	<property>
 	<id>VPD_SIZE</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</id>
+	<property>
+	<id>ASSOCIATION_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -32392,6 +33328,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -32403,6 +33354,44 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Bottom LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP</id>
+	<property>
+	<id>BLINK_RATE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FUNCTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>LED_TYPE</id>
+	<value>FAULT</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc</id>
 	<property>
 	<id>ASSOCIATION_TYPE</id>
@@ -32411,6 +33400,29 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>OUT</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>NA</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>LED</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>Cable card CXP Top LED enable</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -32632,6 +33644,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-TMP275A</id>
+	<property>
+	<id>I2C_ADDRESS</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -44966,12 +45985,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/PCA9551.gpio-1 => base-op-panel-connector-0/blyth-0/led-sys-attn-0/led_enable</bus_id>
+		<bus_id>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/PCA9551.gpio-1 => base-op-panel-connector-0/blyth-0/led-check-log-0/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/</source_path>
 		<source_target>PCA9551.gpio-1</source_target>
-		<dest_path>base-op-panel-connector-0/blyth-0/led-sys-attn-0/</dest_path>
+		<dest_path>base-op-panel-connector-0/blyth-0/led-check-log-0/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -44987,12 +46006,12 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/PCA9551.gpio-2 => base-op-panel-connector-0/blyth-0/led-sys-fault-0/led_enable</bus_id>
+		<bus_id>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/PCA9551.gpio-2 => base-op-panel-connector-0/blyth-0/led-enc-fault-1/led_enable</bus_id>
 		<bus_type>GPIO</bus_type>
 		<cable>no</cable>
 		<source_path>base-op-panel-connector-0/blyth-0/blyth-PCA9551-0/</source_path>
 		<source_target>PCA9551.gpio-2</source_target>
-		<dest_path>base-op-panel-connector-0/blyth-0/led-sys-fault-0/</dest_path>
+		<dest_path>base-op-panel-connector-0/blyth-0/led-enc-fault-1/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -45959,6 +46978,426 @@
 		<source_path>PIC16F882-3/</source_path>
 		<source_target>PIC16F882.gpio-15</source_target>
 		<dest_path>tpm-connector-0/wilson-0/led-wilson-fault-0/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-0/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-0/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-1/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-1/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-2/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-2/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-3/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-3/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-4/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-4/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-5/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-5/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-6/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-6/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-7/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-7/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-8/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-8/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-9/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-0 => pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-0</source_target>
+		<dest_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/</dest_path>
+		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-9/pcie-cable-card-0/cablecard-PCA9551/PCA9551.gpio-1 => pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/led_enable</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-PCA9551/</source_path>
+		<source_target>PCA9551.gpio-1</source_target>
+		<dest_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
 		<dest_target>led_enable</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
@@ -56784,10 +58223,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>base-op-panel-connector-0/blyth-0/led-sys-fault-0/generic-logic-assoc => generic-logic-assoc</bus_id>
+		<bus_id>base-op-panel-connector-0/blyth-0/led-enc-fault-1/generic-logic-assoc => generic-logic-assoc</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>base-op-panel-connector-0/blyth-0/led-sys-fault-0/</source_path>
+		<source_path>base-op-panel-connector-0/blyth-0/led-enc-fault-1/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path></dest_path>
 		<dest_target>generic-logic-assoc</dest_target>
@@ -56797,10 +58236,10 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>base-op-panel-connector-0/blyth-0/led-sys-attn-0/generic-logic-assoc => generic-logic-assoc</bus_id>
+		<bus_id>base-op-panel-connector-0/blyth-0/led-check-log-0/generic-logic-assoc => generic-logic-assoc</bus_id>
 		<bus_type>LOGICAL_ASSOCIATION</bus_type>
 		<cable>no</cable>
-		<source_path>base-op-panel-connector-0/blyth-0/led-sys-attn-0/</source_path>
+		<source_path>base-op-panel-connector-0/blyth-0/led-check-log-0/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path></dest_path>
 		<dest_target>generic-logic-assoc</dest_target>
@@ -56816,6 +58255,266 @@
 		<source_path>base-op-panel-connector-0/blyth-0/led-sys-pwron-0/</source_path>
 		<source_target>generic-logic-assoc</source_target>
 		<dest_path></dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-0/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-1/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-2/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x16-3/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-4/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-5/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-6/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-7/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-8/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/generic-logic-assoc => pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-TOP/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-TOP/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-TOP/</dest_path>
+		<dest_target>generic-logic-assoc</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/generic-logic-assoc => pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-BOT/generic-logic-assoc</bus_id>
+		<bus_type>LOGICAL_ASSOCIATION</bus_type>
+		<cable>no</cable>
+		<source_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/</source_path>
+		<source_target>generic-logic-assoc</source_target>
+		<dest_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-BOT/</dest_path>
 		<dest_target>generic-logic-assoc</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
@@ -72925,7 +74624,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -72976,7 +74675,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73027,7 +74726,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73078,7 +74777,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73231,7 +74930,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73282,7 +74981,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73333,7 +75032,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73384,7 +75083,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73435,7 +75134,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73486,7 +75185,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73537,7 +75236,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73588,7 +75287,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73639,7 +75338,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73690,7 +75389,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73741,7 +75440,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -73792,7 +75491,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_CONNECTION_TYPE</id>
-		<default>NA</default>
+		<default>PIB</default>
 	</attribute>
 	<attribute>
 		<id>I2C_ENGINE</id>
@@ -127014,8 +128713,8 @@
 	<child_id>blyth-SI7021-0</child_id>
 	<child_id>blyth-PCA9551-0</child_id>
 	<child_id>led-sys-id-0</child_id>
-	<child_id>led-sys-fault-0</child_id>
-	<child_id>led-sys-attn-0</child_id>
+	<child_id>led-enc-fault-1</child_id>
+	<child_id>led-check-log-0</child_id>
 	<child_id>led-sys-pwron-0</child_id>
 	<attribute>
 		<id>CARD_TYPE</id>
@@ -128527,11 +130226,11 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>led-sys-fault-0</id>
+	<id>led-enc-fault-1</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>led-sys-fault</instance_name>
-	<position>0</position>
+	<instance_name>led-enc-fault</instance_name>
+	<position>1</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
 	<attribute>
@@ -128613,10 +130312,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>led-sys-attn-0</id>
+	<id>led-check-log-0</id>
 	<type>led-led-generic</type>
 	<is_root>false</is_root>
-	<instance_name>led-sys-attn</instance_name>
+	<instance_name>led-check-log</instance_name>
 	<position>0</position>
 	<child_id>led_enable</child_id>
 	<child_id>generic-logic-assoc</child_id>
@@ -128753,7 +130452,7 @@
 	</attribute>
 	<attribute>
 		<id>LED_PRIORITY</id>
-		<default>BLINK</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>LED_TYPE</id>
@@ -141770,11 +143469,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -141856,11 +143555,11 @@
 	</attribute>
 	<attribute>
 		<id>BLINK_ROLLUP</id>
-		<default></default>
+		<default>NO</default>
 	</attribute>
 	<attribute>
 		<id>BMC_ACCESS</id>
-		<default></default>
+		<default>YES</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
