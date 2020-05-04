@@ -22573,6 +22573,36 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_Y23_gpiop7_pwm15</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_Y23_gpiop7_pwm15/chip-bmc-ast2600.pingroup_gpiop7/chip-bmc-ast2600.GPIOP7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value>OPEN-DRAIN</value>
+	</property>
+	<property>
+	<id>GPIO_TYPE</id>
+	<value>GENERIC_OUTPUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value>MCLR_VPP</value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pingroup_AC1_DP/chip-bmc-ast2600.DP</id>
 	<property>
 	<id>DIRECTION</id>
@@ -47399,6 +47429,27 @@
 		<source_target>PCA9551.gpio-1</source_target>
 		<dest_path>pcieslot-x8-9/pcie-cable-card-0/cablecard-LED-CXP-BOT/</dest_path>
 		<dest_target>led_enable</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>1</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_Y23_gpiop7_pwm15/chip-bmc-ast2600.pingroup_gpiop7/chip-bmc-ast2600.GPIOP7 => PIC18F2XK20-0/PIC18F2XK20.RE3</bus_id>
+		<bus_type>GPIO</bus_type>
+		<cable>no</cable>
+		<source_path>ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_Y23_gpiop7_pwm15/chip-bmc-ast2600.pingroup_gpiop7/</source_path>
+		<source_target>chip-bmc-ast2600.GPIOP7</source_target>
+		<dest_path>PIC18F2XK20-0/</dest_path>
+		<dest_target>PIC18F2XK20.RE3</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>1</default>
