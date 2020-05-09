@@ -14879,6 +14879,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -60120,7 +60127,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
+		<default>0,0,0,0,0,400,0,400,400,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>ICACHE_ASSOC_SETS</id>
@@ -76659,7 +76666,7 @@
 	</attribute>
 	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
-		<default>0,0,0,0,0,0,0,0,0,0,0,0</default>
+		<default>0,0,0,0,0,400,0,400,400,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>ICACHE_ASSOC_SETS</id>
@@ -123925,7 +123932,7 @@
 	<child_id>i2c-slave</child_id>
 	<attribute>
 		<id>BYTE_ADDRESS_OFFSET</id>
-		<default>0x01</default>
+		<default>0x02</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
