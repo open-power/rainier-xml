@@ -33152,6 +33152,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-TMP275A</id>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/cablecard-TMP275A/TMP275A-i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -33287,6 +33294,13 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/cablecard-CXP-BOT</id>
+	<property>
+	<id>CONNECTOR_TYPE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -126589,7 +126603,7 @@
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
@@ -142035,7 +142049,7 @@
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>MEMORY_SIZE_IN_KB</id>
@@ -143470,7 +143484,7 @@
 	<child_id>TMP275A-i2c</child_id>
 	<attribute>
 		<id>CLASS</id>
-		<default></default>
+		<default>CHIP</default>
 	</attribute>
 	<attribute>
 		<id>COOLING_ZONE_MASK</id>
