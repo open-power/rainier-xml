@@ -1641,6 +1641,25 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>CLOCKSTOP_ON_XSTOP</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP_AND_SPATTN</name>
+		<value>0x5B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP</name>
+		<value>0x7B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_STAGED_XSTOP</name>
+		<value>0xFD</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<enumerator>
 		<name>SYS_REFCLOCK0</name>
@@ -2152,113 +2171,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>DYNAMIC_INIT_FEATURE_VEC</id>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_SAFE</name>
-		<value>0x0000200000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_NOMINAL</name>
-		<value>0x0004000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_ULTRATURBO</name>
-		<value>0x0000100000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_USE_QME_TB_SRC</name>
-		<value>0x0000010000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>CACHE_CONTAINED</name>
-		<value>0x8000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2PA_NOMINAL</name>
-		<value>0x0020000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2PA_SAFE</name>
-		<value>0x0010000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_MC_FAST</name>
-		<value>0x0040000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T0</name>
-		<value>0x0400000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_NOMINAL</name>
-		<value>0x0000400000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T1</name>
-		<value>0x0200000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T2</name>
-		<value>0x0100000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>RUNN_SRESET_T3</name>
-		<value>0x0080000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_TURBO</name>
-		<value>0x0008000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>HOSTBOOT</name>
-		<value>0x1000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_NOMINAL</name>
-		<value>0x0000040000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>L2RC_HIGH_JITTER</name>
-		<value>0x0800000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>MMA_STATIC_POWEROFF</name>
-		<value>0x0000004000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_PA2RT_SAFE</name>
-		<value>0x0002000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>HV_INITS</name>
-		<value>0x0000008000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_SAFE</name>
-		<value>0x0000020000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>COMMON_CONTAINED</name>
-		<value>0x2000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_TURBO</name>
-		<value>0x0000800000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_MC2RT_TURBO</name>
-		<value>0x0000080000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>FBC_ASYNC_RT2MC_ULTRATURBO</name>
-		<value>0x0001000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>CHIP_CONTAINED</name>
-		<value>0x4000000000000000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>EEPROM_CONTENT_TYPE</id>
 		<enumerator>
 		<name>IBM_FRUVPD</name>
@@ -2515,8 +2427,24 @@
 <enumerationType>
 	<id>FREQ_MCA_MHZ</id>
 		<enumerator>
+		<name>1600</name>
+		<value>1600</value>
+		</enumerator>
+		<enumerator>
+		<name>1466</name>
+		<value>1466</value>
+		</enumerator>
+		<enumerator>
+		<name>1333</name>
+		<value>1333</value>
+		</enumerator>
+		<enumerator>
 		<name>2400</name>
 		<value>2400</value>
+		</enumerator>
+		<enumerator>
+		<name>1200</name>
+		<value>1200</value>
 		</enumerator>
 		<enumerator>
 		<name>2000</name>
@@ -2955,12 +2883,16 @@
 		<value>0x0</value>
 		</enumerator>
 		<enumerator>
+		<name>UNUSED</name>
+		<value>0x3</value>
+		</enumerator>
+		<enumerator>
 		<name>SMPA</name>
 		<value>0x1</value>
 		</enumerator>
 		<enumerator>
 		<name>OCAPI</name>
-		<value>0x3</value>
+		<value>0x2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3112,6 +3044,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IS_SIMICS</id>
+		<enumerator>
+		<name>REALHW</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>SUET</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>SIMICS</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>KEY_CLEAR_REQUEST</id>
 		<enumerator>
 		<name>ALL</name>
@@ -3120,6 +3067,10 @@
 		<enumerator>
 		<name>OS_KEYS</name>
 		<value>0x4000</value>
+		</enumerator>
+		<enumerator>
+		<name>MFG_ALL</name>
+		<value>0x0200</value>
 		</enumerator>
 		<enumerator>
 		<name>RESERVED_2</name>
@@ -3131,7 +3082,7 @@
 		</enumerator>
 		<enumerator>
 		<name>RESERVED_1</name>
-		<value>0x2E00</value>
+		<value>0x2C00</value>
 		</enumerator>
 		<enumerator>
 		<name>NONE</name>
@@ -3261,473 +3212,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MFG_FLAGS</id>
-		<enumerator>
-		<name>MNFG_PHYP_RUN_COMPU_GARD</name>
-		<value>9</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_RBS</name>
-		<value>28</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SYS_DUMP_TERM</name>
-		<value>62</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_PRBS_CMDLINE</name>
-		<value>49</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_NO_RR</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SPCN_USE_NVS_IP</name>
-		<value>27</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FABRIC_DEPLOY_LANE_SPARES</name>
-		<value>86</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_SYS_DUMP</name>
-		<value>24</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_NO_THRESHOLD</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_MORE_MEMORY_PATTERNS</name>
-		<value>54</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_GARD</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_CHKRING</name>
-		<value>43</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_HDAT_AVP_ENABLE</name>
-		<value>91</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_CLICK_TO_ACCEPT</name>
-		<value>57</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_MSL_CHECK</name>
-		<value>47</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_IB_FREQ_BIAS_HIGH</name>
-		<value>74</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DMI_DEPLOY_LANE_SPARES</name>
-		<value>87</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_TERM</name>
-		<value>4</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FAST_RDT</name>
-		<value>33</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_VERIFY_DMA_DATA</name>
-		<value>16</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_HDAT_AVP_COMPLETE</name>
-		<value>90</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENERGYSCALE_SPECIAL_POLICIES</name>
-		<value>88</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FSP_UPDATE_SBE_IMAGE</name>
-		<value>125</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_LBIST</name>
-		<value>42</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_TORRENT_PRBS</name>
-		<value>51</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_TEST_RBS</name>
-		<value>22</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_RWRAP</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_IB_FREQ_BIAS_LOW</name>
-		<value>75</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_EXHAUSTIVE_PATTERN_TEST</name>
-		<value>95</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ABIST_VIASCREEN</name>
-		<value>70</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_PHYBIST</name>
-		<value>89</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_L3_FAST_IPL_SCRUB</name>
-		<value>36</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_ABIST</name>
-		<value>41</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_NO_OS400_DUMP</name>
-		<value>8</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PSI_DIAGNOSTIC</name>
-		<value>63</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_CAPTURE_VPD</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_WIRE_RDT</name>
-		<value>39</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_THRESHOLDS</name>
-		<value>29</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_CLEAR_VPD_ARRAY_REPAIR_DATA</name>
-		<value>71</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SVPD_USE_ONLY</name>
-		<value>17</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_TEST_ALL_SPARE_DRAM_ROWS</name>
-		<value>25</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SMP_WRAP_CONFIG</name>
-		<value>126</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_02</name>
-		<value>97</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_01</name>
-		<value>96</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_04</name>
-		<value>99</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_03</name>
-		<value>98</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_06</name>
-		<value>101</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_05</name>
-		<value>100</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_08</name>
-		<value>103</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_07</name>
-		<value>102</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_09</name>
-		<value>104</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_DMIGB</name>
-		<value>85</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PREVENT_REDUNDANCY_AUTO_ENABLE</name>
-		<value>73</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_11</name>
-		<value>106</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_10</name>
-		<value>105</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_RBOT</name>
-		<value>19</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_13</name>
-		<value>111</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_12</name>
-		<value>107</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_15</name>
-		<value>113</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POWER_SAVE_CAPABLE</name>
-		<value>72</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_14</name>
-		<value>112</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_17</name>
-		<value>115</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_INFINIBAND_WRAP</name>
-		<value>60</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_16</name>
-		<value>114</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_19</name>
-		<value>117</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_18</name>
-		<value>116</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_MEM_FAST_IPL_SCRUB</name>
-		<value>35</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_MINIMUM_PATTERN_TEST</name>
-		<value>93</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_VAPI</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_GORM_MODE</name>
-		<value>32</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_20</name>
-		<value>118</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_DIMM_SCREEN</name>
-		<value>50</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_UPDATE_BOTH_SIDES_OF_SBE</name>
-		<value>122</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_22</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_FAPI</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_21</name>
-		<value>119</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_23</name>
-		<value>121</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_26</name>
-		<value>124</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_25</name>
-		<value>123</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SRC_TERM</name>
-		<value>26</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FAST_BACKGROUND_SCRUB</name>
-		<value>56</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_TERM_FSP_RR</name>
-		<value>18</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_29</name>
-		<value>127</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_FABRIC_eREPAIR</name>
-		<value>59</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_CORONA_FBIST</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_MEM_PATTERN</name>
-		<value>37</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_IGNORE_SPCN_ERROR</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DO_NOT_PASS_TO_OS</name>
-		<value>21</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_STANDARD_PATTERN_TEST</name>
-		<value>94</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_TEST_RUN</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_MEMORY_eREPAIR</name>
-		<value>58</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_31</name>
-		<value>65</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_30</name>
-		<value>64</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_33</name>
-		<value>67</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_32</name>
-		<value>66</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_UNDEFINED_1</name>
-		<value>11</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_35</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_34</name>
-		<value>79</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_AVP_ENABLE</name>
-		<value>55</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_37</name>
-		<value>82</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_AVP_COMPLETE</name>
-		<value>34</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_WIRE_CST</name>
-		<value>40</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_CHKRING_ENABLE</name>
-		<value>68</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_36</name>
-		<value>81</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_39</name>
-		<value>84</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_POLICY_FLAG_AVAIL_38</name>
-		<value>83</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_MR_EXT_AB_WRAPTEST_TWO</name>
-		<value>53</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_L3_PATTERN</name>
-		<value>38</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_SMA_LINK</name>
-		<value>61</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ABIST_VPD_DATA</name>
-		<value>31</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_ANCHOR</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_TORRENT_ELCT</name>
-		<value>52</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_IPL_MEMORY_CE_CHECKING</name>
-		<value>92</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_NO_AP</name>
-		<value>23</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_PHYP_UNDEFINED_2</name>
-		<value>10</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_RUN_CUSTOMER_IPL</name>
-		<value>69</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4098,6 +3582,17 @@
 		<enumerator>
 		<name>OFF</name>
 		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MRW_L2_INCREASE_JITTER</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4715,17 +4210,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_INBAND_BAR_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>OMI_PLL_VCO</id>
 		<enumerator>
 		<name>26G</name>
@@ -4905,17 +4389,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PMCR_MOST_RECENT_MODE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>PM_APSS_CHIP_SELECT</id>
 		<enumerator>
 		<name>CS1</name>
@@ -4939,17 +4412,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>POUND_V_STATIC_DATA_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5094,6 +4556,29 @@
 		<enumerator>
 		<name>OFF</name>
 		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>PROC_FABRIC_DLR_PSAVE_MODE</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>HALF</name>
+		<value>0x04</value>
+		</enumerator>
+		<enumerator>
+		<name>QUARTER</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>FULL_QUARTER</name>
+		<value>0x0A</value>
+		</enumerator>
+		<enumerator>
+		<name>FULL_HALF</name>
+		<value>0x0C</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5449,17 +4934,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PULSE_MODE_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>RAIL_NAME</id>
 		<enumerator>
 		<name>VCS</name>
@@ -5611,17 +5085,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>RUNN_MODE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>RU_TYPE</id>
 		<enumerator>
 		<name>MRU</name>
@@ -5688,17 +5151,6 @@
 		<enumerator>
 		<name>CLEAR</name>
 		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SECURITY_ENABLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE</name>
-		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5942,21 +5394,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SPIPSS_SELECT</id>
-		<enumerator>
-		<name>CS1</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>CS0</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0xFF</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SPI_CONNECTION_TYPE</id>
 		<enumerator>
 		<name>CFAM</name>
@@ -6124,17 +5561,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SYSTEM_RVRM_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SYSTEM_VDM_DISABLE</id>
 		<enumerator>
 		<name>OFF</name>
@@ -6151,28 +5577,6 @@
 		<name>OFF_SKIP_DD</name>
 		<value>2</value>
 		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOV_OVERV_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOV_UNDERV_DISABLE</id>
 		<enumerator>
 		<name>OFF</name>
 		<value>0</value>
@@ -6700,17 +6104,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>WOF_DCM_TRACKING_ENABLE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>WOF_ENABLE_FRATIO</id>
 		<enumerator>
 		<name>FIXED</name>
@@ -6741,17 +6134,6 @@
 		<enumerator>
 		<name>TURBO</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>WOF_THROTTLE_CONTROL_LOOP_MODE</id>
-		<enumerator>
-		<name>BINARY</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>DECINC</name>
-		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -6790,7 +6172,7 @@
 	<id>/sys-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value>3</value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6804,14 +6186,14 @@
 	<id>/sys-0/node-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/1p1v-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6852,7 +6234,7 @@
 	<id>/sys-0/node-0/nisqually-0/3p3va-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6942,7 +6324,7 @@
 	<id>/sys-0/node-0/nisqually-0/3p3vb-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -7032,7 +6414,7 @@
 	<id>/sys-0/node-0/nisqually-0/5p0v-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13034,7 +12416,7 @@
 	<id>/sys-0/node-0/nisqually-0/PIC18F2XK20-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13459,7 +12841,7 @@
 	<id>/sys-0/node-0/nisqually-0/TUSB7340-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -13559,7 +12941,7 @@
 	<id>/sys-0/node-0/nisqually-0/avdd-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13656,7 +13038,7 @@
 	<id>/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14235,14 +13617,14 @@
 	<id>/sys-0/node-0/nisqually-0/dasd-card-connector-0/pyramid-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/dasd-card-connector-0/pyramid-0/5p0v-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14455,7 +13837,7 @@
 	<id>/sys-0/node-0/nisqually-0/dasd-card-connector-2/pyramid-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14620,7 +14002,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -14653,7 +14035,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14848,7 +14230,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -15058,7 +14440,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -15091,7 +14473,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15275,7 +14657,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -15304,7 +14686,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15488,7 +14870,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -15705,7 +15087,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -16110,7 +15492,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -16515,7 +15897,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -17306,7 +16688,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -17512,7 +16894,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -17718,7 +17100,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -17747,7 +17129,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17931,7 +17313,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -18159,7 +17541,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18343,7 +17725,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -18372,7 +17754,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18556,7 +17938,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -18585,7 +17967,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18787,7 +18169,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18989,7 +18371,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19191,7 +18573,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19404,7 +18786,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19801,7 +19183,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19985,7 +19367,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -20014,7 +19396,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -20198,7 +19580,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -20415,7 +19797,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -20625,7 +20007,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>FRU_NAME</id>
@@ -21048,7 +20430,7 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -21232,21 +20614,21 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/I210-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22689,7 +22071,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-displayport-connector-0/displayport-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22721,7 +22103,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-hmc-connector-0/hmc-1port-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22746,7 +22128,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-hmc-connector-1/hmc-1port-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22764,7 +22146,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-i210-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -22839,7 +22221,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-i210-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -23005,7 +22387,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-tpm-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -23087,7 +22469,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-usb2-connector-0/bmc-usb2-1port-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -23112,7 +22494,7 @@
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-usb3-connector-0/host-usb3-1port-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -23310,7 +22692,7 @@
 	<id>/sys-0/node-0/nisqually-0/fan-card-connector-0/winthrop-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -23757,7 +23139,7 @@
 	</property>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -24736,14 +24118,14 @@
 	<id>/sys-0/node-0/nisqually-0/lcd-op-panel-connector-0/russel-2</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/lcd-op-panel-connector-0/russell-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -28103,7 +27485,7 @@
 	<id>/sys-0/node-0/nisqually-0/nisqually-usb3-connector-0/nisqually-usb3-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -33881,7 +33263,7 @@
 	<id>/sys-0/node-0/nisqually-0/power-distribution-connector-0/fryingpan-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -33925,7 +33307,7 @@
 	<id>/sys-0/node-0/nisqually-0/power-distribution-connector-0/fryingpan-0/power-supply-connector-0/power-supply-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34447,7 +33829,7 @@
 	<id>/sys-0/node-0/nisqually-0/power-distribution-connector-0/fryingpan-0/power-supply-connector-2/power-supply-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34704,7 +34086,7 @@
 	<id>/sys-0/node-0/nisqually-0/power-distribution-connector-0/fryingpan-0/power-supply-connector-3/power-supply-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -35039,7 +34421,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -35909,7 +35291,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -36279,6 +35661,27 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -36675,7 +36078,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/sbe-b</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -36689,7 +36092,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/sbe-p</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
@@ -36792,7 +36195,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -37501,7 +36904,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>IPMI_INSTANCE</id>
@@ -38231,7 +37634,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/sbe-p</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
@@ -38542,14 +37945,14 @@
 	<id>/sys-0/node-0/nisqually-0/tpm-connector-0/wilson-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/tpm-connector-0/wilson-0/NPCT750AAC-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -38819,7 +38222,7 @@
 	<id>/sys-0/node-0/nisqually-0/ucd90320-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40070,7 +39473,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40088,7 +39491,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0/vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40178,7 +39581,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0/vdd-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40290,7 +39693,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40308,7 +39711,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0/vdd-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40496,7 +39899,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdn-vcs-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40689,7 +40092,7 @@
 	<id>/sys-0/node-0/nisqually-0/vdn-vcs-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40882,7 +40285,7 @@
 	<id>/sys-0/node-0/nisqually-0/vio-vcs-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -41075,7 +40478,7 @@
 	<id>/sys-0/node-0/nisqually-0/vio-vcs-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -41268,7 +40671,7 @@
 	<id>/sys-0/node-0/nisqually-0/vpcie-0</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -41358,7 +40761,7 @@
 	<id>/sys-0/node-0/nisqually-0/vpcie-1</id>
 	<property>
 	<id>FRU_ID</id>
-	<value></value>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -41606,14 +41009,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DYNAMIC_INIT_FEATURE_VEC</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DYNAMIC_INIT_MODE_VEC</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>EARLY_TESTCASES_ISTEP</id>
 		<default>0x0609</default>
 	</attribute>
@@ -41624,6 +41019,18 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>k0</default>
+	</attribute>
+	<attribute>
+		<id>FIELD_TH_L2_LINE_DELETES</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>FIELD_TH_L3_LINE_DELETES</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_CORE_NOMINAL_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CP_REFCLOCK_KHZ</id>
@@ -41683,6 +41090,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IS_MPIPL_SUPPORTED</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>IS_SIMULATION</id>
 		<default>0</default>
 	</attribute>
@@ -41731,10 +41142,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MAX_SBE_SEEPROM_SIZE</id>
-		<default>0x80000</default>
-	</attribute>
-	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
 		<default></default>
 	</attribute>
@@ -41745,10 +41152,6 @@
 	<attribute>
 		<id>MEM_POWER_CONTROL_USAGE</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>MFG_FLAGS</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
@@ -41784,6 +41187,54 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_TH_CEN_MBA_RT_SOFT_CE_TH_ALGO</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L2_CACHE_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L2_DIR_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L2_LINE_DELETES</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_CACHE_CES</id>
+		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_DIR_CES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_L3_LINE_DELETES</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IMPES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IPL_SOFT_CE_TH_ALGO</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_IUES</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RCD_PARITY_ERRORS</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RT_RCE_PER_RANK</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MNFG_TH_MEMORY_RT_SOFT_CE_TH_ALGO</id>
 		<default>2</default>
 	</attribute>
 	<attribute>
@@ -41837,6 +41288,10 @@
 	<attribute>
 		<id>MRW_HW_MIRRORING_ENABLE</id>
 		<default>OFF</default>
+	</attribute>
+	<attribute>
+		<id>MRW_L2_INCREASE_JITTER</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
@@ -42190,6 +41645,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PAYLOAD_KIND</id>
 		<default>PHYP</default>
 	</attribute>
@@ -42222,6 +41681,10 @@
 		<default>0x1</default>
 	</attribute>
 	<attribute>
+		<id>PHYP_SYSTEM_TYPE</id>
+		<default>0x50300000</default>
+	</attribute>
+	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0</default>
 	</attribute>
@@ -42238,20 +41701,16 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>POUND_V_STATIC_DATA_ENABLE</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>POUND_W_STATIC_DATA_ENABLE</id>
-		<default>0x0</default>
-	</attribute>
-	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
 		<default>EPS_TYPE_LE</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_BROADCAST_MODE</id>
 		<default>1HOP_CHIP_IS_GROUP</default>
+	</attribute>
+	<attribute>
+		<id>PROC_FABRIC_DLR_PSAVE_MODE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_PUMP_MODE</id>
@@ -42286,12 +41745,8 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PULSE_MODE_ENABLE</id>
-		<default>DISABLE</default>
-	</attribute>
-	<attribute>
-		<id>PULSE_MODE_VALUE</id>
-		<default>0</default>
+		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
@@ -42318,14 +41773,6 @@
 		<default>UNSUPPORTED</default>
 	</attribute>
 	<attribute>
-		<id>RUNN_CYCLE_COUNT</id>
-		<default>1024</default>
-	</attribute>
-	<attribute>
-		<id>RUNN_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SBE_ADDR_KEY_STASH_ADDR</id>
 		<default></default>
 	</attribute>
@@ -42342,10 +41789,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SBE_IMAGE_MINIMUM_VALID_ECS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>SBE_SELECT_EX_POLICY</id>
 		<default></default>
 	</attribute>
@@ -42358,7 +41801,7 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>SECURITY_ENABLE</id>
+		<id>SECURE_VERSION_LOCKIN_POLICY</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -42382,10 +41825,6 @@
 		</default>
 	</attribute>
 	<attribute>
-		<id>STOP_LEVELS_DISABLED</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>STOP_LEVELS_SUPPORTED</id>
 		<default>0xA410</default>
 	</attribute>
@@ -42400,6 +41839,14 @@
 	<attribute>
 		<id>SYS1_REFCLOCK_RCVR_TERM</id>
 		<default>NONE</default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_BRAND_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_FAMILY</id>
+		<default>ibm,p10-openbmc</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
@@ -42422,28 +41869,16 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SYSTEM_RVRM_DISABLE</id>
-		<default>OFF</default>
-	</attribute>
-	<attribute>
 		<id>SYSTEM_THROTTLE_PSTATE_NUMBER_LIMIT</id>
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
+		<id>SYSTEM_TYPE</id>
+		<default>ibm,rainier-2s4u</default>
+	</attribute>
+	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOF_DISABLE</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOV_OVERV_DISABLE</id>
-		<default>OFF</default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_WOV_UNDERV_DISABLE</id>
-		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -42470,8 +41905,8 @@
 		<default>0x00</default>
 	</attribute>
 	<attribute>
-		<id>WOF_THROTTLE_CONTROL_LOOP_MODE</id>
-		<default>BINARY</default>
+		<id>WOF_INDEX_SELECT</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
@@ -42556,11 +41991,19 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>PCIE_NVME_PHB_CONFIG</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SECURE_VERSION_SEEPROM</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -61009,6 +60452,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<default></default>
 	</attribute>
@@ -61141,14 +60588,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DCADJ_DCC_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_TARGET_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
 		<default>1</default>
 	</attribute>
@@ -61214,7 +60653,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_OMI_MHZ</id>
-		<default>0x6400</default>
+		<default>21330</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_O_MHZ</id>
@@ -61429,20 +60868,12 @@
 		<default>physical:sys-0/node-0/proc-0</default>
 	</attribute>
 	<attribute>
-		<id>PMCR_MOST_RECENT_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PM_APSS_CHIP_SELECT</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_EFF_TOPOLOGY_ID</id>
-		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_IOHS_BUS_WIDTH</id>
@@ -61545,36 +60976,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_FREQUENCY_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SAFE_MODE_THROTTLE_IDX</id>
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_VOLTAGE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CACHE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CORE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPIPSS_SELECT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPI_BUS_DIV_REF</id>
-		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SS_FILTER_BYPASS</id>
@@ -61603,10 +61010,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
-	</attribute>
-	<attribute>
-		<id>UNSECURE_HOMER_SIZE</id>
-		<default>0x1000</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -61658,10 +61061,6 @@
 	</attribute>
 	<attribute>
 		<id>WOF_DCCR_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCM_TRACKING_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -65213,7 +64612,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65222,10 +64621,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -65498,19 +64893,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006011C00000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -65577,19 +64964,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006011C80000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -65809,19 +65188,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006011E00000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -65888,19 +65259,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006011E80000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -65956,7 +65319,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65965,10 +65328,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -66241,19 +65600,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012000000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -66320,19 +65671,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012080000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -66552,19 +65895,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012200000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -66631,19 +65966,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012280000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -66699,7 +66026,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66708,10 +66035,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -66984,19 +66307,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012400000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -67063,19 +66378,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012480000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -67295,19 +66602,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012600000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -67374,19 +66673,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012680000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -67442,7 +66733,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -67451,10 +66742,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -67727,19 +67014,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012800000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -67806,19 +67085,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x1</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012880000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -68038,19 +67309,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012A00000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -68117,19 +67380,11 @@
 	</attribute>
 	<attribute>
 		<id>OMI_DL_GROUP_POS</id>
-		<default>0xFF</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default>0x0006012A80000000</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
@@ -70676,6 +69931,7 @@
 	<position>-1</position>
 	<child_id>iohs0</child_id>
 	<child_id>iohs1</child_id>
+	<child_id>pau0</child_id>	
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -70733,7 +69989,6 @@
 	<position>-1</position>
 	<child_id>xbus0</child_id>
 	<child_id>abus0</child_id>
-	<child_id>pau0</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-0</default>
@@ -71171,6 +70426,7 @@
 	<position>-1</position>
 	<child_id>iohs2</child_id>
 	<child_id>iohs3</child_id>
+	<child_id>pau3</child_id>	
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71419,7 +70675,6 @@
 	<position>-1</position>
 	<child_id>xbus3</child_id>
 	<child_id>abus3</child_id>
-	<child_id>pau3</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-3</default>
@@ -71666,6 +70921,8 @@
 	<position>-1</position>
 	<child_id>iohs4</child_id>
 	<child_id>iohs5</child_id>
+	<child_id>pau4</child_id>
+	<child_id>pau5</child_id>		
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71723,7 +70980,6 @@
 	<position>-1</position>
 	<child_id>xbus4</child_id>
 	<child_id>abus4</child_id>
-	<child_id>pau4</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-4</default>
@@ -71970,7 +71226,6 @@
 	<position>-1</position>
 	<child_id>xbus5</child_id>
 	<child_id>abus5</child_id>
-	<child_id>pau5</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-5</default>
@@ -72217,6 +71472,8 @@
 	<position>-1</position>
 	<child_id>iohs6</child_id>
 	<child_id>iohs7</child_id>
+	<child_id>pau6</child_id>	
+	<child_id>pau7</child_id>	
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -72274,7 +71531,6 @@
 	<position>-1</position>
 	<child_id>xbus6</child_id>
 	<child_id>abus6</child_id>
-	<child_id>pau6</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-6</default>
@@ -72521,7 +71777,6 @@
 	<position>-1</position>
 	<child_id>xbus7</child_id>
 	<child_id>abus7</child_id>
-	<child_id>pau7</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/proc-0/iohs-7</default>
@@ -77788,6 +77043,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
 		<default></default>
 	</attribute>
@@ -77920,14 +77179,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DCADJ_DCC_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCADJ_TARGET_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
 		<default>1</default>
 	</attribute>
@@ -77993,7 +77244,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_OMI_MHZ</id>
-		<default>0x6400</default>
+		<default>21330</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_O_MHZ</id>
@@ -78208,20 +77459,12 @@
 		<default>physical:sys-0/node-0/proc-1</default>
 	</attribute>
 	<attribute>
-		<id>PMCR_MOST_RECENT_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PM_APSS_CHIP_SELECT</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_EFF_TOPOLOGY_ID</id>
-		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_IOHS_BUS_WIDTH</id>
@@ -78324,36 +77567,12 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_FREQUENCY_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SAFE_MODE_THROTTLE_IDX</id>
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>SAFE_MODE_VOLTAGE_MV</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SKEWADJ_BYPASS</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CACHE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SKEWADJ_CORE_PDLY_OVERRIDE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPIPSS_SELECT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SPI_BUS_DIV_REF</id>
-		<default>0x41</default>
 	</attribute>
 	<attribute>
 		<id>SS_FILTER_BYPASS</id>
@@ -78382,10 +77601,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
-	</attribute>
-	<attribute>
-		<id>UNSECURE_HOMER_SIZE</id>
-		<default>0x1000</default>
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_BUSNUM</id>
@@ -78437,10 +77652,6 @@
 	</attribute>
 	<attribute>
 		<id>WOF_DCCR_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCM_TRACKING_ENABLE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -124410,14 +123621,6 @@
 	<attribute>
 		<id>OMI_DL_NUM</id>
 		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_BASE_ADDR_OFFSET</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_INBAND_BAR_ENABLE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>OMI_REFCLOCK_SWIZZLE</id>
