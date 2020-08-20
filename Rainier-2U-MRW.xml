@@ -60521,7 +60521,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_OMI_MHZ</id>
-		<default>0x6400</default>
+		<default>21330</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_O_MHZ</id>
@@ -64520,7 +64520,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65263,7 +65263,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66006,7 +66006,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66749,7 +66749,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x640</default>
+		<default>0x535</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -77300,7 +77300,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_OMI_MHZ</id>
-		<default>0x6400</default>
+		<default>21330</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_O_MHZ</id>
