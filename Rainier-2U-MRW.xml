@@ -60231,35 +60231,11 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
+		<default>22,97,282,262</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
+		<default>250,250,250,250</default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
@@ -76822,35 +76798,11 @@
 	</attribute>
 	<attribute>
 		<id>PROC_R_DISTLOSS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
+		<default>22,97,282,262</default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
+		<default>250,250,250,250</default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
@@ -122167,7 +122119,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>NA</default>
+		<default>TPM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
