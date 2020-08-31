@@ -122879,7 +122879,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>TPM</default>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -123022,7 +123022,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>TPM</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
