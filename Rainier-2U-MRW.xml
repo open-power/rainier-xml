@@ -2809,6 +2809,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>HW543384_WAR_MODE</id>
+		<enumerator>
+		<name>FBC_FLOW_CONTROL</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>TIE_NEST_TO_PAU</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>NONE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>HWAS_CHANGED_BIT</id>
 		<enumerator>
 		<name>HOSTSVC_HBEL</name>
@@ -2907,6 +2922,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IOHS_SPREAD_SPECTRUM</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>IO_DMI_PROC_DEBUG</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -2915,6 +2941,36 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+		<enumerator>
+		<name>MID_LOSS</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>LOW_LOSS</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>HIGH_LOSS</name>
+		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IO_OMI_CHANNEL_LOSS</id>
+		<enumerator>
+		<name>MID_LOSS</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>LOW_LOSS</name>
+		<value>0x02</value>
+		</enumerator>
+		<enumerator>
+		<name>HIGH_LOSS</name>
+		<value>0x00</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4218,6 +4274,17 @@
 		<enumerator>
 		<name>20G</name>
 		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_SPREAD_SPECTRUM</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5710,6 +5777,10 @@
 		<value>77</value>
 		</enumerator>
 		<enumerator>
+		<name>GENERIC_I2C_DEVICE</name>
+		<value>85</value>
+		</enumerator>
+		<enumerator>
 		<name>XBUS</name>
 		<value>14</value>
 		</enumerator>
@@ -5763,7 +5834,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>85</value>
+		<value>86</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -6083,12 +6154,20 @@
 		<value>7</value>
 		</enumerator>
 		<enumerator>
+		<name>RSPD</name>
+		<value>11</value>
+		</enumerator>
+		<enumerator>
 		<name>PMVPD</name>
 		<value>1</value>
 		</enumerator>
 		<enumerator>
 		<name>DVPD</name>
 		<value>9</value>
+		</enumerator>
+		<enumerator>
+		<name>SPD</name>
+		<value>10</value>
 		</enumerator>
 		<enumerator>
 		<name>RMVPD</name>
@@ -34577,6 +34656,39 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs1</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2</id>
 	<property>
 	<id>DIRECTION</id>
@@ -34585,6 +34697,28 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0x28</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34599,6 +34733,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs5</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6</id>
 	<property>
 	<id>DIRECTION</id>
@@ -34607,6 +34763,17 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -35398,6 +35565,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs0</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -35406,6 +35595,17 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -35420,6 +35620,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -35431,6 +35653,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6</id>
 	<property>
 	<id>DIRECTION</id>
@@ -35439,6 +35683,17 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -36309,6 +36564,39 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs0</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs1</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2</id>
 	<property>
 	<id>DIRECTION</id>
@@ -36317,6 +36605,28 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs3</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0x78</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -36331,6 +36641,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs5</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0x28</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6</id>
 	<property>
 	<id>DIRECTION</id>
@@ -36339,6 +36671,17 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -37018,6 +37361,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs0</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1</id>
 	<property>
 	<id>DIRECTION</id>
@@ -37026,6 +37391,39 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs2</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs3</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -37040,6 +37438,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs5</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0x68</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6</id>
 	<property>
 	<id>DIRECTION</id>
@@ -37048,6 +37468,17 @@
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
 	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7</id>
+	<property>
+	<id>IOHS_CONFIG_MODE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IOHS_FABRIC_LANE_REVERSAL</id>
+	<value>0x70</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40704,7 +41135,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_PAU_MHZ</id>
-		<default>0x960</default>
+		<default>2133</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_PB_MHZ</id>
@@ -40741,6 +41172,10 @@
 	</attribute>
 	<attribute>
 		<id>HOSTBOOT_HRMOR_OFFSET</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>HW543384_WAR_MODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -41403,10 +41838,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
 		<default></default>
 	</attribute>
@@ -41456,10 +41887,6 @@
 	</attribute>
 	<attribute>
 		<id>SECTOR_BUFFER_STRENGTH</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SECURE_VERSION_LOCKIN_POLICY</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -41548,7 +41975,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -41565,6 +41992,10 @@
 	<attribute>
 		<id>WOF_INDEX_SELECT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>WOF_TABLE_LID_NUMBER</id>
+		<default>0x81E00440</default>
 	</attribute>
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
@@ -41658,10 +42089,6 @@
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SECURE_VERSION_SEEPROM</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -60066,6 +60493,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>IO_FILTER_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -60162,6 +60593,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OMI_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>PAU_DPLL_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -60234,8 +60669,32 @@
 		<default>22,97,282,262</default>
 	</attribute>
 	<attribute>
+		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
 		<default>250,250,250,250</default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VCS_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VDD_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VDN_UOHM</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
@@ -64174,6 +64633,18 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -64243,6 +64714,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -64469,6 +64952,18 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -64538,6 +65033,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -64881,6 +65388,18 @@
 		<default>4</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -64950,6 +65469,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65176,6 +65707,18 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -65245,6 +65788,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>7</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65588,6 +66143,18 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -65657,6 +66224,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>9</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -65883,6 +66462,18 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -65952,6 +66543,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>11</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66295,6 +66898,18 @@
 		<default>12</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -66364,6 +66979,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>13</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66590,6 +67217,18 @@
 		<default>14</default>
 	</attribute>
 	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -66659,6 +67298,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>15</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -69221,7 +69872,7 @@
 	<position>-1</position>
 	<child_id>iohs0</child_id>
 	<child_id>iohs1</child_id>
-	<child_id>pau0</child_id>	
+	<child_id>pau0</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -69313,7 +69964,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -69322,6 +69973,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -69463,61 +70130,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pau0</id>
-	<type>unit-pau-power10</type>
-	<is_root>false</is_root>
-	<instance_name>pau0</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default>affinity:sys-0/node-0/proc-0/pau-0</default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>pu.pau:k0:n0:s0:p00:c0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>POWER10</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default>physical:sys-0/node-0/proc-0/pau-0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>PAU</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>iohs1</id>
 	<type>unit-iohs-power10</type>
 	<is_root>false</is_root>
@@ -69559,7 +70171,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -69568,6 +70180,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -69709,6 +70337,61 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>pau0</id>
+	<type>unit-pau-power10</type>
+	<is_root>false</is_root>
+	<instance_name>pau0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default>affinity:sys-0/node-0/proc-0/pau-0</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>pu.pau:k0:n0:s0:p00:c0</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default>physical:sys-0/node-0/proc-0/pau-0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PAU</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>pauc1</id>
 	<type>unit-pauc-power10</type>
 	<is_root>false</is_root>
@@ -69716,7 +70399,7 @@
 	<position>-1</position>
 	<child_id>iohs2</child_id>
 	<child_id>iohs3</child_id>
-	<child_id>pau3</child_id>	
+	<child_id>pau3</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -69808,7 +70491,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -69817,6 +70500,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -69999,7 +70698,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -70008,6 +70707,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -70212,7 +70927,7 @@
 	<child_id>iohs4</child_id>
 	<child_id>iohs5</child_id>
 	<child_id>pau4</child_id>
-	<child_id>pau5</child_id>		
+	<child_id>pau5</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -70304,7 +71019,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -70313,6 +71028,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -70454,61 +71185,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pau4</id>
-	<type>unit-pau-power10</type>
-	<is_root>false</is_root>
-	<instance_name>pau4</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default>affinity:sys-0/node-0/proc-0/pau-4</default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>pu.pau:k0:n0:s0:p00:c4</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>POWER10</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default>physical:sys-0/node-0/proc-0/pau-4</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>PAU</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>iohs5</id>
 	<type>unit-iohs-power10</type>
 	<is_root>false</is_root>
@@ -70550,7 +71226,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -70559,6 +71235,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -70700,6 +71392,61 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>pau4</id>
+	<type>unit-pau-power10</type>
+	<is_root>false</is_root>
+	<instance_name>pau4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default>affinity:sys-0/node-0/proc-0/pau-4</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>pu.pau:k0:n0:s0:p00:c4</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>4</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default>physical:sys-0/node-0/proc-0/pau-4</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PAU</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>pau5</id>
 	<type>unit-pau-power10</type>
 	<is_root>false</is_root>
@@ -70762,8 +71509,8 @@
 	<position>-1</position>
 	<child_id>iohs6</child_id>
 	<child_id>iohs7</child_id>
-	<child_id>pau6</child_id>	
-	<child_id>pau7</child_id>	
+	<child_id>pau6</child_id>
+	<child_id>pau7</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -70855,7 +71602,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -70864,6 +71611,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71005,61 +71768,6 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>pau6</id>
-	<type>unit-pau-power10</type>
-	<is_root>false</is_root>
-	<instance_name>pau6</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default>affinity:sys-0/node-0/proc-0/pau-6</default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>pu.pau:k0:n0:s0:p00:c6</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>POWER10</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default>physical:sys-0/node-0/proc-0/pau-6</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>PAU</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
 	<id>iohs7</id>
 	<type>unit-iohs-power10</type>
 	<is_root>false</is_root>
@@ -71101,7 +71809,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>0x7D0</default>
+		<default>2031</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71110,6 +71818,22 @@
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
 		<default>FALSE</default>
+	</attribute>
+	<attribute>
+		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71248,6 +71972,61 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>ABUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>pau6</id>
+	<type>unit-pau-power10</type>
+	<is_root>false</is_root>
+	<instance_name>pau6</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default>affinity:sys-0/node-0/proc-0/pau-6</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>pu.pau:k0:n0:s0:p00:c6</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>6</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default>physical:sys-0/node-0/proc-0/pau-6</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PAU</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -76633,6 +77412,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>IO_FILTER_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -76729,6 +77512,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>OMI_SPREAD_SPECTRUM</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
 		<id>PAU_DPLL_BYPASS</id>
 		<default></default>
 	</attribute>
@@ -76801,8 +77588,32 @@
 		<default>22,97,282,262</default>
 	</attribute>
 	<attribute>
+		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
 		<default>250,250,250,250</default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VCS_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VDD_UOHM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_R_LOADLINE_VDN_UOHM</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_SBE_MASTER_CHIP</id>
@@ -117051,6 +117862,31 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>TPM_ENABLED</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TPM_INFO</id>
+		<default>
+				<field><id>tpmEnabled</id><value></value></field>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddrLocality0</id><value></value></field>
+				<field><id>devAddrLocality1</id><value></value></field>
+				<field><id>devAddrLocality2</id><value></value></field>
+				<field><id>devAddrLocality3</id><value></value></field>
+				<field><id>devAddrLocality4</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>byteAddrOffset</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TPM_MODEL</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default></default>
 	</attribute>
@@ -122261,6 +123097,31 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>TPM_ENABLED</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TPM_INFO</id>
+		<default>
+				<field><id>tpmEnabled</id><value></value></field>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddrLocality0</id><value></value></field>
+				<field><id>devAddrLocality1</id><value></value></field>
+				<field><id>devAddrLocality2</id><value></value></field>
+				<field><id>devAddrLocality3</id><value></value></field>
+				<field><id>devAddrLocality4</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>byteAddrOffset</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TPM_MODEL</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>TPM</default>
 	</attribute>
@@ -122797,6 +123658,18 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_CHANNEL_LOSS</id>
+		<default>HIGH_LOSS</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE1</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>IO_OMI_PRE2</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
