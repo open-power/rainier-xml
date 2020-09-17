@@ -64634,7 +64634,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -64717,7 +64717,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -64953,7 +64953,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -65036,7 +65036,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -65389,7 +65389,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -65472,7 +65472,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -65708,7 +65708,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -65791,7 +65791,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66144,7 +66144,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66227,7 +66227,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66463,7 +66463,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66546,7 +66546,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66899,7 +66899,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -66982,7 +66982,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -67218,7 +67218,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -67301,7 +67301,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -69980,7 +69980,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -70187,7 +70187,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -70507,7 +70507,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -70714,7 +70714,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -71035,7 +71035,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -71242,7 +71242,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -71618,7 +71618,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
@@ -71825,7 +71825,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
-		<default>HIGH_LOSS</default>
+		<default>LOW_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
