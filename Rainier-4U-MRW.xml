@@ -60844,7 +60844,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
-		<default>0x00,0x00,0x00,0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
@@ -77763,7 +77763,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
-		<default>0x00,0x00,0x00,0xFF</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
