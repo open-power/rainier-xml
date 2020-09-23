@@ -41882,7 +41882,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>2666,2933,3200</default>
+		<default>1866,2133,2400,2667</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
@@ -42201,7 +42201,7 @@
 	</attribute>
 	<attribute>
 		<id>ROW_REPAIR_SUPPORTED_MRW</id>
-		<default>SUPPORTED</default>
+		<default>UNSUPPORTED</default>
 	</attribute>
 	<attribute>
 		<id>SBE_ADDR_KEY_STASH_ADDR</id>
@@ -42253,7 +42253,7 @@
 	</attribute>
 	<attribute>
 		<id>STOP_LEVELS_SUPPORTED</id>
-		<default>0xB010</default>
+		<default>0xA410</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
@@ -60680,7 +60680,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -60840,7 +60840,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
-		<default>0x2710</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
@@ -60884,67 +60884,67 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0B_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0C_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0D_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX10_PAU_DPLL_INPUT</id>
-		<default>PLLIOSSFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX11_NEST_DPLL_INPUT</id>
-		<default>PLLIOSSFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX14_OPT_156_SOURCE_INPUT</id>
-		<default>PLLNESTFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX1_INPUT</id>
-		<default>MUX10</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX23_PCI_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2A_INPUT</id>
-		<default>PAU_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2B_INPUT</id>
-		<default>PAU_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX3_INPUT</id>
-		<default>NEST_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
-		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
@@ -61036,7 +61036,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x32</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_TRANSITION_RATE_DEC_UV_PER_US</id>
@@ -61452,7 +61452,7 @@
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>VCS_I2C_BUSNUM</id>
@@ -61468,7 +61468,7 @@
 	</attribute>
 	<attribute>
 		<id>VDD_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_BUSNUM</id>
@@ -61476,7 +61476,7 @@
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>WAIT_N0</id>
@@ -77759,7 +77759,7 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
-		<default>0x2710</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
@@ -77803,67 +77803,67 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0B_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0C_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0D_RCS_PLL_INPUT</id>
-		<default>SYS_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX10_PAU_DPLL_INPUT</id>
-		<default>PLLIOSSFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX11_NEST_DPLL_INPUT</id>
-		<default>PLLIOSSFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX14_OPT_156_SOURCE_INPUT</id>
-		<default>PLLNESTFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX1_INPUT</id>
-		<default>MUX10</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX23_PCI_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2A_INPUT</id>
-		<default>PAU_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2B_INPUT</id>
-		<default>PAU_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX3_INPUT</id>
-		<default>NEST_DPLL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
-		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
@@ -77943,7 +77943,7 @@
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
@@ -77955,7 +77955,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x32</default>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_TRANSITION_RATE_DEC_UV_PER_US</id>
@@ -78371,7 +78371,7 @@
 	</attribute>
 	<attribute>
 		<id>VCS_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>VCS_I2C_BUSNUM</id>
@@ -78387,7 +78387,7 @@
 	</attribute>
 	<attribute>
 		<id>VDD_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_BUSNUM</id>
@@ -78395,7 +78395,7 @@
 	</attribute>
 	<attribute>
 		<id>VDN_AVSBUS_RAIL</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>WAIT_N0</id>
