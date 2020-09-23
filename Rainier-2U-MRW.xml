@@ -41911,7 +41911,7 @@
 	</attribute>
 	<attribute>
 		<id>STOP_LEVELS_SUPPORTED</id>
-		<default>0xD010</default>
+		<default>0xB010</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
@@ -59994,7 +59994,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>null</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -60254,7 +60254,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default>PLLTODFLT,MUX13,MUX13,PLLTODFLT,MUX13,MUX13,MUX13,MUX13</default>
+		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
@@ -77173,7 +77173,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default>PLLTODFLT,MUX13,MUX13,PLLTODFLT,MUX13,MUX13,MUX13,MUX13</default>
+		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
