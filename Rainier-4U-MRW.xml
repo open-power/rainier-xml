@@ -60956,7 +60956,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
@@ -61024,7 +61024,7 @@
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
@@ -77875,7 +77875,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
@@ -77943,7 +77943,7 @@
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>1</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
