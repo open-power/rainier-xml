@@ -60956,7 +60956,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default>0x01</default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
@@ -77875,7 +77875,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default>0x01</default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
