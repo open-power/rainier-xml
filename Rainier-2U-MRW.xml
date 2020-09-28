@@ -19256,6 +19256,21 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>FRU_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ddr4</id>
 	<property>
 	<id>DIRECTION</id>
@@ -35488,6 +35503,62 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi10</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi12</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi14</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/oc0-refclk</id>
 	<property>
 	<id>DIRECTION</id>
@@ -37278,6 +37349,62 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi8</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi10</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi12</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi14</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -41540,7 +41667,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>1866,2133,2400,2667</default>
+		<default>2666,2933,3200</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
@@ -41859,7 +41986,7 @@
 	</attribute>
 	<attribute>
 		<id>ROW_REPAIR_SUPPORTED_MRW</id>
-		<default>UNSUPPORTED</default>
+		<default>SUPPORTED</default>
 	</attribute>
 	<attribute>
 		<id>SBE_ADDR_KEY_STASH_ADDR</id>
@@ -41911,7 +42038,7 @@
 	</attribute>
 	<attribute>
 		<id>STOP_LEVELS_SUPPORTED</id>
-		<default>0xA410</default>
+		<default>0xB010</default>
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
@@ -58347,110 +58474,6 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc0/omic0/omi0 => ddimm-connector-8/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc0/omic0/</source_path>
-		<source_target>omi0</source_target>
-		<dest_path>ddimm-connector-8/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-9/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc0/omic0/</source_path>
-		<source_target>omi1</source_target>
-		<dest_path>ddimm-connector-9/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc1/omic1/omi2 => ddimm-connector-10/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc1/omic1/</source_path>
-		<source_target>omi2</source_target>
-		<dest_path>ddimm-connector-10/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-11/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc0/mi0/mcc1/omic1/</source_path>
-		<source_target>omi3</source_target>
-		<dest_path>ddimm-connector-11/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc2/omic2/omi4 => ddimm-connector-12/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc2/omic2/</source_path>
-		<source_target>omi4</source_target>
-		<dest_path>ddimm-connector-12/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-13/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc2/omic2/</source_path>
-		<source_target>omi5</source_target>
-		<dest_path>ddimm-connector-13/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi6 => ddimm-connector-14/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/</source_path>
-		<source_target>omi6</source_target>
-		<dest_path>ddimm-connector-14/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-15/ddimm-0/ocmb/omi</bus_id>
-		<bus_type>OMI</bus_type>
-		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/mc1/mi1/mcc3/omic3/</source_path>
-		<source_target>omi7</source_target>
-		<dest_path>ddimm-connector-15/ddimm-0/ocmb/</dest_path>
-		<dest_target>omi</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi0 => ddimm-connector-16/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
@@ -58555,11 +58578,115 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc0/omic0/omi0 => ddimm-connector-24/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi8 => ddimm-connector-8/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc0/omic0/</source_path>
-		<source_target>omi0</source_target>
+		<source_path>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/</source_path>
+		<source_target>omi8</source_target>
+		<dest_path>ddimm-connector-8/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-9/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/</source_path>
+		<source_target>omi9</source_target>
+		<dest_path>ddimm-connector-9/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi10 => ddimm-connector-10/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/</source_path>
+		<source_target>omi10</source_target>
+		<dest_path>ddimm-connector-10/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-11/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/</source_path>
+		<source_target>omi11</source_target>
+		<dest_path>ddimm-connector-11/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi12 => ddimm-connector-12/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/</source_path>
+		<source_target>omi12</source_target>
+		<dest_path>ddimm-connector-12/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-13/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/</source_path>
+		<source_target>omi13</source_target>
+		<dest_path>ddimm-connector-13/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi14 => ddimm-connector-14/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/</source_path>
+		<source_target>omi14</source_target>
+		<dest_path>ddimm-connector-14/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-15/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/</source_path>
+		<source_target>omi15</source_target>
+		<dest_path>ddimm-connector-15/ddimm-0/ocmb/</dest_path>
+		<dest_target>omi</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi8 => ddimm-connector-24/ddimm-0/ocmb/omi</bus_id>
+		<bus_type>OMI</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/</source_path>
+		<source_target>omi8</source_target>
 		<dest_path>ddimm-connector-24/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58568,11 +58695,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-25/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-25/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc0/omic0/</source_path>
-		<source_target>omi1</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/</source_path>
+		<source_target>omi9</source_target>
 		<dest_path>ddimm-connector-25/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58581,11 +58708,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc1/omic1/omi2 => ddimm-connector-26/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi10 => ddimm-connector-26/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc1/omic1/</source_path>
-		<source_target>omi2</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/</source_path>
+		<source_target>omi10</source_target>
 		<dest_path>ddimm-connector-26/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58594,11 +58721,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-27/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-27/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc0/mi0/mcc1/omic1/</source_path>
-		<source_target>omi3</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/</source_path>
+		<source_target>omi11</source_target>
 		<dest_path>ddimm-connector-27/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58607,11 +58734,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc2/omic2/omi4 => ddimm-connector-28/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi12 => ddimm-connector-28/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc2/omic2/</source_path>
-		<source_target>omi4</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/</source_path>
+		<source_target>omi12</source_target>
 		<dest_path>ddimm-connector-28/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58620,11 +58747,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-29/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-29/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc2/omic2/</source_path>
-		<source_target>omi5</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/</source_path>
+		<source_target>omi13</source_target>
 		<dest_path>ddimm-connector-29/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58633,11 +58760,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi6 => ddimm-connector-30/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi14 => ddimm-connector-30/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/</source_path>
-		<source_target>omi6</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/</source_path>
+		<source_target>omi14</source_target>
 		<dest_path>ddimm-connector-30/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -58646,11 +58773,11 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-31/ddimm-0/ocmb/omi</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-31/ddimm-0/ocmb/omi</bus_id>
 		<bus_type>OMI</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-1/mc1/mi1/mcc3/omic3/</source_path>
-		<source_target>omi7</source_target>
+		<source_path>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/</source_path>
+		<source_target>omi15</source_target>
 		<dest_path>ddimm-connector-31/ddimm-0/ocmb/</dest_path>
 		<dest_target>omi</dest_target>
 		<bus_attribute>
@@ -60198,67 +60325,67 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0B_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0C_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0D_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX10_PAU_DPLL_INPUT</id>
-		<default></default>
+		<default>PLLIOSSFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX11_NEST_DPLL_INPUT</id>
-		<default></default>
+		<default>PLLIOSSFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX14_OPT_156_SOURCE_INPUT</id>
-		<default></default>
+		<default>PLLNESTFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX1_INPUT</id>
-		<default></default>
+		<default>MUX10</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX23_PCI_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2A_INPUT</id>
-		<default></default>
+		<default>PAU_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2B_INPUT</id>
-		<default></default>
+		<default>PAU_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX3_INPUT</id>
-		<default></default>
+		<default>NEST_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
-		<default></default>
+		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
@@ -77117,67 +77244,67 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0B_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0C_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0D_RCS_PLL_INPUT</id>
-		<default></default>
+		<default>SYS_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX10_PAU_DPLL_INPUT</id>
-		<default></default>
+		<default>PLLIOSSFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX11_NEST_DPLL_INPUT</id>
-		<default></default>
+		<default>PLLIOSSFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX14_OPT_156_SOURCE_INPUT</id>
-		<default></default>
+		<default>PLLNESTFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX1_INPUT</id>
-		<default></default>
+		<default>MUX10</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX23_PCI_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2A_INPUT</id>
-		<default></default>
+		<default>PAU_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX2B_INPUT</id>
-		<default></default>
+		<default>PAU_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX3_INPUT</id>
-		<default></default>
+		<default>NEST_DPLL</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_IOHS_LCPLL_INPUT</id>
-		<default></default>
+		<default>PLLTODFLT,MUX14,MUX14,PLLTODFLT,MUX14,MUX14,MUX14,MUX14</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX_PCI_LCPLL_INPUT</id>
-		<default></default>
+		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX</id>
