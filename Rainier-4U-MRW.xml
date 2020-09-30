@@ -60999,7 +60999,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default>PLLIOFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
@@ -77918,7 +77918,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX12_OMI_LCPLL_INPUT</id>
-		<default>PLLTODFLT</default>
+		<default>PLLIOFLT</default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX13_OPT_133_SOURCE_INPUT</id>
