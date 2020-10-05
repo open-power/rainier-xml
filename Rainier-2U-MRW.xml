@@ -34682,7 +34682,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -34693,7 +34693,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -34704,7 +34704,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -34737,7 +34737,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -34770,7 +34770,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -34792,7 +34792,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35662,7 +35662,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35684,7 +35684,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35706,7 +35706,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35717,7 +35717,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35750,7 +35750,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35772,7 +35772,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36658,7 +36658,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36669,7 +36669,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36680,7 +36680,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36713,7 +36713,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36746,7 +36746,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36768,7 +36768,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37526,7 +37526,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37548,7 +37548,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37559,7 +37559,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37570,7 +37570,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37603,7 +37603,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37625,7 +37625,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -60079,7 +60079,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -60753,7 +60753,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -70119,7 +70119,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70326,7 +70326,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70646,7 +70646,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70853,7 +70853,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71174,7 +71174,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71381,7 +71381,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71757,7 +71757,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71964,7 +71964,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -77672,7 +77672,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -78359,7 +78359,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>1</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
