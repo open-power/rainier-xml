@@ -34080,8 +34080,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x00</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34169,8 +34173,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x00</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -35134,8 +35142,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x01</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -36072,8 +36084,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x01</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -36161,8 +36177,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x02</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -36986,8 +37006,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x03</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -70095,7 +70119,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70302,7 +70326,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70622,7 +70646,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70829,7 +70853,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71150,7 +71174,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71357,7 +71381,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71733,7 +71757,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71940,7 +71964,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default></default>
+		<default>SMPX</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
