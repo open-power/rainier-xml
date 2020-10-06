@@ -34418,8 +34418,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x00</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -34507,8 +34511,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x00</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -35012,7 +35020,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35030,7 +35038,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35041,7 +35049,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35063,7 +35071,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>OCAPI</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35074,7 +35082,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35096,7 +35104,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35107,7 +35115,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35129,7 +35137,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35465,8 +35473,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x01</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -35970,7 +35982,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>OCAPI</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35981,7 +35993,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36003,7 +36015,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36025,7 +36037,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36036,7 +36048,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36058,7 +36070,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36069,7 +36081,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36091,7 +36103,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36403,8 +36415,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x01</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -36492,8 +36508,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x02</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -36941,7 +36961,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36952,7 +36972,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36963,7 +36983,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36985,7 +37005,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>OCAPI</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36996,7 +37016,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37018,7 +37038,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37029,11 +37049,11 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
-	<value>0x28</value>
+	<value>0x0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -37051,11 +37071,11 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
-	<value>0</value>
+	<value>0x28</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -37289,8 +37309,12 @@
 	<value></value>
 	</property>
 	<property>
+	<id>PBAX_CHIPID</id>
+	<value>0x03</value>
+	</property>
+	<property>
 	<id>PBAX_GROUPID</id>
-	<value></value>
+	<value>0x00</value>
 	</property>
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -37794,7 +37818,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs0</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>OCAPI</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37805,7 +37829,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37827,7 +37851,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37838,7 +37862,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37849,7 +37873,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37871,7 +37895,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>UNUSED</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37882,7 +37906,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37904,7 +37928,7 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
-	<value></value>
+	<value>SMPX</value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -60705,7 +60729,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -68308,15 +68332,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -68568,15 +68592,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -68771,15 +68795,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -69032,15 +69056,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -69235,15 +69259,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -69568,15 +69592,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -69828,15 +69852,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -70031,15 +70055,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -70292,15 +70316,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -70495,15 +70519,15 @@
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN3</id>
-		<default>0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454, 0x5454,0x5454,0x5454,0x5454,</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN4</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444, 0x4444,0x4444,0x4444,0x4444</default>
 	</attribute>
 	<attribute>
 		<id>PROC_PCIE_LANE_EQUALIZATION_GEN5</id>
-		<default>0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777, 0x7777,0x7777,0x7777,0x7777</default>
+		<default>0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999, 0x9999,0x9999,0x9999,0x9999</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -70745,7 +70769,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -70952,7 +70976,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71272,7 +71296,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71479,7 +71503,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -71800,7 +71824,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -72007,7 +72031,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -72383,7 +72407,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -72590,7 +72614,7 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
-		<default>SMPX</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_DRAWER_INTERCONNECT</id>
@@ -78985,7 +79009,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default>0</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
