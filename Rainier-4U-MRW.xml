@@ -123973,7 +123973,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_ENABLED</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>TPM_INFO</id>
