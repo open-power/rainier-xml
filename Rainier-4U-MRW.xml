@@ -2822,6 +2822,29 @@
 		<name>NONE</name>
 		<value>0</value>
 		</enumerator>
+		<enumerator>
+		<name>BOTH</name>
+		<value>3</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>HW543822_WAR_MODE</id>
+		<enumerator>
+		<name>FORCE_HUNDRED_OHM_DIFF</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>FORCE_FIFTY_OHM_SE</name>
+		<value>2</value>
+		</enumerator>
+		<enumerator>
+		<name>NONE</name>
+		<value>3</value>
+		</enumerator>
+		<enumerator>
+		<name>FORCE_NO_TERM</name>
+		<value>1</value>
+		</enumerator>
 </enumerationType>
 <enumerationType>
 	<id>HWAS_CHANGED_BIT</id>
@@ -3804,6 +3827,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_DIMM_SLOT_AIRFLOW</id>
+		<enumerator>
+		<name>RIGHT_TO_LEFT</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>LEFT_TO_RIGHT</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_MRW_DRAM_2N_MODE</id>
 		<enumerator>
 		<name>AUTO</name>
@@ -4255,6 +4289,25 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>OMI_CHANNEL_FAIL_ACTION</id>
+		<enumerator>
+		<name>MASKED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>XSTOP</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>RECOVERABLE</name>
+		<value>0x03</value>
+		</enumerator>
+		<enumerator>
+		<name>LOCAL_XSTOP</name>
+		<value>0x02</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OMI_DL_LN_REV_ENABLE</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -4285,6 +4338,25 @@
 		<enumerator>
 		<name>ENABLED</name>
 		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_X4_DEGRADE_ACTION</id>
+		<enumerator>
+		<name>MASKED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>XSTOP</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>RECOVERABLE</name>
+		<value>0x03</value>
+		</enumerator>
+		<enumerator>
+		<name>LOCAL_XSTOP</name>
+		<value>0x02</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5599,6 +5671,17 @@
 		<enumerator>
 		<name>NONE</name>
 		<value>3</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SYSTEM_FMAX_ENABLE</id>
+		<enumerator>
+		<name>OFF</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -14116,6 +14199,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>0</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb</id>
@@ -14339,6 +14426,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14554,6 +14652,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>2</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb</id>
@@ -14767,6 +14869,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>2</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb</id>
@@ -14972,6 +15078,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>3</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15196,6 +15313,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15388,6 +15516,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>3</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -15601,6 +15740,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>3</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15793,6 +15943,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>4</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16002,6 +16163,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16194,6 +16366,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>4</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16392,6 +16575,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>4</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16584,6 +16778,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>0</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -16793,6 +16998,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16996,6 +17212,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>5</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17210,6 +17437,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>5</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb</id>
@@ -17422,6 +17653,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>5</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17621,6 +17863,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -17835,6 +18081,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>6</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb</id>
@@ -18048,6 +18298,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>6</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb</id>
@@ -18249,6 +18503,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>6</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18452,6 +18710,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>7</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb</id>
@@ -18653,6 +18915,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18867,6 +19133,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>0</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb</id>
@@ -19061,6 +19331,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19263,6 +19544,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>7</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19477,6 +19762,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>1</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb</id>
@@ -19682,6 +19971,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>1</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -19906,6 +20206,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20116,6 +20427,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>1</value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20308,6 +20630,17 @@
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>2</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -20510,6 +20843,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>MSS_MRW_OCMB_RESET_GROUP</id>
+	<value>2</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -41636,6 +41973,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>HW543822_WAR_MODE</id>
+		<default>NONE</default>
+	</attribute>
+	<attribute>
 		<id>IPMI_SENSORS</id>
 		<default></default>
 	</attribute>
@@ -41669,7 +42010,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>0xC80,0xC80,0xC80,0xC80,0xC80</default>
+		<default>0xA6A,0xA6A,0xA6A,0xA6A,0xA6A</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -41904,6 +42245,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_DIMM_SLOT_AIRFLOW</id>
+		<default>RIGHT_TO_LEFT</default>
+	</attribute>
+	<attribute>
 		<id>MSS_MRW_DRAM_2N_MODE</id>
 		<default>AUTO</default>
 	</attribute>
@@ -41997,7 +42342,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>2666,2933,3200</default>
+		<default>2666,0,0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
@@ -42010,6 +42355,10 @@
 	<attribute>
 		<id>MSS_MRW_THERMAL_MEMORY_POWER_LIMIT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_THERMAL_SENSOR_POLLING_PERIOD</id>
+		<default>1000</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
@@ -42105,6 +42454,14 @@
 	<attribute>
 		<id>OCC-RESET-TIMEOUT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>OMI_CHANNEL_FAIL_ACTION</id>
+		<default>0x02</default>
+	</attribute>
+	<attribute>
+		<id>OMI_X4_DEGRADE_ACTION</id>
+		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
@@ -42389,6 +42746,10 @@
 	<attribute>
 		<id>SYSTEM_FAMILY</id>
 		<default>ibm,p10-openbmc</default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_FMAX_ENABLE</id>
+		<default>OFF</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
@@ -60729,7 +61090,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -72928,10 +73289,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -72985,10 +73342,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73046,10 +73399,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73103,10 +73452,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73164,10 +73509,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73221,10 +73562,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73282,10 +73619,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73339,10 +73672,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73400,10 +73729,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73457,10 +73782,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73518,10 +73839,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73575,10 +73892,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73636,10 +73949,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73693,10 +74002,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73754,10 +74059,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73811,10 +74112,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73872,10 +74169,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -73929,10 +74222,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -73990,10 +74279,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74047,10 +74332,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -74108,10 +74389,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74165,10 +74442,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -74226,10 +74499,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74283,10 +74552,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -74344,10 +74609,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74401,10 +74662,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -74462,10 +74719,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74521,10 +74774,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
 	</attribute>
@@ -74578,10 +74827,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PG_MVPD</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -79009,7 +79254,7 @@
 	</attribute>
 	<attribute>
 		<id>PBAX_CHIPID</id>
-		<default></default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PBAX_GROUPID</id>
@@ -124460,6 +124705,10 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_OCMB_RESET_GROUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MSS_OCMB_EXP_BOOT_CONFIG_ADAPTATION_MODE</id>
 		<default>ENABLE</default>
 	</attribute>
@@ -139048,6 +139297,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>nxp,pca955x</default>
 	</attribute>
@@ -139058,6 +139311,33 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_DEV_TYPE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_SUB_POS</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -139074,6 +139354,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -144822,6 +145106,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>nxp,pca955x</default>
 	</attribute>
@@ -144832,6 +145120,33 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_DEV_TYPE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_SUB_POS</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -144848,6 +145163,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -144883,6 +145202,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>nxp,pca955x</default>
 	</attribute>
@@ -144893,6 +145216,33 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_DEV_TYPE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_SUB_POS</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -144909,6 +145259,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -144944,6 +145298,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>nxp,pca955x</default>
 	</attribute>
@@ -144954,6 +145312,33 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_DEV_TYPE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_SUB_POS</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -144970,6 +145355,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -145005,6 +145394,10 @@
 	<child_id>PCA9554.gpio-7</child_id>
 	<child_id>PCA9554.INT</child_id>
 	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>BMC_DT_COMPATIBLE</id>
 		<default>nxp,pca955x</default>
 	</attribute>
@@ -145015,6 +145408,33 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_I2C_CONTROL_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value></value></field>
+				<field><id>engine</id><value></value></field>
+				<field><id>port</id><value></value></field>
+				<field><id>devAddr</id><value></value></field>
+				<field><id>i2cMuxBusSelector</id><value></value></field>
+				<field><id>i2cMuxPath</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_POS</id>
+		<default>0xFFFFFFFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_DEV_TYPE</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>I2C_SUB_POS</id>
+		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -145031,6 +145451,10 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
