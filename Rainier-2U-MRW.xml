@@ -60816,7 +60816,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default>PLLTODFLT</default>
+		<default>LPC_REFCLOCK</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
@@ -70506,7 +70506,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -70713,7 +70713,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -71033,7 +71033,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -71240,7 +71240,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -71561,7 +71561,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -71768,7 +71768,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -72144,7 +72144,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -72351,7 +72351,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -77619,7 +77619,7 @@
 	</attribute>
 	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
-		<default>PLLTODFLT</default>
+		<default>LPC_REFCLOCK</default>
 	</attribute>
 	<attribute>
 		<id>CME_CHTM_TRACE_ENABLE</id>
