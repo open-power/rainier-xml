@@ -42246,7 +42246,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_SLOT_AIRFLOW</id>
-		<default>RIGHT_TO_LEFT</default>
+		<default>LEFT_TO_RIGHT</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DRAM_2N_MODE</id>
@@ -42270,7 +42270,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_DRAM_DATABUS_UTIL</id>
-		<default>0x00002328</default>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_MAX_NUMBER_DIMMS_POSSIBLE_PER_VMEM_REGULATOR</id>
@@ -48274,7 +48274,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48307,7 +48307,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48340,7 +48340,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48538,7 +48538,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48571,7 +48571,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48604,7 +48604,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -61475,10 +61475,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -61651,10 +61647,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -61699,16 +61691,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
-		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>LEN_OF_SEEPROM_DATA</id>
@@ -78278,10 +78262,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -78454,10 +78434,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -78502,16 +78478,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default>32</default>
-	</attribute>
-	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
 		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
-		<default>32</default>
 	</attribute>
 	<attribute>
 		<id>LEN_OF_SEEPROM_DATA</id>
