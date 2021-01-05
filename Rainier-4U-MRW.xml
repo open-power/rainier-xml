@@ -34754,14 +34754,6 @@
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
 	</property>
-	<property>
-	<id>PBAX_CHIPID</id>
-	<value>0x00</value>
-	</property>
-	<property>
-	<id>PBAX_GROUPID</id>
-	<value>0x00</value>
-	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0</id>
@@ -36750,14 +36742,6 @@
 	<property>
 	<id>CONNECTOR_TYPE</id>
 	<value></value>
-	</property>
-	<property>
-	<id>PBAX_CHIPID</id>
-	<value>0x01</value>
-	</property>
-	<property>
-	<id>PBAX_GROUPID</id>
-	<value>0x00</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -61089,14 +61073,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PBAX_CHIPID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PBAX_GROUPID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>POSITION</id>
 		<default>0</default>
 	</attribute>
@@ -79219,14 +79195,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PBAX_CHIPID</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PBAX_GROUPID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
