@@ -2853,6 +2853,10 @@
 		<value>0x00000008</value>
 		</enumerator>
 		<enumerator>
+		<name>DEVTREE_SYNC</name>
+		<value>0x00000040</value>
+		</enumerator>
+		<enumerator>
 		<name>RESRC_RECOV</name>
 		<value>0x00000010</value>
 		</enumerator>
@@ -3649,6 +3653,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MRW_CONVERT_DCBZ_TO_RWITM</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MRW_HW_MIRRORING_ENABLE</id>
 		<enumerator>
 		<name>REQUIRED</name>
@@ -4289,7 +4304,7 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_CHANNEL_FAIL_ACTION</id>
+	<id>OMI_CRC_DEBUG</id>
 		<enumerator>
 		<name>MASKED</name>
 		<value>0x00</value>
@@ -35048,8 +35063,26 @@
 	<value>SMPX</value>
 	</property>
 	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
+	</property>
+	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0/abus0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0/xbus0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -35082,6 +35115,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -35119,6 +35166,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -35152,10 +35213,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35177,6 +35256,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -36044,6 +36137,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -36099,6 +36206,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -36132,10 +36253,28 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36150,6 +36289,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -37054,6 +37207,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -37083,6 +37250,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -37120,6 +37301,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -37138,6 +37333,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -37900,6 +38109,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -37944,6 +38167,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -37977,6 +38214,20 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
@@ -37995,6 +38246,20 @@
 	</property>
 	<property>
 	<id>EI_BUS_TX_MSBSWAP</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/groupxA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/groupxB</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -40113,7 +40378,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xE0</value>
+	<value>0xE2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -40203,7 +40468,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xE2</value>
+	<value>0xE0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -40333,7 +40598,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xE0</value>
+	<value>0xE2</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -40423,7 +40688,7 @@
 	</property>
 	<property>
 	<id>I2C_ADDRESS</id>
-	<value>0xE2</value>
+	<value>0xE0</value>
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
@@ -41877,6 +42142,10 @@
 		<default>POWER10</default>
 	</attribute>
 	<attribute>
+		<id>MRW_CONVERT_DCBZ_TO_RWITM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>MRW_DDR3_VDDR_MAX_LIMIT</id>
 		<default>0</default>
 	</attribute>
@@ -42168,8 +42437,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>OMI_CHANNEL_FAIL_ACTION</id>
-		<default>0x02</default>
+		<id>OMI_CRC_DEBUG</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>OMI_X4_DEGRADE_ACTION</id>
@@ -42405,7 +42674,7 @@
 	</attribute>
 	<attribute>
 		<id>SBE_SELECT_EX_POLICY</id>
-		<default></default>
+		<default>HB_MAX_FOOTPRINT</default>
 	</attribute>
 	<attribute>
 		<id>SBE_UPDATE_DISABLE</id>
@@ -42510,6 +42779,10 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>SYS</default>
+	</attribute>
+	<attribute>
+		<id>USE_11S_SPD</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
@@ -60183,13 +60456,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6 => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/</source_path>
-		<source_target>xbus6</source_target>
-		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/</dest_path>
-		<dest_target>xbus4</dest_target>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60200,17 +60473,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2 => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB => proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/</source_path>
-		<source_target>xbus2</source_target>
-		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/</dest_path>
-		<dest_target>xbus1</dest_target>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxB</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60221,17 +60494,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6 => proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-0/pauc3/iohs6/</source_path>
-		<source_target>xbus6</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-1/pauc2/iohs4/</dest_path>
-		<dest_target>xbus4</dest_target>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60242,17 +60515,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2 => proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1</bus_id>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB => proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-1/godel-0/power10-0/pauc1/iohs2/</source_path>
-		<source_target>xbus2</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-1/pauc0/iohs1/</dest_path>
-		<dest_target>xbus1</dest_target>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxB</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60263,17 +60536,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4 => proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/groupxA => proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/groupxA</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/pauc2/iohs4/</source_path>
-		<source_target>xbus4</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-0/pauc3/iohs7/</dest_path>
-		<dest_target>xbus7</dest_target>
+		<source_path>proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60284,17 +60557,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7 => proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/groupxB => proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/groupxB</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs7/</source_path>
-		<source_target>xbus7</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-0/pauc2/iohs4/</dest_path>
-		<dest_target>xbus4</dest_target>
+		<source_path>proc_socket-1/godel-0/power10-0/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxB</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60305,17 +60578,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7 => proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/groupxA => proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/groupxA</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs7/</source_path>
-		<source_target>xbus7</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs6/</dest_path>
-		<dest_target>xbus6</dest_target>
+		<source_path>proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60326,17 +60599,17 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6 => proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7</bus_id>
+		<bus_id>proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/groupxB => proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/groupxB</bus_id>
 		<bus_type>XBUS</bus_type>
 		<cable>no</cable>
-		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs6/</source_path>
-		<source_target>xbus6</source_target>
-		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs7/</dest_path>
-		<dest_target>xbus7</dest_target>
+		<source_path>proc_socket-1/godel-0/power10-0/pauc1/iohs2/xbus2/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc0/iohs1/xbus1/</dest_path>
+		<dest_target>groupxB</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -60347,7 +60620,175 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/groupxA => proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/groupxB => proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc2/iohs4/xbus4/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/pauc3/iohs7/xbus7/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/groupxA => proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/groupxB => proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs7/xbus7/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/pauc2/iohs4/xbus4/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/groupxA => proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/groupxB => proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/pauc3/iohs7/xbus7/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs6/xbus6/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/groupxA => proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/groupxA</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxA</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/</dest_path>
+		<dest_target>groupxA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/groupxB => proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/groupxB</bus_id>
+		<bus_type>XBUS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/pauc3/iohs6/xbus6/</source_path>
+		<source_target>groupxB</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/pauc3/iohs7/xbus7/</dest_path>
+		<dest_target>groupxB</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CONFIG_APPLY</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 </targetInstance>
@@ -70490,11 +70931,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -70530,6 +70971,118 @@
 	<type>unit-xbus-power10</type>
 	<is_root>false</is_root>
 	<instance_name>xbus0</instance_name>
+	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>groupxA</id>
+	<type>unit-xbus-power10</type>
+	<is_root>false</is_root>
+	<instance_name>groupxA</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>XBUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>groupxB</id>
+	<type>unit-xbus-power10</type>
+	<is_root>false</is_root>
+	<instance_name>groupxB</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>AFFINITY_PATH</id>
@@ -70585,6 +71138,118 @@
 	<type>unit-abus-power10</type>
 	<is_root>false</is_root>
 	<instance_name>abus0</instance_name>
+	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>ABUS</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>ABUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>groupA</id>
+	<type>unit-abus-power10</type>
+	<is_root>false</is_root>
+	<instance_name>groupA</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>ABUS</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>INOUT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>ABUS</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>groupB</id>
+	<type>unit-abus-power10</type>
+	<is_root>false</is_root>
+	<instance_name>groupB</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>AFFINITY_PATH</id>
@@ -70697,11 +71362,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -70738,6 +71403,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus1</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -70793,6 +71460,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus1</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71017,11 +71686,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71058,6 +71727,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus2</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71113,6 +71784,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus2</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71224,11 +71897,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71265,6 +71938,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus3</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71320,6 +71995,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus3</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71545,11 +72222,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71586,6 +72263,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus4</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71641,6 +72320,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus4</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71752,11 +72433,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -71793,6 +72474,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus5</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -71848,6 +72531,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus5</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -72128,11 +72813,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -72169,6 +72854,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus6</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -72224,6 +72911,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus6</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -72335,11 +73024,11 @@
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE1</id>
-		<default>0x00</default>
+		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -72376,6 +73065,8 @@
 	<is_root>false</is_root>
 	<instance_name>xbus7</instance_name>
 	<position>-1</position>
+	<child_id>groupxA</child_id>
+	<child_id>groupxB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -72431,6 +73122,8 @@
 	<is_root>false</is_root>
 	<instance_name>abus7</instance_name>
 	<position>-1</position>
+	<child_id>groupA</child_id>
+	<child_id>groupB</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -123937,6 +124630,10 @@
 				<field><id>flipPort</id><value></value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>LOCATION_CODE</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MEM_MRW_IS_PLANAR</id>
