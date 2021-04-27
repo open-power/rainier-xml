@@ -61304,10 +61304,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -61480,10 +61476,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -61528,15 +61520,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -78367,10 +78351,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -78543,10 +78523,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -78591,15 +78567,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
 		<default></default>
 	</attribute>
 	<attribute>
