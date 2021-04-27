@@ -4304,25 +4304,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_CRC_DEBUG</id>
-		<enumerator>
-		<name>MASKED</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>XSTOP</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>RECOVERABLE</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>LOCAL_XSTOP</name>
-		<value>0x02</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>OMI_DL_LN_REV_ENABLE</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -5258,29 +5239,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>SBE_SELECT_EX_POLICY</id>
-		<enumerator>
-		<name>HB_MAX_FOOTPRINT</name>
-		<value>0x2</value>
-		</enumerator>
-		<enumerator>
-		<name>CRONUS_MAX_ACTIVE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>HB_DEFAULT</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>HB_MAX_FOOTPRINT_MAX_THREADS</name>
-		<value>0x6</value>
-		</enumerator>
-		<enumerator>
-		<name>HB_MAX_THREADS</name>
-		<value>0x4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SBE_UPDATE_TYPE</id>
 		<enumerator>
 		<name>HRMOR_OUTSIDE_CONFIGURED_MEM</name>
@@ -5749,6 +5707,48 @@
 		<enumerator>
 		<name>ON</name>
 		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SYS_CLK_NE_TERMINATION_SITE</id>
+		<enumerator>
+		<name>PROC</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>PLANAR</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SYS_CLK_NE_TERMINATION_STRENGTH</id>
+		<enumerator>
+		<name>PCI0A_40MA</name>
+		<value>0x40</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI0C_40MA</name>
+		<value>0x10</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI1BC_40MA</name>
+		<value>0x04</value>
+		</enumerator>
+		<enumerator>
+		<name>20MA</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI0B_40MA</name>
+		<value>0x20</value>
+		</enumerator>
+		<enumerator>
+		<name>PCI1A_40MA</name>
+		<value>0x08</value>
+		</enumerator>
+		<enumerator>
+		<name>OP_40MA</name>
+		<value>0x80</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -41849,6 +41849,10 @@
 		<default>SYS</default>
 	</attribute>
 	<attribute>
+		<id>CURRENT_SCALING_FACTOR</id>
+		<default>1,1,1,1,1,1,1,1</default>
+	</attribute>
+	<attribute>
 		<id>DDS_DPLL_SLEW_MODE</id>
 		<default></default>
 	</attribute>
@@ -41987,7 +41991,7 @@
 	</attribute>
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>0xA6A,0xA6A,0xA6A,0xA6A,0xA6A</default>
+		<default>0xC80,0xC80,0xC80,0xC80,0xC80</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -42339,7 +42343,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_THERMAL_SENSOR_POLLING_PERIOD</id>
-		<default>1000</default>
+		<default>200</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
@@ -42437,24 +42441,20 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>OMI_CRC_DEBUG</id>
-		<default>0x00</default>
-	</attribute>
-	<attribute>
 		<id>OMI_X4_DEGRADE_ACTION</id>
 		<default>0x03</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>76</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default></default>
+		<default>76</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_GPU_ERROR_TEMP_DEG_C</id>
@@ -42474,27 +42474,35 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_L3_WEIGHT</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>82</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default></default>
+		<default>82</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_MIN_MEM_UTILIZATION_THROTTLING</id>
+		<default>25</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_MIN_POWER_CAP_WATTS</id>
-		<default></default>
+		<default>1600</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_N_BULK_POWER_LIMIT_WATTS</id>
+		<default>1800</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default></default>
+		<default>2240</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_HPC_BULK_POWER_LIMIT_WATTS</id>
@@ -42506,35 +42514,47 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
-		<default></default>
+		<default>85</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_ERROR_TEMP_DEG_C</id>
-		<default></default>
+		<default>93</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_READ_TIMEOUT_SEC</id>
-		<default></default>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_WEIGHT</id>
-		<default></default>
+		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_QUAD_WEIGHT</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_REGULATOR_EFFICIENCY_FACTOR</id>
-		<default></default>
+		<default>0x55</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_SOFT_MIN_PCAP_WATTS</id>
-		<default></default>
+		<default>700</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_TURBO_MODE_SUPPORTED</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_DVFS_TEMP_DEG_C</id>
+		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_ERROR_TEMP_DEG_C</id>
+		<default>95</default>
+	</attribute>
+	<attribute>
+		<id>OPEN_POWER_VRM_VDD_READ_TIMEOUT_SEC</id>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>PAYLOAD_KIND</id>
@@ -42673,8 +42693,16 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SBE_SELECT_EX_POLICY</id>
-		<default>HB_MAX_FOOTPRINT</default>
+		<id>SBE_HW_KEY_HASH_ADDR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SBE_MEASUREMENT_SEEPROM_VERSION</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SBE_MINIMUM_SECURE_VERSION</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>SBE_UPDATE_DISABLE</id>
@@ -61133,7 +61161,7 @@
 	</attribute>
 	<attribute>
 		<id>BOOT_PAU_DPLL_BYPASS</id>
-		<default>BYPASS</default>
+		<default>NO_BYPASS</default>
 	</attribute>
 	<attribute>
 		<id>BRANCH_PIBMEM_ADDR</id>
@@ -61696,6 +61724,14 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>SYS_CLK_NE_TERMINATION_SITE</id>
+		<default>PLANAR</default>
+	</attribute>
+	<attribute>
+		<id>SYS_CLK_NE_TERMINATION_STRENGTH</id>
+		<default>20MA</default>
+	</attribute>
+	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
 		<default></default>
 	</attribute>
@@ -61721,7 +61757,7 @@
 	</attribute>
 	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
-		<default>20</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDD_AVSBUS_BUSNUM</id>
@@ -70907,11 +70943,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71338,11 +71374,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71662,11 +71698,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71873,11 +71909,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72198,11 +72234,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72409,11 +72445,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72789,11 +72825,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -73000,11 +73036,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default>25781</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>2031</default>
+		<default>1611</default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -78172,7 +78208,7 @@
 	</attribute>
 	<attribute>
 		<id>BOOT_PAU_DPLL_BYPASS</id>
-		<default>BYPASS</default>
+		<default>NO_BYPASS</default>
 	</attribute>
 	<attribute>
 		<id>BRANCH_PIBMEM_ADDR</id>
@@ -78735,6 +78771,14 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>SYS_CLK_NE_TERMINATION_SITE</id>
+		<default>PLANAR</default>
+	</attribute>
+	<attribute>
+		<id>SYS_CLK_NE_TERMINATION_STRENGTH</id>
+		<default>20MA</default>
+	</attribute>
+	<attribute>
 		<id>TDP_RDP_CURRENT_FACTOR</id>
 		<default></default>
 	</attribute>
@@ -78760,7 +78804,7 @@
 	</attribute>
 	<attribute>
 		<id>VCS_VDD_OFFSET_MV</id>
-		<default>20</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>VDD_AVSBUS_BUSNUM</id>
