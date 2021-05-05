@@ -35059,6 +35059,14 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
 	</property>
@@ -35088,8 +35096,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35099,8 +35119,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35135,8 +35167,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>25781</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>1611</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>OCAPI</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35146,8 +35190,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35182,8 +35238,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs5</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>UNUSED</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35193,8 +35261,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -35228,6 +35308,14 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs7</id>
+	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
@@ -36106,8 +36194,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs0</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>25781</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>1611</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>OCAPI</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36117,8 +36217,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36153,8 +36265,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36175,8 +36299,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36186,8 +36322,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36222,8 +36370,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>UNUSED</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36233,8 +36393,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -36268,6 +36440,14 @@
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs7</id>
+	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
 	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
@@ -37165,8 +37345,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs0</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37176,8 +37368,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs1</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37187,8 +37391,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37223,8 +37439,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs3</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>25781</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>1611</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>OCAPI</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37234,8 +37462,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37270,8 +37510,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs5</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>UNUSED</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37281,8 +37533,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -37317,8 +37581,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs7</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38078,8 +38354,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs0</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>25781</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>1611</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>OCAPI</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38089,8 +38377,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38125,8 +38425,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs2</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38136,8 +38448,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs3</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38147,8 +38471,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38183,8 +38519,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs5</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>UNUSED</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38194,8 +38542,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -38230,8 +38590,20 @@
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs7</id>
 	<property>
+	<id>FREQ_IOHS_LINK_MHZ</id>
+	<value>32500</value>
+	</property>
+	<property>
+	<id>FREQ_IOHS_MHZ</id>
+	<value>2031</value>
+	</property>
+	<property>
 	<id>IOHS_CONFIG_MODE</id>
 	<value>SMPX</value>
+	</property>
+	<property>
+	<id>IOHS_DRAWER_INTERCONNECT</id>
+	<value></value>
 	</property>
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
@@ -70943,11 +71315,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71374,11 +71746,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71698,11 +72070,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -71909,11 +72281,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72234,11 +72606,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72445,11 +72817,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -72825,11 +73197,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
@@ -73036,11 +73408,11 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>25781</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
-		<default>1611</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_CONFIG_MODE</id>
