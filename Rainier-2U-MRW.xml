@@ -71454,7 +71454,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -71893,7 +71893,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -72229,7 +72229,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -72448,7 +72448,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -72785,7 +72785,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -73004,7 +73004,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -73396,7 +73396,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -73615,7 +73615,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default>32500</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
