@@ -2949,6 +2949,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IOHS_LINK_SPLIT</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>IOHS_SPREAD_SPECTRUM</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -4550,6 +4561,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>POUND_V_STATIC_DATA_ENABLE</id>
+		<enumerator>
+		<name>OFF</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ON</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>POUND_W_STATIC_DATA_ENABLE</id>
 		<enumerator>
 		<name>OFF</name>
@@ -4714,17 +4736,6 @@
 		<enumerator>
 		<name>FULL_HALF</name>
 		<value>0x0C</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FABRIC_IOHS_BUS_WIDTH</id>
-		<enumerator>
-		<name>1_BYTE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>2_BYTE</name>
-		<value>0x02</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -50352,6 +50363,10 @@
 		<default>SYS</default>
 	</attribute>
 	<attribute>
+		<id>CORE_WEIGHT_TENTHS</id>
+		<default>8</default>
+	</attribute>
+	<attribute>
 		<id>CURRENT_SCALING_FACTOR</id>
 		<default>1,1,1,1,1,1,1,1</default>
 	</attribute>
@@ -50368,12 +50383,20 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
-		<id>DO_ABUS_DECONFIG</id>
-		<default>1</default>
+		<id>DIMM_ERROR_TEMP_DEG_C</id>
+		<default>76</default>
 	</attribute>
 	<attribute>
-		<id>DPO_MIN_FREQ_PERCENT</id>
-		<default></default>
+		<id>DIMM_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
+		<default>76</default>
+	</attribute>
+	<attribute>
+		<id>DO_ABUS_DECONFIG</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>EARLY_TESTCASES_ISTEP</id>
@@ -50477,6 +50500,10 @@
 		<default>NONE</default>
 	</attribute>
 	<attribute>
+		<id>L3_WEIGHT_TENTHS</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
 		<id>LED-STRATEGY</id>
 		<default>lightpath</default>
 	</attribute>
@@ -50517,6 +50544,42 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MC_DRAM_ERROR_TEMP_DEG_C</id>
+		<default>65</default>
+	</attribute>
+	<attribute>
+		<id>MC_DRAM_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>MC_DRAM_THROTTLE_TEMP_DEG_C</id>
+		<default>65</default>
+	</attribute>
+	<attribute>
+		<id>MC_EXT_ERROR_TEMP_DEG_C</id>
+		<default>65</default>
+	</attribute>
+	<attribute>
+		<id>MC_EXT_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>MC_EXT_THROTTLE_TEMP_DEG_C</id>
+		<default>65</default>
+	</attribute>
+	<attribute>
+		<id>MEMCTRL_ERROR_TEMP_DEG_C</id>
+		<default>82</default>
+	</attribute>
+	<attribute>
+		<id>MEMCTRL_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>MEMCTRL_THROTTLE_TEMP_DEG_C</id>
+		<default>82</default>
+	</attribute>
+	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
 		<default></default>
 	</attribute>
@@ -50527,6 +50590,14 @@
 	<attribute>
 		<id>MEM_POWER_CONTROL_USAGE</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>MIN_MEM_UTILIZATION_THROTTLING</id>
+		<default>25</default>
+	</attribute>
+	<attribute>
+		<id>MIN_POWER_CAP_WATTS</id>
+		<default>2700</default>
 	</attribute>
 	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
@@ -50845,10 +50916,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_THERMAL_SENSOR_POLLING_PERIOD</id>
-		<default>200</default>
-	</attribute>
-	<attribute>
 		<id>MSS_MRW_VCS_OFFSET_ENABLE</id>
 		<default></default>
 	</attribute>
@@ -50934,6 +51001,22 @@
 	<attribute>
 		<id>NUM_KEY_ADDR_PAIR</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>N_BULK_POWER_LIMIT_WATTS</id>
+		<default>2880</default>
+	</attribute>
+	<attribute>
+		<id>N_MAX_MEM_POWER_WATTS</id>
+		<default>1885</default>
+	</attribute>
+	<attribute>
+		<id>N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
+		<default>3584</default>
+	</attribute>
+	<attribute>
+		<id>N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
+		<default>1885</default>
 	</attribute>
 	<attribute>
 		<id>OCC-LOAD-TIMEOUT</id>
@@ -51108,12 +51191,36 @@
 		<default>0x00</default>
 	</attribute>
 	<attribute>
+		<id>PMIC_ERROR_TEMP_DEG_C</id>
+		<default>72</default>
+	</attribute>
+	<attribute>
+		<id>PMIC_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>PMIC_THROTTLE_TEMP_DEG_C</id>
+		<default>72</default>
+	</attribute>
+	<attribute>
 		<id>PM_HALT_FFDC_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POUND_V_STATIC_DATA_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_DVFS_TEMP_DELTA_C</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_EPS_TABLE_TYPE</id>
 		<default>EPS_TYPE_LE</default>
+	</attribute>
+	<attribute>
+		<id>PROC_ERROR_TEMP_DELTA_C</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_BROADCAST_MODE</id>
@@ -51130,6 +51237,18 @@
 	<attribute>
 		<id>PROC_FABRIC_TOPOLOGY_MODE</id>
 		<default>MODE0</default>
+	</attribute>
+	<attribute>
+		<id>PROC_IO_DVFS_TEMP_DELTA_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_IO_ERROR_TEMP_DELTA_C</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_IO_READ_TIMEOUT_SEC</id>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>PROC_MODULE_TYPE</id>
@@ -51152,8 +51271,16 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_READ_TIMEOUT_SEC</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
 		<id>PROC_REFCLOCK_RCVR_TERM</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>QUAD_WEIGHT_TENTHS</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
@@ -51166,6 +51293,10 @@
 	<attribute>
 		<id>REDUNDANT_MF_CLOCKS</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>REGULATOR_EFFICIENCY_FACTOR</id>
+		<default>83</default>
 	</attribute>
 	<attribute>
 		<id>REQUIRED_SYNCH_MODE</id>
@@ -51200,14 +51331,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SBE_MEASUREMENT_SEEPROM_VERSION</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SBE_MINIMUM_SECURE_VERSION</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>SBE_UPDATE_DISABLE</id>
 		<default>0</default>
 	</attribute>
@@ -51218,6 +51341,10 @@
 	<attribute>
 		<id>SMF_CONFIG</id>
 		<default>0x0</default>
+	</attribute>
+	<attribute>
+		<id>SOFT_MIN_POWER_CAP_WATTS</id>
+		<default>500</default>
 	</attribute>
 	<attribute>
 		<id>SPIPSS_FREQUENCY</id>
@@ -51314,6 +51441,18 @@
 	<attribute>
 		<id>USE_11S_SPD</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>VRM_VDD_DVFS_TEMP_DEG_C</id>
+		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>VRM_VDD_ERROR_TEMP_DEG_C</id>
+		<default>95</default>
+	</attribute>
+	<attribute>
+		<id>VRM_VDD_READ_TIMEOUT_SEC</id>
+		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>WOF_ENABLE_FRATIO</id>
@@ -81007,10 +81146,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FABRIC_IOHS_BUS_WIDTH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_FABRIC_SL_DOMAIN</id>
 		<default>CHIP</default>
 	</attribute>
@@ -81147,6 +81282,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>TPM_SPI_BUS_DIV</id>
+		<default>0x00A7</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
 	</attribute>
@@ -81196,10 +81335,6 @@
 	</attribute>
 	<attribute>
 		<id>WAIT_N3</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCCR_VALUE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90308,6 +90443,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SAVED_PB_PTL_FIR_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PAUC</default>
 	</attribute>
@@ -90350,7 +90489,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -90366,6 +90505,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90403,6 +90546,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -90781,7 +90928,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -90797,6 +90944,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -90834,6 +90985,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91063,6 +91218,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SAVED_PB_PTL_FIR_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PAUC</default>
 	</attribute>
@@ -91105,7 +91264,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91121,6 +91280,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91158,6 +91321,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91316,7 +91483,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91332,6 +91499,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91369,6 +91540,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91599,6 +91774,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SAVED_PB_PTL_FIR_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PAUC</default>
 	</attribute>
@@ -91641,7 +91820,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91657,6 +91836,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91694,6 +91877,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -91852,7 +92039,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91868,6 +92055,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -91905,6 +92096,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -92190,6 +92385,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SAVED_PB_PTL_FIR_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PAUC</default>
 	</attribute>
@@ -92232,7 +92431,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -92248,6 +92447,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92285,6 +92488,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -92443,7 +92650,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -92459,6 +92666,10 @@
 	</attribute>
 	<attribute>
 		<id>IOHS_FABRIC_LANE_REVERSAL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -92496,6 +92707,10 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SAVED_DLP_FIR_MASK</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -98054,10 +98269,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FABRIC_IOHS_BUS_WIDTH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_FABRIC_SL_DOMAIN</id>
 		<default>CHIP</default>
 	</attribute>
@@ -98194,6 +98405,10 @@
 		<default>32</default>
 	</attribute>
 	<attribute>
+		<id>TPM_SPI_BUS_DIV</id>
+		<default>0x00A7</default>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
 	</attribute>
@@ -98243,10 +98458,6 @@
 	</attribute>
 	<attribute>
 		<id>WAIT_N3</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOF_DCCR_VALUE</id>
 		<default></default>
 	</attribute>
 	<attribute>
