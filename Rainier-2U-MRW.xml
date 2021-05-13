@@ -42877,7 +42877,7 @@
 	</attribute>
 	<attribute>
 		<id>N_MAX_MEM_POWER_WATTS</id>
-		<default>1885</default>
+		<default>679</default>
 	</attribute>
 	<attribute>
 		<id>N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
