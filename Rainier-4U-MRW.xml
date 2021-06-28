@@ -43061,11 +43061,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi1</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43075,11 +43083,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc0/mi0/mcc1/omic1/omi3</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43089,11 +43105,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc1/mi1/mcc2/omic2/omi5</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43103,11 +43127,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43117,11 +43149,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc2/mi2/mcc4/omic4/omi9</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43131,11 +43171,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc2/mi2/mcc5/omic5/omi11</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43145,11 +43193,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc3/mi3/mcc6/omic6/omi13</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43159,11 +43215,19 @@
 	<id>DIRECTION</id>
 	<value></value>
 	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/mc3/mi3/mcc7/omic7/omi15</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>OMI_REFCLOCK_SWIZZLE</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43266,6 +43330,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc0/iohs0/xbus0</id>
@@ -43296,6 +43364,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc1/iohs2</id>
@@ -43318,6 +43390,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -43367,6 +43443,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc2/iohs4</id>
@@ -43389,6 +43469,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x28</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -43438,6 +43522,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-0/pauc3/iohs6</id>
@@ -43460,6 +43548,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -43508,6 +43600,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -44380,6 +44476,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc0/iohs1</id>
@@ -44402,6 +44502,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -44451,6 +44555,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc1/iohs2/xbus2</id>
@@ -44485,6 +44593,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc2/iohs4</id>
@@ -44507,6 +44619,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -44556,6 +44672,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/pauc3/iohs6</id>
@@ -44578,6 +44698,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -44626,6 +44750,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -45503,6 +45631,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc0/iohs1</id>
@@ -45526,6 +45658,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc1/iohs2</id>
@@ -45548,6 +45684,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -45597,6 +45737,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc2/iohs4</id>
@@ -45619,6 +45763,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x78</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -45668,6 +45816,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-0/pauc3/iohs6</id>
@@ -45690,6 +45842,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -45738,6 +45894,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x28</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -46512,6 +46672,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc0/iohs1</id>
@@ -46534,6 +46698,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -46583,6 +46751,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc1/iohs3</id>
@@ -46606,6 +46778,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc2/iohs4</id>
@@ -46628,6 +46804,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -46677,6 +46857,10 @@
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/power10-1/pauc3/iohs6</id>
@@ -46699,6 +46883,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x68</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>LOW_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -46747,6 +46935,10 @@
 	<property>
 	<id>IOHS_FABRIC_LANE_REVERSAL</id>
 	<value>0x70</value>
+	</property>
+	<property>
+	<id>IO_IOHS_CHANNEL_LOSS</id>
+	<value>HIGH_LOSS</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -80850,6 +81042,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>DATA_CACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -81022,6 +81218,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>ICACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -81066,7 +81266,15 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>L2_CACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>L3_CACHE_SIZE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -85159,7 +85367,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -85242,7 +85450,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -85478,7 +85686,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -85561,7 +85769,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -85914,7 +86122,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -85997,7 +86205,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -86233,7 +86441,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -86316,7 +86524,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -86669,7 +86877,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -86752,7 +86960,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -86988,7 +87196,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -87071,7 +87279,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -87424,7 +87632,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -87507,7 +87715,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -87743,7 +87951,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -87826,7 +88034,7 @@
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
-		<default>LOW_LOSS</default>
+		<default>HIGH_LOSS</default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_PRE1</id>
@@ -90489,7 +90697,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -90928,7 +91136,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91264,7 +91472,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91483,7 +91691,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -91820,7 +92028,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -92039,7 +92247,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -92431,7 +92639,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -92650,7 +92858,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
-		<default></default>
+		<default>32500</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_IOHS_MHZ</id>
@@ -97973,6 +98181,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>DATA_CACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>DCACHE_ASSOC_SETS</id>
 		<default></default>
 	</attribute>
@@ -98145,6 +98357,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>ICACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IOHS_SPREAD_SPECTRUM</id>
 		<default>DISABLED</default>
 	</attribute>
@@ -98189,7 +98405,15 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>L2_CACHE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>L3_CACHE_LINE_SIZE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>L3_CACHE_SIZE</id>
 		<default></default>
 	</attribute>
 	<attribute>
