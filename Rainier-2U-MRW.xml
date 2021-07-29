@@ -66059,7 +66059,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x535</default>
+		<default>0x640</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -66814,7 +66814,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x535</default>
+		<default>0x640</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -67569,7 +67569,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x535</default>
+		<default>0x640</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -68324,7 +68324,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_MC_MHZ</id>
-		<default>0x535</default>
+		<default>0x640</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
