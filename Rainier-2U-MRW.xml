@@ -42544,7 +42544,7 @@
 	</attribute>
 	<attribute>
 		<id>FREQ_SYSTEM_CORE_CEILING_MHZ</id>
-		<default>0x7D0</default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_SYSTEM_CORE_FLOOR_MHZ</id>
@@ -43108,7 +43108,7 @@
 	</attribute>
 	<attribute>
 		<id>N_MAX_MEM_POWER_WATTS</id>
-		<default>679</default>
+		<default>695</default>
 	</attribute>
 	<attribute>
 		<id>N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
@@ -43116,7 +43116,7 @@
 	</attribute>
 	<attribute>
 		<id>N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>679</default>
+		<default>695</default>
 	</attribute>
 	<attribute>
 		<id>OCC-LOAD-TIMEOUT</id>
@@ -43196,7 +43196,7 @@
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
-		<default>679</default>
+		<default>695</default>
 	</attribute>
 	<attribute>
 		<id>OPEN_POWER_PROC_DVFS_TEMP_DEG_C</id>
@@ -43512,7 +43512,7 @@
 	</attribute>
 	<attribute>
 		<id>TPM_REQUIRED</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
