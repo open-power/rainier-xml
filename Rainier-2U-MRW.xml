@@ -43468,7 +43468,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_FMAX_ENABLE</id>
-		<default>OFF</default>
+		<default>ON</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_IVRM_DISABLE</id>
@@ -62583,7 +62583,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_IO_BASE_POWER_0P01W</id>
-		<default>1721,2482,0,0</default>
+		<default>1181,1136,0,0</default>
 	</attribute>
 	<attribute>
 		<id>WOV_MAX_DROOP_10THPCT</id>
@@ -82198,7 +82198,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_IO_BASE_POWER_0P01W</id>
-		<default>1721,2482,0,0</default>
+		<default>1181,1136,0,0</default>
 	</attribute>
 	<attribute>
 		<id>WOV_MAX_DROOP_10THPCT</id>
@@ -128830,15 +128830,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>30</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_12V_AUX</default>
+		<default>ADC_RESERVED</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>24.97</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -128909,7 +128909,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129086,7 +129086,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129145,7 +129145,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.005</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129204,7 +129204,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.003</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129251,7 +129251,7 @@
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>55.8</default>
+		<default>18.6</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -129263,7 +129263,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129322,7 +129322,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129381,7 +129381,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129440,7 +129440,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129499,7 +129499,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129558,7 +129558,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.001</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129617,7 +129617,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.002</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
@@ -129656,15 +129656,15 @@
 	</attribute>
 	<attribute>
 		<id>FUNCTION_ID</id>
-		<default>29</default>
+		<default>34</default>
 	</attribute>
 	<attribute>
 		<id>FUNCTION_NAME</id>
-		<default>ADC_12VPCIe</default>
+		<default>ADC_PCIE_CURRENT</default>
 	</attribute>
 	<attribute>
 		<id>GAIN</id>
-		<default>37.2</default>
+		<default>78.2</default>
 	</attribute>
 	<attribute>
 		<id>GND</id>
@@ -129676,7 +129676,7 @@
 	</attribute>
 	<attribute>
 		<id>OFFSET</id>
-		<default>0</default>
+		<default>-0.006</default>
 	</attribute>
 	<attribute>
 		<id>PIN-NAME</id>
