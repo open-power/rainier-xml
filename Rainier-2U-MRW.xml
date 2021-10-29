@@ -43448,7 +43448,7 @@
 	</attribute>
 	<attribute>
 		<id>SUPPORTED_STOP_STATES</id>
-		<default>0xEC100000</default>
+		<default>0xB0100000</default>
 	</attribute>
 	<attribute>
 		<id>SYS0_REFCLOCK_RCVR_TERM</id>
@@ -61903,15 +61903,15 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_BUSNUM</id>
-		<default>0</default>
+		<default>0x00,0x01,0x01,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
-		<default></default>
+		<default>0x2710</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
-		<default>0</default>
+		<default>0x00,0x01,0x00,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
@@ -62536,34 +62536,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_I2C_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_BUSNUM</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_RAIL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>WAIT_N0</id>
@@ -81518,15 +81490,15 @@
 	</attribute>
 	<attribute>
 		<id>AVSBUS_BUSNUM</id>
-		<default>0</default>
+		<default>0x00,0x01,0x01,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_FREQUENCY</id>
-		<default></default>
+		<default>0x2710</default>
 	</attribute>
 	<attribute>
 		<id>AVSBUS_RAIL</id>
-		<default>0</default>
+		<default>0x00,0x01,0x00,0xFF</default>
 	</attribute>
 	<attribute>
 		<id>BOOT_FREQ_MHZ</id>
@@ -82151,34 +82123,6 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>PROC</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_I2C_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_BUSNUM</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_RAIL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>WAIT_N0</id>
