@@ -6411,12 +6411,27 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/1p1v-0</id>
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6458,6 +6473,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -6549,6 +6568,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/3p3vb-0/vrd-i2c.enable</id>
@@ -6639,6 +6662,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/5p0v-0/vrd-noi2c.enable</id>
@@ -6706,6 +6733,413 @@
 	<property>
 	<id>RAIL_NAME</id>
 	<value>5.0V</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/EPSON-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/EPSON-0/EPSON-TCXO.OUT</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKIN</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT5PB1216-0/IDT5PB1216.CLKOUT6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIF0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIF1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIF2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIF3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIF4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0652E-0/IDT9ZXL0652E.DIFIN</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIF7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-0/IDT9ZXL0851E.DIFIN</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIF7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/IDT9ZXL0851E-1/IDT9ZXL0851E.DIFIN</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -7567,6 +8001,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9551-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9551-0/PCA9551.RESET</id>
 	<property>
 	<id>DIRECTION</id>
@@ -7785,6 +8226,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9552-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8137,6 +8585,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9552-2</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -8524,6 +8979,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9552-3</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9552-3/PCA9552.gpio-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -8884,6 +9346,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9552-4</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9552-4/PCA9552.gpio-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9148,6 +9617,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9552-5</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -9443,6 +9919,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9554-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9554-0/PCA9554.INT</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9665,6 +10148,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9554-1</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9554-1/PCA9554.gpio-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -9864,6 +10354,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9554-2</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PCA9554-2/PCA9554.gpio-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -10059,6 +10556,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9554-3</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -10281,6 +10785,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PCA9554-4</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11012,6 +11523,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PIC16F882-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PIC16F882-0/PIC16F882.RESET</id>
 	<property>
 	<id>DIRECTION</id>
@@ -11414,6 +11932,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PIC16F882-1</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -11824,6 +12349,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PIC16F882-2</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PIC16F882-2/PIC16F882.RESET</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12226,6 +12758,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/PIC16F882-3</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -12641,6 +13180,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/PIC18F2XK20-0/PIC18F2XK20.RA0</id>
@@ -12957,6 +13500,127 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0</id>
+	<property>
+	<id>FRU_ID</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT2</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT3</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT4</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT5</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT6</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.OUT7</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>OUT</value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/Si5332LD-0/Si5332LD.i2c</id>
+	<property>
+	<id>DIRECTION</id>
+	<value>IN</value>
+	</property>
+	<property>
+	<id>I2C_ADDRESS</id>
+	<value>0xD4</value>
+	</property>
+	<property>
+	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/TMP275-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/TMP275-0/TMP275.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -12968,6 +13632,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/TMP275-1</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13070,6 +13741,10 @@
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/TUSB7340-0/TUSB7340.PCIE-X1</id>
@@ -13079,7 +13754,7 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
-	<value></value>
+	<value>0x04</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -13165,6 +13840,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -14155,6 +14834,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/dcm0-p0-tmp423a-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/dcm0-p0-tmp423a-0/TMP423A.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14166,6 +14852,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/dcm0-p1-tmp423a-1</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14185,6 +14878,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/dcm1-p0-tmp423a-2</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/dcm1-p0-tmp423a-2/TMP423A.i2c</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14196,6 +14896,13 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/dcm1-p1-tmp423a-3</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -28980,6 +29687,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_A11_gpiok0k1_i2c5</id>
@@ -29313,6 +30024,43 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AD5_perefclk</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE1_pcie/chip-bmc-ast2600.pingroup_pcie/chip-bmc-ast2600.pcie</id>
 	<property>
 	<id>DIRECTION</id>
@@ -29320,6 +30068,40 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x01</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE7_gpiow4_lclk</id>
+	<property>
+	<id>IO_CONFIG_SELECT</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE7_gpiow4_lclk/chip-bmc-ast2600.pingroup_lclk/chip-bmc-ast2600.LCLK</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>DRIVER_TYPE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+	<property>
+	<id>POR_VALUE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -30500,6 +31282,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-i210-0/I210.clk</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-i210-0/I210.ethernet</id>
 	<property>
 	<id>DIRECTION</id>
@@ -30541,7 +31334,7 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
-	<value></value>
+	<value>0x02</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -30572,6 +31365,17 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/ingraham-i210-1/I210.clk</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -30616,7 +31420,7 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
-	<value></value>
+	<value>0x03</value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -35861,6 +36665,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x05</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -36472,6 +37280,17 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x08</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -36930,6 +37749,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-1/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -37065,6 +37895,17 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x09</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -37509,6 +38350,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-2/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -37644,6 +38496,17 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x0D</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -38088,6 +38951,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x16-3/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -38208,6 +39082,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x07</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -38652,6 +39530,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-4/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -38772,6 +39661,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x0A</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -39209,6 +40102,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-5/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -39322,6 +40226,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x0C</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -39766,6 +40674,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-6/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -39886,6 +40805,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x0E</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -40337,6 +41260,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-7/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -40457,6 +41391,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x06</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -40908,6 +41846,17 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-8/pcie-cable-card-0/enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -41028,6 +41977,10 @@
 	</property>
 	<property>
 	<id>SLOT_INDEX</id>
+	<value>0x0B</value>
+	</property>
+	<property>
+	<id>SLOT_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -41482,6 +42435,17 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/pcieslot-x8-9/pcie-cable-card-0/clk-in</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>PIN_NAME</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -42693,6 +43657,10 @@
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0</id>
 	<property>
 	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -44047,6 +45015,10 @@
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
 	<value>0x2</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/power10-1/avs0-master</id>
@@ -45168,6 +46140,10 @@
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-1/godel-0/generic-logic-assoc</id>
@@ -46258,6 +47234,10 @@
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
 	<value>0x6</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -47547,6 +48527,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/tod-battery-0</id>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/tod-battery-0/TOD_BATTERY.gpio-master-0</id>
 	<property>
 	<id>DIRECTION</id>
@@ -47892,6 +48879,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -49570,6 +50561,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vdn-vcs-0/vrd-i2c-2.enable</id>
@@ -49762,6 +50757,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -49956,6 +50955,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vio-vcs-0/vrd-i2c-2.enable</id>
@@ -50148,6 +51151,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -50342,6 +51349,10 @@
 	<id>FRU_ID</id>
 	<value>0</value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vpcie-0/vrd-i2c.enable</id>
@@ -50431,6 +51442,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -51894,6 +52909,12 @@
 	<child_id>PIC16F882-1</child_id>
 	<child_id>PIC16F882-2</child_id>
 	<child_id>PIC16F882-3</child_id>
+	<child_id>Si5332LD-0</child_id>
+	<child_id>IDT9ZXL0851E-0</child_id>
+	<child_id>IDT9ZXL0851E-1</child_id>
+	<child_id>IDT9ZXL0652E-0</child_id>
+	<child_id>EPSON-0</child_id>
+	<child_id>IDT5PB1216-0</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -51950,6 +52971,533 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT0 => proc_socket-0/godel-0/power10-0/osc0-sys-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT0</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-sys-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT1 => proc_socket-0/godel-0/power10-1/osc0-sys-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT1</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-sys-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT2 => proc_socket-1/godel-0/power10-0/osc0-sys-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT2</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-sys-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT3 => proc_socket-1/godel-0/power10-1/osc0-sys-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT3</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-sys-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT6 => IDT9ZXL0851E-1/IDT9ZXL0851E.DIFIN</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT6</source_target>
+		<dest_path>IDT9ZXL0851E-1/</dest_path>
+		<dest_target>IDT9ZXL0851E.DIFIN</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>Si5332LD-0/Si5332LD.OUT7 => IDT9ZXL0851E-0/IDT9ZXL0851E.DIFIN</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>Si5332LD-0/</source_path>
+		<source_target>Si5332LD.OUT7</source_target>
+		<dest_path>IDT9ZXL0851E-0/</dest_path>
+		<dest_target>IDT9ZXL0851E.DIFIN</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF0 => pcieslot-x16-3/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF0</source_target>
+		<dest_path>pcieslot-x16-3/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF1 => pcieslot-x8-7/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF1</source_target>
+		<dest_path>pcieslot-x8-7/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF2 => proc_socket-0/godel-0/power10-1/osc0-pcie-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF2</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-pcie-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF3 => proc_socket-0/godel-0/power10-0/osc0-pcie-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF3</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-pcie-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF4 => pcieslot-x8-6/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF4</source_target>
+		<dest_path>pcieslot-x8-6/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF5 => pcieslot-x8-5/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF5</source_target>
+		<dest_path>pcieslot-x8-5/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-0/IDT9ZXL0851E.DIF6 => IDT9ZXL0652E-0/IDT9ZXL0652E.DIFIN</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-0/</source_path>
+		<source_target>IDT9ZXL0851E.DIF6</source_target>
+		<dest_path>IDT9ZXL0652E-0/</dest_path>
+		<dest_target>IDT9ZXL0652E.DIFIN</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0652E-0/IDT9ZXL0652E.DIF0 => TUSB7340-0/TUSB7340.clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0652E-0/</source_path>
+		<source_target>IDT9ZXL0652E.DIF0</source_target>
+		<dest_path>TUSB7340-0/</dest_path>
+		<dest_target>TUSB7340.clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0652E-0/IDT9ZXL0652E.DIF4 => pcieslot-x8-9/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0652E-0/</source_path>
+		<source_target>IDT9ZXL0652E.DIF4</source_target>
+		<dest_path>pcieslot-x8-9/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>EPSON-0/EPSON-TCXO.OUT => IDT5PB1216-0/IDT5PB1216.CLKIN</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>EPSON-0/</source_path>
+		<source_target>EPSON-TCXO.OUT</source_target>
+		<dest_path>IDT5PB1216-0/</dest_path>
+		<dest_target>IDT5PB1216.CLKIN</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT5PB1216-0/IDT5PB1216.CLKOUT1 => proc_socket-0/godel-0/power10-0/osc0-lpc-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT5PB1216-0/</source_path>
+		<source_target>IDT5PB1216.CLKOUT1</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-lpc-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT5PB1216-0/IDT5PB1216.CLKOUT2 => proc_socket-0/godel-0/power10-1/osc0-lpc-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT5PB1216-0/</source_path>
+		<source_target>IDT5PB1216.CLKOUT2</source_target>
+		<dest_path>proc_socket-0/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-lpc-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT5PB1216-0/IDT5PB1216.CLKOUT3 => proc_socket-1/godel-0/power10-0/osc0-lpc-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT5PB1216-0/</source_path>
+		<source_target>IDT5PB1216.CLKOUT3</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-lpc-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT5PB1216-0/IDT5PB1216.CLKOUT4 => proc_socket-1/godel-0/power10-1/osc0-lpc-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT5PB1216-0/</source_path>
+		<source_target>IDT5PB1216.CLKOUT4</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-lpc-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF0 => pcieslot-x16-1/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF0</source_target>
+		<dest_path>pcieslot-x16-1/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF1 => pcieslot-x16-2/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF1</source_target>
+		<dest_path>pcieslot-x16-2/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF2 => proc_socket-1/godel-0/power10-0/osc0-pcie-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF2</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-0/</dest_path>
+		<dest_target>osc0-pcie-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF3 => proc_socket-1/godel-0/power10-1/osc0-pcie-refclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF3</source_target>
+		<dest_path>proc_socket-1/godel-0/power10-1/</dest_path>
+		<dest_target>osc0-pcie-refclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF4 => pcieslot-x16-0/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF4</source_target>
+		<dest_path>pcieslot-x16-0/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF5 => pcieslot-x8-4/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF5</source_target>
+		<dest_path>pcieslot-x8-4/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0851E-1/IDT9ZXL0851E.DIF6 => pcieslot-x8-8/pcie-cable-card-0/clk-in</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0851E-1/</source_path>
+		<source_target>IDT9ZXL0851E.DIF6</source_target>
+		<dest_path>pcieslot-x8-8/pcie-cable-card-0/</dest_path>
+		<dest_target>clk-in</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0652E-0/IDT9ZXL0652E.DIF3 => ebmc-card-connector-0/ingraham-0/ingraham-i210-0/I210.clk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0652E-0/</source_path>
+		<source_target>IDT9ZXL0652E.DIF3</source_target>
+		<dest_path>ebmc-card-connector-0/ingraham-0/ingraham-i210-0/</dest_path>
+		<dest_target>I210.clk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0652E-0/IDT9ZXL0652E.DIF2 => ebmc-card-connector-0/ingraham-0/ingraham-i210-1/I210.clk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0652E-0/</source_path>
+		<source_target>IDT9ZXL0652E.DIF2</source_target>
+		<dest_path>ebmc-card-connector-0/ingraham-0/ingraham-i210-1/</dest_path>
+		<dest_target>I210.clk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT9ZXL0652E-0/IDT9ZXL0652E.DIF1 => ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AD5_perefclk</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT9ZXL0652E-0/</source_path>
+		<source_target>IDT9ZXL0652E.DIF1</source_target>
+		<dest_path>ebmc-card-connector-0/ingraham-0/bmc-0/</dest_path>
+		<dest_target>chip-bmc-ast2600.pin_AD5_perefclk</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>IDT5PB1216-0/IDT5PB1216.CLKOUT5 => ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE7_gpiow4_lclk/chip-bmc-ast2600.pingroup_lclk/chip-bmc-ast2600.LCLK</bus_id>
+		<bus_type>CLK</bus_type>
+		<cable>no</cable>
+		<source_path>IDT5PB1216-0/</source_path>
+		<source_target>IDT5PB1216.CLKOUT5</source_target>
+		<dest_path>ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_AE7_gpiow4_lclk/chip-bmc-ast2600.pingroup_lclk/</dest_path>
+		<dest_target>chip-bmc-ast2600.LCLK</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
 	<bus>
 		<bus_id>ddimm-connector-0/ddimm-0/ocmb/mem_port => ddimm-connector-0/ddimm-0/ddr4</bus_id>
 		<bus_type>DDR4</bus_type>
@@ -97669,7 +99217,7 @@
 	<position>-1</position>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>LPC</default>
+		<default>CLK</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -99785,6 +101333,8 @@
 	<child_id>chip-bmc-ast2600.pin_D10_clkin</child_id>
 	<child_id>chip-bmc-ast2600.pin_B7_rstind</child_id>
 	<child_id>chip-bmc-ast2600.pin_AF25_fsi1</child_id>
+	<child_id>chip-bmc-ast2600.pin_AD5_perefclk</child_id>
+	<child_id>chip-bmc-ast2600.pin_AE7_gpiow4_lclk</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0/bmc-0</default>
@@ -137799,6 +139349,313 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>chip-bmc-ast2600.pin_AD5_perefclk</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>chip-bmc-ast2600.pin_AD5_perefclk</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>chip-bmc-ast2600.pin_AE7_gpiow4_lclk</id>
+	<type>unit-muxgroup-bmc</type>
+	<is_root>false</is_root>
+	<instance_name>chip-bmc-ast2600.pin_AE7_gpiow4_lclk</instance_name>
+	<position>-1</position>
+	<child_id>chip-bmc-ast2600.pingroup_gpiow4</child_id>
+	<child_id>chip-bmc-ast2600.pingroup_lclk</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>IO_CONFIG_SELECT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IOMUX_GROUP</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>chip-bmc-ast2600.pingroup_gpiow4</id>
+	<type>unit-pingroup-bmc</type>
+	<is_root>false</is_root>
+	<instance_name>chip-bmc-ast2600.pingroup_gpiow4</instance_name>
+	<position>-1</position>
+	<child_id>chip-bmc-ast2600.GPIOW4</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_DT_PINCTRL_FUNCS</id>
+		<default>NA,NA,NA,NA,NA,NA,NA,NA</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>IO_CONFIG_NUM</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IOMUX_GROUP</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>chip-bmc-ast2600.pingroup_lclk</id>
+	<type>unit-pingroup-bmc</type>
+	<is_root>false</is_root>
+	<instance_name>chip-bmc-ast2600.pingroup_lclk</instance_name>
+	<position>-1</position>
+	<child_id>chip-bmc-ast2600.LCLK</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BMC_DT_PINCTRL_FUNCS</id>
+		<default>NA,NA,NA,NA,NA,NA,NA,NA</default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>IO_CONFIG_NUM</id>
+		<default>2</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>IOMUX_GROUP</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>chip-bmc-ast2600.LCLK</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>chip-bmc-ast2600.LCLK</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0xFF</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>DRIVER_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NUM</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POR_VALUE</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SCHEMATIC_INTERFACE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>ingraham-vpd-0</id>
 	<type>chip-planar_vpd-device</type>
 	<is_root>false</is_root>
@@ -139122,6 +140979,7 @@
 	<child_id>I210.sdp</child_id>
 	<child_id>I210.ethernet</child_id>
 	<child_id>I210.pcie</child_id>
+	<child_id>I210.clk</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -139381,6 +141239,43 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>I210.clk</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>I210.clk</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>ingraham-i210-1</id>
 	<type>chip-I210</type>
 	<is_root>false</is_root>
@@ -139390,6 +141285,7 @@
 	<child_id>I210.sdp</child_id>
 	<child_id>I210.ethernet</child_id>
 	<child_id>I210.pcie</child_id>
+	<child_id>I210.clk</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -174121,6 +176017,1581 @@
 	<attribute>
 		<id>TYPE</id>
 		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD-0</id>
+	<type>chip-Si5332LD</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD</instance_name>
+	<position>0</position>
+	<child_id>Si5332LD.i2c</child_id>
+	<child_id>Si5332LD.OUT0</child_id>
+	<child_id>Si5332LD.OUT1</child_id>
+	<child_id>Si5332LD.OUT2</child_id>
+	<child_id>Si5332LD.OUT3</child_id>
+	<child_id>Si5332LD.OUT4</child_id>
+	<child_id>Si5332LD.OUT5</child_id>
+	<child_id>Si5332LD.OUT6</child_id>
+	<child_id>Si5332LD.OUT7</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.i2c</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT0</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT1</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT2</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT3</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT4</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT5</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT5</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT6</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT6</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>Si5332LD.OUT7</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>Si5332LD.OUT7</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E-0</id>
+	<type>chip-IDT9ZXL0851E</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E</instance_name>
+	<position>0</position>
+	<child_id>IDT9ZXL0851E.DIF0</child_id>
+	<child_id>IDT9ZXL0851E.DIF1</child_id>
+	<child_id>IDT9ZXL0851E.DIF2</child_id>
+	<child_id>IDT9ZXL0851E.DIF3</child_id>
+	<child_id>IDT9ZXL0851E.DIF4</child_id>
+	<child_id>IDT9ZXL0851E.DIF5</child_id>
+	<child_id>IDT9ZXL0851E.DIF6</child_id>
+	<child_id>IDT9ZXL0851E.DIF7</child_id>
+	<child_id>IDT9ZXL0851E.DIFIN</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF0</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF1</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF2</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF3</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF4</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF5</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF5</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF6</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF6</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIF7</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIF7</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E.DIFIN</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E.DIFIN</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0851E-1</id>
+	<type>chip-IDT9ZXL0851E</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0851E</instance_name>
+	<position>1</position>
+	<child_id>IDT9ZXL0851E.DIF0</child_id>
+	<child_id>IDT9ZXL0851E.DIF1</child_id>
+	<child_id>IDT9ZXL0851E.DIF2</child_id>
+	<child_id>IDT9ZXL0851E.DIF3</child_id>
+	<child_id>IDT9ZXL0851E.DIF4</child_id>
+	<child_id>IDT9ZXL0851E.DIF5</child_id>
+	<child_id>IDT9ZXL0851E.DIF6</child_id>
+	<child_id>IDT9ZXL0851E.DIF7</child_id>
+	<child_id>IDT9ZXL0851E.DIFIN</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E-0</id>
+	<type>chip-IDT9ZXL0652E</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E</instance_name>
+	<position>0</position>
+	<child_id>IDT9ZXL0652E.DIF0</child_id>
+	<child_id>IDT9ZXL0652E.DIF1</child_id>
+	<child_id>IDT9ZXL0652E.DIF2</child_id>
+	<child_id>IDT9ZXL0652E.DIF3</child_id>
+	<child_id>IDT9ZXL0652E.DIF4</child_id>
+	<child_id>IDT9ZXL0652E.DIFIN</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIF0</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIF0</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIF1</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIF1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIF2</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIF2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIF3</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIF3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIF4</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIF4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT9ZXL0652E.DIFIN</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>IDT9ZXL0652E.DIFIN</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>EPSON-0</id>
+	<type>chip-EPSON-TCXO</type>
+	<is_root>false</is_root>
+	<instance_name>EPSON</instance_name>
+	<position>0</position>
+	<child_id>EPSON-TCXO.OUT</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>EPSON-TCXO.OUT</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>EPSON-TCXO.OUT</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216-0</id>
+	<type>chip-IDT5PB1216</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216</instance_name>
+	<position>0</position>
+	<child_id>IDT5PB1216.CLKOUT1</child_id>
+	<child_id>IDT5PB1216.CLKOUT2</child_id>
+	<child_id>IDT5PB1216.CLKOUT3</child_id>
+	<child_id>IDT5PB1216.CLKOUT4</child_id>
+	<child_id>IDT5PB1216.CLKOUT5</child_id>
+	<child_id>IDT5PB1216.CLKOUT6</child_id>
+	<child_id>IDT5PB1216.CLKIN</child_id>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FRU_ID</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FSI_OPTION_FLAGS</id>
+		<default>
+				<field><id>flipPort</id><value></value></field>
+				<field><id>reserved</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default></default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT1</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT2</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT2</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT3</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT3</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT4</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT5</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT5</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKOUT6</id>
+	<type>unit-clk-master</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKOUT6</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>OUT</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>IDT5PB1216.CLKIN</id>
+	<type>unit-clk-slave</type>
+	<is_root>false</is_root>
+	<instance_name>IDT5PB1216.CLKIN</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>CLK</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PIN_NAME</id>
+		<default>
+				<field><id>Value</id><value></value></field>
+		</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
