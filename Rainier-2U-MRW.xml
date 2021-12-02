@@ -157825,7 +157825,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>OSCREFCLK</default>
 	</attribute>
 </targetInstance>
 <targetInstance>

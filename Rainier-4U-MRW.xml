@@ -176056,11 +176056,11 @@
 	</attribute>
 	<attribute>
 		<id>RU_TYPE</id>
-		<default></default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default></default>
+		<default>OSCREFCLK</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
