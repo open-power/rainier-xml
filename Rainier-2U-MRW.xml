@@ -22521,6 +22521,10 @@
 	<id>IO_CONFIG_SELECT</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9</id>
@@ -60113,6 +60117,39 @@
 		<source_target>chip-bmc-ast2600.I2C8</source_target>
 		<dest_path>PIC16F882-3/</dest_path>
 		<dest_target>PIC16F882.i2c-0</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_PURPOSE</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_SPEED</id>
+		<default>400</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_TYPE</id>
+		<default></default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/chip-bmc-ast2600.I2C9 => Si5332LD-0/Si5332LD.i2c</bus_id>
+		<bus_type>I2C</bus_type>
+		<cable>no</cable>
+		<source_path>ebmc-card-connector-0/ingraham-0/bmc-0/chip-bmc-ast2600.pin_D15_gpiol0l1_i2c9/chip-bmc-ast2600.pingroup_i2c9/</source_path>
+		<source_target>chip-bmc-ast2600.I2C9</source_target>
+		<dest_path>Si5332LD-0/</dest_path>
+		<dest_target>Si5332LD.i2c</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -120457,7 +120494,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>POWER10</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -120517,7 +120554,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>POWER10</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -120577,7 +120614,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>POWER10</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -120603,16 +120640,8 @@
 	<instance_name>chip-bmc-ast2600.LCLK</instance_name>
 	<position>-1</position>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>CLK</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -120627,46 +120656,14 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>DRIVER_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>POWER10</default>
-	</attribute>
-	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PIN_NAME</id>
 		<default>
 				<field><id>Value</id><value></value></field>
 		</default>
-	</attribute>
-	<attribute>
-		<id>PIN_NUM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>POR_VALUE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>SCHEMATIC_INTERFACE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
