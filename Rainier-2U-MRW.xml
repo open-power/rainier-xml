@@ -54,45 +54,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>BPM_UPDATE_BEHAVIOR</id>
-		<enumerator>
-		<name>FORCE_ALL</name>
-		<value>0x1111</value>
-		</enumerator>
-		<enumerator>
-		<name>FORCE_CONFIG_SKIP_FW</name>
-		<value>0x1011</value>
-		</enumerator>
-		<enumerator>
-		<name>SKIP_CONFIG_FORCE_FW</name>
-		<value>0x1110</value>
-		</enumerator>
-		<enumerator>
-		<name>DEFAULT_ALL</name>
-		<value>0x0000</value>
-		</enumerator>
-		<enumerator>
-		<name>FORCE_FW</name>
-		<value>0x1100</value>
-		</enumerator>
-		<enumerator>
-		<name>SKIP_FW</name>
-		<value>0x1000</value>
-		</enumerator>
-		<enumerator>
-		<name>SKIP_ALL</name>
-		<value>0x1010</value>
-		</enumerator>
-		<enumerator>
-		<name>SKIP_CONFIG</name>
-		<value>0x0010</value>
-		</enumerator>
-		<enumerator>
-		<name>FORCE_CONFIG</name>
-		<value>0x0011</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>BUS_TYPE</id>
 		<enumerator>
 		<name>CLK</name>
@@ -346,53 +307,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CDM_DOMAIN</id>
-		<enumerator>
-		<name>ALL</name>
-		<value>10</value>
-		</enumerator>
-		<enumerator>
-		<name>FSP</name>
-		<value>9</value>
-		</enumerator>
-		<enumerator>
-		<name>FABRIC</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>MEM</name>
-		<value>4</value>
-		</enumerator>
-		<enumerator>
-		<name>DIMM</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>IO</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>NODE</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>PSI</name>
-		<value>8</value>
-		</enumerator>
-		<enumerator>
-		<name>CPU</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>CLOCK</name>
-		<value>7</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CDM_POLICIES</id>
 		<enumerator>
 		<name>MANUFACTURING_DISABLED</name>
@@ -401,1169 +315,6 @@
 		<enumerator>
 		<name>PREDICTIVE_DISABLED</name>
 		<value>0x02</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_EFF_CEN_DRV_IMP_DQ_DQS</id>
-		<enumerator>
-		<name>OHM40_FFE240</name>
-		<value>0x36</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE120</name>
-		<value>0x16</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE240</name>
-		<value>0x38</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM24_FFE0</name>
-		<value>0x0A</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE480</name>
-		<value>0x48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE160</name>
-		<value>0x28</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE160</name>
-		<value>0x27</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE480</name>
-		<value>0x47</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE120</name>
-		<value>0x18</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE240</name>
-		<value>0x37</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE0</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE120</name>
-		<value>0x17</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE160</name>
-		<value>0x26</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE480</name>
-		<value>0x46</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE0</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE0</name>
-		<value>0x08</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_EFF_CEN_RCV_IMP_DQ_DQS</id>
-		<enumerator>
-		<name>OHM120</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM48</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM240</name>
-		<value>240</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM60</name>
-		<value>60</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM80</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM160</name>
-		<value>160</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_EFF_DRAM_WR_VREF</id>
-		<enumerator>
-		<name>VDD565</name>
-		<value>565</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD445</name>
-		<value>445</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD500</name>
-		<value>500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD420</name>
-		<value>420</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD465</name>
-		<value>465</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD520</name>
-		<value>520</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD440</name>
-		<value>440</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD485</name>
-		<value>485</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD540</name>
-		<value>540</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD460</name>
-		<value>460</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD560</name>
-		<value>560</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD480</name>
-		<value>480</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD515</name>
-		<value>515</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD435</name>
-		<value>435</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD535</name>
-		<value>535</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD455</name>
-		<value>455</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD510</name>
-		<value>510</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD555</name>
-		<value>555</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD475</name>
-		<value>475</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD530</name>
-		<value>530</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD575</name>
-		<value>575</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD495</name>
-		<value>495</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD550</name>
-		<value>550</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD430</name>
-		<value>430</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD570</name>
-		<value>570</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD450</name>
-		<value>450</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD470</name>
-		<value>470</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD490</name>
-		<value>490</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD505</name>
-		<value>505</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD525</name>
-		<value>525</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD545</name>
-		<value>545</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD425</name>
-		<value>425</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MRW_CDIMM_MASTER_I2C_TEMP_SENSOR_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MRW_CDIMM_SPARE_I2C_TEMP_SENSOR_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MRW_MBA_CACHELINE_INTERLEAVE_MODE_CONTROL</id>
-		<enumerator>
-		<name>NEVER</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>REQUIRED</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>REQUESTED</name>
-		<value>2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MRW_POWER_CONTROL_REQUESTED</id>
-		<enumerator>
-		<name>FASTEXIT</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>SLOWEXIT</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MRW_STRICT_MBA_PLUG_RULE_CHECKING</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MSS_ALLOW_SINGLE_PORT</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MSS_CLEANER_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MSS_DQS_SWIZZLE_TYPE</id>
-		<enumerator>
-		<name>NORMAL_TYPE_0</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ISDIMM_TYPE_2</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>GLACIER_TYPE_1</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MSS_PREFETCH_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_MSS_VOLT_COMPLIANT_DIMMS</id>
-		<enumerator>
-		<name>ALL_VOLTAGES</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>PROCEDURE_DEFINED</name>
-		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DIMM_RCD_IBT</id>
-		<enumerator>
-		<name>IBT_OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>IBT_150</name>
-		<value>150</value>
-		</enumerator>
-		<enumerator>
-		<name>IBT_200</name>
-		<value>200</value>
-		</enumerator>
-		<enumerator>
-		<name>IBT_300</name>
-		<value>300</value>
-		</enumerator>
-		<enumerator>
-		<name>IBT_100</name>
-		<value>100</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DIMM_RCD_OUTPUT_TIMING</id>
-		<enumerator>
-		<name>3T</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>1T</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DIMM_SPARE</id>
-		<enumerator>
-		<name>LOW_NIBBLE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>HIGH_NIBBLE</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>NO_SPARE</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>FULL_BYTE</name>
-		<value>0x03</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_2N_MODE_ENABLED</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_ADDRESS_MIRRORING</id>
-		<enumerator>
-		<name>RANK1_MIRRORED</name>
-		<value>0x04</value>
-		</enumerator>
-		<enumerator>
-		<name>RANK2_MIRRORED</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>RANK0_MIRRORED</name>
-		<value>0x08</value>
-		</enumerator>
-		<enumerator>
-		<name>RANK3_MIRRORED</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_RON</id>
-		<enumerator>
-		<name>OHM48</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-		<enumerator>
-		<name>INVALID</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34</name>
-		<value>34</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_RTT_NOM</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM120</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM48</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM240</name>
-		<value>240</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM60</name>
-		<value>60</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM80</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34</name>
-		<value>34</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_RTT_PARK</id>
-		<enumerator>
-		<name>120OHM</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>240OHM</name>
-		<value>240</value>
-		</enumerator>
-		<enumerator>
-		<name>80OHM</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>34OHM</name>
-		<value>34</value>
-		</enumerator>
-		<enumerator>
-		<name>60OHM</name>
-		<value>60</value>
-		</enumerator>
-		<enumerator>
-		<name>48OHM</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>40OHM</name>
-		<value>40</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_RTT_WR</id>
-		<enumerator>
-		<name>HIGHZ</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM120</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM240</name>
-		<value>240</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM60</name>
-		<value>60</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRAM_WR_VREF</id>
-		<enumerator>
-		<name>VDD565</name>
-		<value>565</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD445</name>
-		<value>445</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD500</name>
-		<value>500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD420</name>
-		<value>420</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD465</name>
-		<value>465</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD520</name>
-		<value>520</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD440</name>
-		<value>440</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD485</name>
-		<value>485</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD540</name>
-		<value>540</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD460</name>
-		<value>460</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD560</name>
-		<value>560</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD480</name>
-		<value>480</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD515</name>
-		<value>515</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD435</name>
-		<value>435</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD535</name>
-		<value>535</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD455</name>
-		<value>455</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD510</name>
-		<value>510</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD555</name>
-		<value>555</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD475</name>
-		<value>475</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD530</name>
-		<value>530</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD575</name>
-		<value>575</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD495</name>
-		<value>495</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD550</name>
-		<value>550</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD430</name>
-		<value>430</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD570</name>
-		<value>570</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD450</name>
-		<value>450</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD470</name>
-		<value>470</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD490</name>
-		<value>490</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD505</name>
-		<value>505</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD525</name>
-		<value>525</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD545</name>
-		<value>545</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD425</name>
-		<value>425</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRV_IMP_ADDR</id>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRV_IMP_CLK</id>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRV_IMP_CNTL</id>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRV_IMP_DQ_DQS</id>
-		<enumerator>
-		<name>OHM40_FFE240</name>
-		<value>0x36</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE120</name>
-		<value>0x16</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE240</name>
-		<value>0x38</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM24_FFE0</name>
-		<value>0x0A</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE480</name>
-		<value>0x48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE160</name>
-		<value>0x28</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE160</name>
-		<value>0x27</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE480</name>
-		<value>0x47</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE120</name>
-		<value>0x18</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE240</name>
-		<value>0x37</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE0</name>
-		<value>0x07</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM34_FFE120</name>
-		<value>0x17</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE160</name>
-		<value>0x26</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE480</name>
-		<value>0x46</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40_FFE0</name>
-		<value>0x06</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30_FFE0</name>
-		<value>0x08</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_DRV_IMP_SPCKE</id>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_POWER_CONTROL_CAPABLE</id>
-		<enumerator>
-		<name>FASTSLOW_CAPABLE</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>SLOWEXIT_CAPABLE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>FASTEXIT_CAPABLE</name>
-		<value>0x02</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_RCV_IMP_DQ_DQS</id>
-		<enumerator>
-		<name>OHM120</name>
-		<value>120</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM15</name>
-		<value>15</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM48</name>
-		<value>48</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM240</name>
-		<value>240</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM60</name>
-		<value>60</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM80</name>
-		<value>80</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM20</name>
-		<value>20</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM30</name>
-		<value>30</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM40</name>
-		<value>40</value>
-		</enumerator>
-		<enumerator>
-		<name>OHM160</name>
-		<value>160</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_RD_VREF</id>
-		<enumerator>
-		<name>VDD78250</name>
-		<value>78250</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD81000</name>
-		<value>81000</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD54125</name>
-		<value>54125</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD64500</name>
-		<value>64500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD51375</name>
-		<value>51375</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD61750</name>
-		<value>61750</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD50000</name>
-		<value>50000</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD68625</name>
-		<value>68625</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD65875</name>
-		<value>65875</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD48625</name>
-		<value>48625</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD70000</name>
-		<value>70000</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD45875</name>
-		<value>45875</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD44500</name>
-		<value>44500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD74125</name>
-		<value>74125</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD41750</name>
-		<value>41750</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD71375</name>
-		<value>71375</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD47250</name>
-		<value>47250</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD61000</name>
-		<value>61000</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD59625</name>
-		<value>59625</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD60375</name>
-		<value>60375</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD55500</name>
-		<value>55500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD56875</name>
-		<value>56875</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD63125</name>
-		<value>63125</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD52750</name>
-		<value>52750</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD58250</name>
-		<value>58250</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD43125</name>
-		<value>43125</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD72750</name>
-		<value>72750</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD40375</name>
-		<value>40375</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD75500</name>
-		<value>75500</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD76875</name>
-		<value>76875</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD79625</name>
-		<value>79625</value>
-		</enumerator>
-		<enumerator>
-		<name>VDD67250</name>
-		<value>67250</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_SLEW_RATE_ADDR</id>
-		<enumerator>
-		<name>SLEW_5V_NS</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_MAXV_NS</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_6V_NS</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_3V_NS</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_4V_NS</name>
-		<value>4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_SLEW_RATE_CLK</id>
-		<enumerator>
-		<name>SLEW_5V_NS</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_MAXV_NS</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_6V_NS</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_3V_NS</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_4V_NS</name>
-		<value>4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_SLEW_RATE_CNTL</id>
-		<enumerator>
-		<name>SLEW_5V_NS</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_MAXV_NS</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_6V_NS</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_3V_NS</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_4V_NS</name>
-		<value>4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_SLEW_RATE_DQ_DQS</id>
-		<enumerator>
-		<name>SLEW_5V_NS</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_MAXV_NS</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_6V_NS</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_3V_NS</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_4V_NS</name>
-		<value>4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_SLEW_RATE_SPCKE</id>
-		<enumerator>
-		<name>SLEW_5V_NS</name>
-		<value>5</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_MAXV_NS</name>
-		<value>7</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_6V_NS</name>
-		<value>6</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_3V_NS</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>SLEW_4V_NS</name>
-		<value>4</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>CEN_VPD_VERSION</id>
-		<enumerator>
-		<name>UNKNOWN</name>
-		<value>0x3030</value>
-		</enumerator>
-		<enumerator>
-		<name>OLD_CDIMM</name>
-		<value>0x3031</value>
-		</enumerator>
-		<enumerator>
-		<name>CURRENT</name>
-		<value>0x3230</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2020,17 +771,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>CP_REFCLOCK_RCVR_TERM</id>
-		<enumerator>
-		<name>FIFTY_OHM</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>CP_REFCLOCK_SELECT</id>
 		<enumerator>
 		<name>OSC0</name>
@@ -2066,17 +806,6 @@
 		<enumerator>
 		<name>NO_BYPASS</name>
 		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>DD1_SLOW_PCI_REF_CLOCK</id>
-		<enumerator>
-		<name>SLOW</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>NORMAL</name>
-		<value>0x00</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2160,29 +889,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>DPLL_VDM_RESPONSE</id>
-		<enumerator>
-		<name>DYNAMIC_PROTECT</name>
-		<value>0x03</value>
-		</enumerator>
-		<enumerator>
-		<name>DROOP_PROTECT</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0x04</value>
-		</enumerator>
-		<enumerator>
-		<name>DROOP_PROTECT_OVERVOLT</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>DYNAMIC</name>
-		<value>0x02</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>DRIVER_TYPE</id>
 		<enumerator>
 		<name>PUSH-PULL</name>
@@ -2234,36 +940,6 @@
 		<enumerator>
 		<name>SBE_MEASUREMENT_CODE</name>
 		<value>6</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>EI_BUS_TX_MSBSWAP</id>
-		<enumerator>
-		<name>GROUP_0_SWAP</name>
-		<value>0x80</value>
-		</enumerator>
-		<enumerator>
-		<name>NO_SWAP</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>GROUP_1_SWAP</name>
-		<value>0x40</value>
-		</enumerator>
-		<enumerator>
-		<name>ALL_SWAP</name>
-		<value>0xFF</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>ENABLE_MEM_EARLY_DATA_SCOM</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2452,33 +1128,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>FREQ_MCA_MHZ</id>
-		<enumerator>
-		<name>1600</name>
-		<value>1600</value>
-		</enumerator>
-		<enumerator>
-		<name>1466</name>
-		<value>1466</value>
-		</enumerator>
-		<enumerator>
-		<name>1333</name>
-		<value>1333</value>
-		</enumerator>
-		<enumerator>
-		<name>2400</name>
-		<value>2400</value>
-		</enumerator>
-		<enumerator>
-		<name>1200</name>
-		<value>1200</value>
-		</enumerator>
-		<enumerator>
-		<name>2000</name>
-		<value>2000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>FREQ_MC_MHZ</id>
 		<enumerator>
 		<name>1600</name>
@@ -2525,33 +1174,6 @@
 		<enumerator>
 		<name>1600</name>
 		<value>1600</value>
-		</enumerator>
-		<enumerator>
-		<name>2400</name>
-		<value>2400</value>
-		</enumerator>
-		<enumerator>
-		<name>2133</name>
-		<value>2133</value>
-		</enumerator>
-		<enumerator>
-		<name>2000</name>
-		<value>2000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>FREQ_PB_MHZ_POUNDV_FALLBACK</id>
-		<enumerator>
-		<name>1866</name>
-		<value>1866</value>
-		</enumerator>
-		<enumerator>
-		<name>1600</name>
-		<value>1600</value>
-		</enumerator>
-		<enumerator>
-		<name>NO_FALLBACK</name>
-		<value>0</value>
 		</enumerator>
 		<enumerator>
 		<name>2400</name>
@@ -2998,17 +1620,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>IO_DMI_PROC_DEBUG</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>IO_IOHS_CHANNEL_LOSS</id>
 		<enumerator>
 		<name>MID_LOSS</name>
@@ -3039,17 +1650,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>IO_OMI_MFG_CHK</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>IO_O_CHANNEL_TYPE</id>
 		<enumerator>
 		<name>BOARD</name>
@@ -3069,36 +1669,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>IO_O_MNFG_ERROR_THRESHOLD</id>
-		<enumerator>
-		<name>CORNER_MODE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>RELIABILITY_MODE</name>
-		<value>0x2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>IO_REFCLOCK_RCVR_TERM</id>
-		<enumerator>
-		<name>FIFTY_OHM</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>ONE_HUNDRED_OHM</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3177,37 +1747,6 @@
 		<enumerator>
 		<name>SIMICS</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>KEY_CLEAR_REQUEST</id>
-		<enumerator>
-		<name>ALL</name>
-		<value>0x8000</value>
-		</enumerator>
-		<enumerator>
-		<name>OS_KEYS</name>
-		<value>0x4000</value>
-		</enumerator>
-		<enumerator>
-		<name>RESERVED_2</name>
-		<value>0x00FF</value>
-		</enumerator>
-		<enumerator>
-		<name>POWERVM_SYSKEY</name>
-		<value>0x1000</value>
-		</enumerator>
-		<enumerator>
-		<name>RESERVED_1</name>
-		<value>0x2E00</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0x0000</value>
-		</enumerator>
-		<enumerator>
-		<name>MFG</name>
-		<value>0x0100</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3329,104 +1868,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MFG_WRAP_TEST_ABUS_LINKS_SET</id>
-		<enumerator>
-		<name>SET_NONE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>SET_1</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>SET_2</name>
-		<value>0x2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MNFG_FLAG</id>
-		<enumerator>
-		<name>FAST_BACKGROUND_SCRUB</name>
-		<value>0x00000020</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE_MEMORY_eREPAIR</name>
-		<value>0x00001000</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE_MINIMUM_PATTERN_TEST</name>
-		<value>0x00000400</value>
-		</enumerator>
-		<enumerator>
-		<name>THRESHOLDS</name>
-		<value>0x00000001</value>
-		</enumerator>
-		<enumerator>
-		<name>BRAZOS_WRAP_CONFIG</name>
-		<value>0x00010000</value>
-		</enumerator>
-		<enumerator>
-		<name>SRC_TERM</name>
-		<value>0x00000008</value>
-		</enumerator>
-		<enumerator>
-		<name>HDAT_AVP_ENABLE</name>
-		<value>0x00000004</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE_FABRIC_eREPAIR</name>
-		<value>0x00000800</value>
-		</enumerator>
-		<enumerator>
-		<name>DMI_DEPLOY_LANE_SPARES</name>
-		<value>0x00004000</value>
-		</enumerator>
-		<enumerator>
-		<name>FSP_UPDATE_SBE_IMAGE</name>
-		<value>0x00020000</value>
-		</enumerator>
-		<enumerator>
-		<name>IPL_MEMORY_CE_CHECKING</name>
-		<value>0x00000010</value>
-		</enumerator>
-		<enumerator>
-		<name>FABRIC_DEPLOY_LANE_SPARES</name>
-		<value>0x00002000</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE_STANDARD_PATTERN_TEST</name>
-		<value>0x00000200</value>
-		</enumerator>
-		<enumerator>
-		<name>PSI_DIAGNOSTIC</name>
-		<value>0x00008000</value>
-		</enumerator>
-		<enumerator>
-		<name>TEST_DRAM_REPAIRS</name>
-		<value>0x00000040</value>
-		</enumerator>
-		<enumerator>
-		<name>UPDATE_BOTH_SIDES_OF_SBE</name>
-		<value>0x00040000</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLE_EXHAUSTIVE_PATTERN_TEST</name>
-		<value>0x00000100</value>
-		</enumerator>
-		<enumerator>
-		<name>DISABLE_DRAM_REPAIRS</name>
-		<value>0x00000080</value>
-		</enumerator>
-		<enumerator>
-		<name>IMMEDIATE_HALT</name>
-		<value>0x00080000</value>
-		</enumerator>
-		<enumerator>
-		<name>AVP_ENABLE</name>
-		<value>0x00000002</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3699,6 +2140,17 @@
 </enumerationType>
 <enumerationType>
 	<id>MRW_L2_INCREASE_JITTER</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>MRW_P1PF_MIN_CONFIDENCE_3</id>
 		<enumerator>
 		<name>TRUE</name>
 		<value>1</value>
@@ -4266,17 +2718,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>NEST_24x7_PERF_ACCUM_ENABLE</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>NEST_DPLL_BYPASS</id>
 		<enumerator>
 		<name>BYPASS</name>
@@ -4330,28 +2771,6 @@
 		</enumerator>
 		<enumerator>
 		<name>CHECK_VERSIONS</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>OMI_DL_LN_REV_ENABLE</id>
-		<enumerator>
-		<name>DISABLED</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLED</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>OMI_PLL_VCO</id>
-		<enumerator>
-		<name>26G</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>20G</name>
 		<value>0</value>
 		</enumerator>
 </enumerationType>
@@ -4543,29 +2962,18 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PGPE_HCODE_FUNCTION_ENABLE</id>
+	<id>PM_COMPLEX_LOAD_TYPE</id>
 		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
+		<name>RELOAD</name>
+		<value>0x1</value>
 		</enumerator>
 		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PM_APSS_CHIP_SELECT</id>
-		<enumerator>
-		<name>CS1</name>
-		<value>0x01</value>
+		<name>LOAD</name>
+		<value>0x0</value>
 		</enumerator>
 		<enumerator>
-		<name>CS0</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>NONE</name>
-		<value>0xFF</value>
+		<name>DO_NOT_LOAD</name>
+		<value>0x2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4577,17 +2985,6 @@
 		<enumerator>
 		<name>FALSE</name>
 		<value>0x00</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>POUND_W_STATIC_DATA_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4717,13 +3114,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PROC_FABRIC_CCSM_MODE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>PROC_FABRIC_DLR_PSAVE_MODE</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -4744,17 +3134,6 @@
 		<enumerator>
 		<name>FULL_HALF</name>
 		<value>0x0C</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FABRIC_PUMP_MODE</id>
-		<enumerator>
-		<name>CHIP_IS_NODE</name>
-		<value>0x01</value>
-		</enumerator>
-		<enumerator>
-		<name>CHIP_IS_GROUP</name>
-		<value>0x02</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5006,44 +3385,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>PROC_PCIE_CACHE_INJ_MODE</id>
-		<enumerator>
-		<name>DISABLE_CI</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>P9_STYLE_CI</name>
-		<value>0x3</value>
-		</enumerator>
-		<enumerator>
-		<name>P7_STYLE_CI</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>PCITLP_STYLE_CI</name>
-		<value>0x2</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_PCIE_CACHE_INJ_THROTTLE</id>
-		<enumerator>
-		<name>DISABLE</name>
-		<value>0x0</value>
-		</enumerator>
-		<enumerator>
-		<name>16_CYCLES</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>64_CYCLES</name>
-		<value>0x7</value>
-		</enumerator>
-		<enumerator>
-		<name>32_CYCLES</name>
-		<value>0x3</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>PROC_PCIE_LANE_REVERSAL</id>
 		<enumerator>
 		<name>DISABLE</name>
@@ -5063,17 +3404,6 @@
 		<enumerator>
 		<name>ENABLE</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_SBE_MASTER_CHIP</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>0x1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0x0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -5585,50 +3915,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>STOP11_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>STOP4_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>STOP5_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>STOP8_DISABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>SUPPORTED_HOT_PLUG</id>
 		<enumerator>
 		<name>NA</name>
@@ -5730,21 +4016,6 @@
 		<enumerator>
 		<name>ON</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>SYSTEM_WOF_DISABLE</id>
-		<enumerator>
-		<name>OFF_SKIP_DD</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>OFF</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -6201,17 +4472,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>VDM_EXTREME_THOTTLE_ENABLE</id>
-		<enumerator>
-		<name>OFF</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ON</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>VIEW_FRONT</id>
 		<enumerator>
 		<name>NO</name>
@@ -6367,25 +4627,6 @@
 		</enumerator>
 		<enumerator>
 		<name>FULL</name>
-		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>WOV_UNDERV_LIMIT_ALGORITHM</id>
-		<enumerator>
-		<name>NOMINAL</name>
-		<value>3</value>
-		</enumerator>
-		<enumerator>
-		<name>TURBO</name>
-		<value>2</value>
-		</enumerator>
-		<enumerator>
-		<name>UNDERV_VMIN</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>UNDERV_LIMIT</name>
 		<value>1</value>
 		</enumerator>
 </enumerationType>
@@ -35470,6 +33711,10 @@
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/nisqually-0/proc_socket-0/godel-0/generic-logic-assoc</id>
@@ -35567,6 +33812,10 @@
 	<property>
 	<id>PROC_FABRIC_TOPOLOGY_ID</id>
 	<value>0x0</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -43591,10 +41840,6 @@
 		<default>2400</default>
 	</attribute>
 	<attribute>
-		<id>BRAZOS_RX_FIFO_OVERRIDE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>CDM_POLICIES</id>
 		<default>0x00</default>
 	</attribute>
@@ -43645,10 +41890,6 @@
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
 		<default>76</default>
-	</attribute>
-	<attribute>
-		<id>DO_ABUS_DECONFIG</id>
-		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>EARLY_TESTCASES_ISTEP</id>
@@ -43764,10 +42005,6 @@
 		<default>0xC80,0xC80,0xC80,0xC80,0xC80</default>
 	</attribute>
 	<attribute>
-		<id>MAX_CHIPLETS_PER_PROC</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
 		<default></default>
 	</attribute>
@@ -43860,22 +42097,6 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>MNFG_TH_CEN_L4_CACHE_CES</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_CEN_MBA_IPL_SOFT_CE_TH_ALGO</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_CEN_MBA_RT_RCE_PER_RANK</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_CEN_MBA_RT_SOFT_CE_TH_ALGO</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>MNFG_TH_L2_CACHE_CES</id>
 		<default>1</default>
 	</attribute>
@@ -43924,34 +42145,6 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
-		<id>MNFG_TH_P8EX_L2_COL_REPAIRS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L2_DIR_CES</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L2_LINE_DELETES</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L3_CACHE_CES</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L3_COL_REPAIRS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L3_DIR_CES</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>MNFG_TH_P8EX_L3_LINE_DELETES</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>MNFG_XBUS_MIN_EYE_WIDTH</id>
 		<default></default>
 	</attribute>
@@ -43986,6 +42179,10 @@
 	<attribute>
 		<id>MRW_MEM_THROTTLE_DENOMINATOR</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_P1PF_MIN_CONFIDENCE_3</id>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MRW_SAFEMODE_MEM_THROTTLE_NUMERATOR_PER_CHIP</id>
@@ -44323,6 +42520,10 @@
 		<default>72</default>
 	</attribute>
 	<attribute>
+		<id>PMIC_HEALTH_CHECK_TIMER</id>
+		<default>86400000</default>
+	</attribute>
+	<attribute>
 		<id>PMIC_READ_TIMEOUT_SEC</id>
 		<default>30</default>
 	</attribute>
@@ -44344,10 +42545,6 @@
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_DLR_PSAVE_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_PUMP_MODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44580,7 +42777,7 @@
 	</attribute>
 	<attribute>
 		<id>WOF_INDEX_SELECT</id>
-		<default></default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>WOF_TABLE_LID_NUMBER</id>
@@ -44589,14 +42786,6 @@
 	<attribute>
 		<id>WOF_VRATIO_SELECT</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>X_EREPAIR_THRESHOLD_FIELD</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>X_EREPAIR_THRESHOLD_MNFG</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>power-def-filenames</id>
@@ -44622,10 +42811,6 @@
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default>affinity:sys-0/node-0</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>NODE</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -61409,10 +59594,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-1/ddimm-0/ocmb/omi</bus_id>
@@ -61425,10 +59606,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61443,10 +59620,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-3/ddimm-0/ocmb/omi</bus_id>
@@ -61459,10 +59632,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61477,10 +59646,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-5/ddimm-0/ocmb/omi</bus_id>
@@ -61493,10 +59658,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61511,10 +59672,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-7/ddimm-0/ocmb/omi</bus_id>
@@ -61527,10 +59684,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61545,10 +59698,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-17/ddimm-0/ocmb/omi</bus_id>
@@ -61561,10 +59710,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61579,10 +59724,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-19/ddimm-0/ocmb/omi</bus_id>
@@ -61595,10 +59736,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61613,10 +59750,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-21/ddimm-0/ocmb/omi</bus_id>
@@ -61629,10 +59762,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61647,10 +59776,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-23/ddimm-0/ocmb/omi</bus_id>
@@ -61663,10 +59788,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61681,10 +59802,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-9/ddimm-0/ocmb/omi</bus_id>
@@ -61697,10 +59814,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61715,10 +59828,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-11/ddimm-0/ocmb/omi</bus_id>
@@ -61731,10 +59840,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61749,10 +59854,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-13/ddimm-0/ocmb/omi</bus_id>
@@ -61765,10 +59866,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61783,10 +59880,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-15/ddimm-0/ocmb/omi</bus_id>
@@ -61799,10 +59892,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61817,10 +59906,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-25/ddimm-0/ocmb/omi</bus_id>
@@ -61833,10 +59918,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61851,10 +59932,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-27/ddimm-0/ocmb/omi</bus_id>
@@ -61867,10 +59944,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61885,10 +59958,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-29/ddimm-0/ocmb/omi</bus_id>
@@ -61901,10 +59970,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -61919,10 +59984,6 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
-		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-31/ddimm-0/ocmb/omi</bus_id>
@@ -61935,10 +59996,6 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
-		</bus_attribute>
-		<bus_attribute>
-			<id>FRU_PATH</id>
-		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -63608,20 +61665,8 @@
 		<default>2400</default>
 	</attribute>
 	<attribute>
-		<id>BOOT_FREQ_MULT</id>
-		<default>150</default>
-	</attribute>
-	<attribute>
 		<id>BOOT_PAU_DPLL_BYPASS</id>
 		<default>NO_BYPASS</default>
-	</attribute>
-	<attribute>
-		<id>BRANCH_PIBMEM_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_CONTAINED_ACTIVE_CORES_VEC</id>
@@ -63704,14 +61749,6 @@
 		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
 	</attribute>
 	<attribute>
-		<id>CLOCK_PLL_MUX</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CLOCK_PLL_MUX0</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
 		<default>LPC_REFCLOCK</default>
 	</attribute>
@@ -63726,14 +61763,6 @@
 	<attribute>
 		<id>CME_INSTRUCTION_TRACE_ENABLE</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>CPU_ATTR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CP_FILTER_BYPASS</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>CP_PLLIOFLT_BYPASS</id>
@@ -63756,43 +61785,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DCADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>DPLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ENABLED_OBUS_BRICKS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63830,6 +61823,14 @@
 	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_CALLOUTS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FSI_OPTION_FLAGS</id>
@@ -63892,32 +61893,8 @@
 		<default>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
-		<id>I2C_BUS_DIV_NEST</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>I2C_BUS_DIV_REF</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>0,0,0,0,0,400,0,400,400,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_BLOCK_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_MNFG_BAD_LANE_DURATION</id>
@@ -63932,28 +61909,12 @@
 		<default>DISABLED</default>
 	</attribute>
 	<attribute>
-		<id>IO_FILTER_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_OMI_MFG_STRESS_PR_OFFSET_EVEN</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_OMI_MFG_STRESS_PR_OFFSET_ODD</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_EVEN</id>
 		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_ODD</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_PB_IOOFIR_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
@@ -63964,44 +61925,12 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L2_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LEN_OF_SEEPROM_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>LPC_CONSOLE_CNFG</id>
 		<default>ENABLE</default>
-	</attribute>
-	<attribute>
-		<id>MB_BIT_RATE_DIVISOR_PLL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MB_BIT_RATE_DIVISOR_REFCLK</id>
-		<default>133</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -64013,18 +61942,6 @@
 	</attribute>
 	<attribute>
 		<id>NEST_DPLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NEST_MEM_X_O_PCI_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OBUS_RATIO_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_PLL_VCO</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64044,16 +61961,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PFET_OFF_CONTROLS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0</default>
-	</attribute>
-	<attribute>
-		<id>PM_APSS_CHIP_SELECT</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -64070,10 +61979,6 @@
 	<attribute>
 		<id>PROC_FABRIC_SL_DOMAIN</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_SYSTEM_ID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -64100,67 +62005,15 @@
 		<default>0x1</default>
 	</attribute>
 	<attribute>
-		<id>PROC_PB_BNDY_DMIPLL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_PB_BNDY_DMIPLL_FOR_DCCAL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_PERV_BNDY_PLL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_R_DISTLOSS_UOHM</id>
 		<default>22,97,282,262</default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
 		<default>250,250,250,250</default>
 	</attribute>
 	<attribute>
-		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_SBE_MASTER_CHIP</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VCS_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VDD_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VDN_UV</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64180,15 +62033,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SS_FILTER_BYPASS</id>
+		<id>SPI_MVPD_BACKUP_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>START_PIBMEM_ADDR</id>
+		<id>SPI_MVPD_PRIMARY_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>START_SEEPROM_ADDR</id>
+		<id>SPI_SBE_BOOT_CODE_BACKUP_INFO_CALLOUTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SPI_SBE_BOOT_CODE_PRIMARY_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -64198,10 +62055,6 @@
 	<attribute>
 		<id>SYS_CLK_NE_TERMINATION_STRENGTH</id>
 		<default>20MA</default>
-	</attribute>
-	<attribute>
-		<id>TDP_RDP_CURRENT_FACTOR</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>THREAD_COUNT</id>
@@ -64216,68 +62069,8 @@
 		<default>PROC</default>
 	</attribute>
 	<attribute>
-		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_I2C_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_BUSNUM</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N0</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N1</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N2</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N3</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>WOF_IO_BASE_POWER_0P01W</id>
 		<default>1181,1136,0,0</default>
-	</attribute>
-	<attribute>
-		<id>WOV_MAX_DROOP_10THPCT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_SAMPLE_125US</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_UNDERV_LIMIT_ALGORITHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_UNDERV_VMIN_MV</id>
-		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -68084,6 +65877,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -68165,6 +65962,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -68403,6 +66204,10 @@
 		<default>2</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -68484,6 +66289,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>3</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -68839,6 +66648,10 @@
 		<default>4</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -68920,6 +66733,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -69158,6 +66975,10 @@
 		<default>6</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -69239,6 +67060,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>7</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -69594,6 +67419,10 @@
 		<default>8</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -69675,6 +67504,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>9</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -69913,6 +67746,10 @@
 		<default>10</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -69994,6 +67831,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>11</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -70349,6 +68190,10 @@
 		<default>12</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -70430,6 +68275,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>13</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -70668,6 +68517,10 @@
 		<default>14</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -70749,6 +68602,10 @@
 	<attribute>
 		<id>FAPI_POS</id>
 		<default>15</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
@@ -70883,10 +68740,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -71028,10 +68881,6 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -71143,10 +68992,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -71286,10 +69131,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -71491,10 +69332,6 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -71607,10 +69444,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -71750,10 +69583,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -71955,10 +69784,6 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>2</default>
 	</attribute>
@@ -72145,10 +69970,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>3</default>
 	</attribute>
@@ -72288,10 +70109,6 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>3</default>
 	</attribute>
@@ -72403,10 +70220,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -72546,10 +70359,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -72751,10 +70560,6 @@
 		<default>PCIE</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>4</default>
 	</attribute>
@@ -72867,10 +70672,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -73010,10 +70811,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -73213,10 +71010,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>PCIE</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -73491,10 +71284,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -73546,10 +71335,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -73599,10 +71384,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>XBUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -73658,10 +71439,6 @@
 		<default>ABUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -73713,10 +71490,6 @@
 		<default>ABUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -73766,10 +71539,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -73926,10 +71695,6 @@
 		<default>ABUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -73981,10 +71746,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>XBUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -74254,10 +72015,6 @@
 		<default>ABUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>2</default>
 	</attribute>
@@ -74309,10 +72066,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>XBUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -74469,10 +72222,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>3</default>
 	</attribute>
@@ -74524,10 +72273,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -74798,10 +72543,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>4</default>
 	</attribute>
@@ -74853,10 +72594,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -75013,10 +72750,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>5</default>
 	</attribute>
@@ -75068,10 +72801,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -75397,10 +73126,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>6</default>
 	</attribute>
@@ -75452,10 +73177,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -75612,10 +73333,6 @@
 		<default>XBUS</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>7</default>
 	</attribute>
@@ -75667,10 +73384,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>ABUS</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -77539,10 +75252,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -77602,10 +75311,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -77663,10 +75368,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>FSIM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -77736,10 +75437,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>1</default>
 	</attribute>
@@ -77805,10 +75502,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>FSIM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -77878,10 +75571,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>3</default>
 	</attribute>
@@ -77947,10 +75636,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>FSIM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -78020,10 +75705,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>5</default>
 	</attribute>
@@ -78091,10 +75772,6 @@
 		<default>FSIM</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>6</default>
 	</attribute>
@@ -78160,10 +75837,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>FSIM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -80703,20 +78376,8 @@
 		<default>2400</default>
 	</attribute>
 	<attribute>
-		<id>BOOT_FREQ_MULT</id>
-		<default>150</default>
-	</attribute>
-	<attribute>
 		<id>BOOT_PAU_DPLL_BYPASS</id>
 		<default>NO_BYPASS</default>
-	</attribute>
-	<attribute>
-		<id>BRANCH_PIBMEM_ADDR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>FABRIC</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_CONTAINED_ACTIVE_CORES_VEC</id>
@@ -80799,14 +78460,6 @@
 		<default>PCI_REFCLOCK0,PCI_REFCLOCK0</default>
 	</attribute>
 	<attribute>
-		<id>CLOCK_PLL_MUX</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CLOCK_PLL_MUX0</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLOCK_PLL_MUX_TOD</id>
 		<default>LPC_REFCLOCK</default>
 	</attribute>
@@ -80821,14 +78474,6 @@
 	<attribute>
 		<id>CME_INSTRUCTION_TRACE_ENABLE</id>
 		<default>0x0</default>
-	</attribute>
-	<attribute>
-		<id>CPU_ATTR</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CP_FILTER_BYPASS</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>CP_PLLIOFLT_BYPASS</id>
@@ -80851,43 +78496,7 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>DATA_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DATA_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DCACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>DCADJ_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DISABLE_I2C_ENGINE2_PORT0_DIAG_MODE</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>DPLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_ENABLE_ERRORLOG</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>DUMP_STOP_INFO_SUPPRESS_ERROR_TRACE</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>ENABLED_OBUS_BRICKS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -80925,6 +78534,14 @@
 	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>FSI_CALLOUTS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FSI_OPTION_FLAGS</id>
@@ -80987,32 +78604,8 @@
 		<default>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
-		<id>I2C_BUS_DIV_NEST</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>I2C_BUS_DIV_REF</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
 		<id>I2C_BUS_SPEED_ARRAY</id>
 		<default>0,0,0,0,0,400,0,400,400,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_BLOCK_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>ICACHE_SIZE</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IOHS_MNFG_BAD_LANE_DURATION</id>
@@ -81027,28 +78620,12 @@
 		<default>DISABLED</default>
 	</attribute>
 	<attribute>
-		<id>IO_FILTER_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_OMI_MFG_STRESS_PR_OFFSET_EVEN</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>IO_OMI_MFG_STRESS_PR_OFFSET_ODD</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_EVEN</id>
 		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>IO_O_MFG_STRESS_PR_OFFSET_ODD</id>
 		<default>0x00</default>
-	</attribute>
-	<attribute>
-		<id>IO_PB_IOOFIR_MASK</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>IO_TANK_PLL_BYPASS</id>
@@ -81059,44 +78636,12 @@
 		<default>0xFF</default>
 	</attribute>
 	<attribute>
-		<id>L2_CACHE_ASSOC_SETS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L2_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L2_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_LINE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>L3_CACHE_SIZE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>LEN_OF_SEEPROM_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>LOCATION_CODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
 		<id>LPC_CONSOLE_CNFG</id>
 		<default>ENABLE</default>
-	</attribute>
-	<attribute>
-		<id>MB_BIT_RATE_DIVISOR_PLL</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MB_BIT_RATE_DIVISOR_REFCLK</id>
-		<default>133</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -81108,18 +78653,6 @@
 	</attribute>
 	<attribute>
 		<id>NEST_DPLL_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>NEST_MEM_X_O_PCI_BYPASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OBUS_RATIO_VALUE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_PLL_VCO</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81139,16 +78672,8 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>PFET_OFF_CONTROLS</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-1</default>
-	</attribute>
-	<attribute>
-		<id>PM_APSS_CHIP_SELECT</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>POSITION</id>
@@ -81165,10 +78690,6 @@
 	<attribute>
 		<id>PROC_FABRIC_SL_DOMAIN</id>
 		<default>CHIP</default>
-	</attribute>
-	<attribute>
-		<id>PROC_FABRIC_SYSTEM_ID</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>PROC_FABRIC_TOPOLOGY_ID</id>
@@ -81195,67 +78716,15 @@
 		<default>0x1</default>
 	</attribute>
 	<attribute>
-		<id>PROC_PB_BNDY_DMIPLL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_PB_BNDY_DMIPLL_FOR_DCCAL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_PERV_BNDY_PLL_DATA</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_R_DISTLOSS_UOHM</id>
 		<default>22,97,282,262</default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_DISTLOSS_VDN_UOHM</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>PROC_R_LOADLINE_UOHM</id>
 		<default>250,250,250,250</default>
 	</attribute>
 	<attribute>
-		<id>PROC_R_LOADLINE_VCS_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDD_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_R_LOADLINE_VDN_UOHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_SBE_MASTER_CHIP</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VCS_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VDD_UV</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>PROC_VRM_VOFFSET_VDN_UV</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81275,15 +78744,19 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>SS_FILTER_BYPASS</id>
+		<id>SPI_MVPD_BACKUP_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>START_PIBMEM_ADDR</id>
+		<id>SPI_MVPD_PRIMARY_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>START_SEEPROM_ADDR</id>
+		<id>SPI_SBE_BOOT_CODE_BACKUP_INFO_CALLOUTS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SPI_SBE_BOOT_CODE_PRIMARY_INFO_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -81293,10 +78766,6 @@
 	<attribute>
 		<id>SYS_CLK_NE_TERMINATION_STRENGTH</id>
 		<default>20MA</default>
-	</attribute>
-	<attribute>
-		<id>TDP_RDP_CURRENT_FACTOR</id>
-		<default></default>
 	</attribute>
 	<attribute>
 		<id>THREAD_COUNT</id>
@@ -81311,68 +78780,8 @@
 		<default>PROC</default>
 	</attribute>
 	<attribute>
-		<id>VCS_AVSBUS_BUSNUM</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_AVSBUS_RAIL</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
-		<id>VCS_I2C_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_BUSNUM</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDD_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_BUSNUM</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>VDN_AVSBUS_RAIL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N0</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N1</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N2</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WAIT_N3</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>WOF_IO_BASE_POWER_0P01W</id>
 		<default>1181,1136,0,0</default>
-	</attribute>
-	<attribute>
-		<id>WOV_MAX_DROOP_10THPCT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_SAMPLE_125US</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_UNDERV_LIMIT_ALGORITHM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>WOV_UNDERV_VMIN_MV</id>
-		<default></default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -82503,10 +79912,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -82561,10 +79966,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -82680,10 +80081,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -82802,10 +80199,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -82860,10 +80253,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -82979,10 +80368,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83101,10 +80486,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -83159,10 +80540,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83278,10 +80655,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83400,10 +80773,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -83458,10 +80827,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83577,10 +80942,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83699,10 +81060,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -83757,10 +81114,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83876,10 +81229,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -83998,10 +81347,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -84056,10 +81401,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84175,10 +81516,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84297,10 +81634,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -84355,10 +81688,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84474,10 +81803,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84596,10 +81921,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -84654,10 +81975,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84773,10 +82090,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -84895,10 +82208,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -84953,10 +82262,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85072,10 +82377,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85194,10 +82495,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -85252,10 +82549,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85371,10 +82664,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85493,10 +82782,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -85551,10 +82836,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85670,10 +82951,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85792,10 +83069,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -85850,10 +83123,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -85969,10 +83238,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86091,10 +83356,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -86149,10 +83410,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86268,10 +83525,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86390,10 +83643,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -86448,10 +83697,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86567,10 +83812,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86689,10 +83930,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -86747,10 +83984,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86866,10 +84099,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -86988,10 +84217,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87046,10 +84271,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -87167,10 +84388,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87286,10 +84503,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87344,10 +84557,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -87457,10 +84666,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87515,10 +84720,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -87628,10 +84829,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87686,10 +84883,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -87779,10 +84972,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -87837,10 +85026,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -87948,10 +85133,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88006,10 +85187,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -88117,10 +85294,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88175,10 +85348,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -88264,10 +85433,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88322,10 +85487,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -88411,10 +85572,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88469,10 +85626,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -88575,10 +85728,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88633,10 +85782,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -88758,10 +85903,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88866,10 +86007,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -88924,10 +86061,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -89049,10 +86182,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89158,10 +86287,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89216,10 +86341,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -89341,10 +86462,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89450,10 +86567,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -89564,10 +86677,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89622,10 +86731,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -89747,10 +86852,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89854,10 +86955,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -89912,10 +87009,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90033,10 +87126,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90091,10 +87180,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90212,10 +87297,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90270,10 +87351,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90391,10 +87468,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90449,10 +87522,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90570,10 +87639,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90628,10 +87693,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90749,10 +87810,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90807,10 +87864,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -90928,10 +87981,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -90986,10 +88035,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -91107,10 +88152,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -91165,10 +88206,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -91286,10 +88323,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -91351,10 +88384,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -91914,10 +88943,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -91979,10 +89004,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -92545,10 +89566,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -92633,10 +89650,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -92698,10 +89711,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -93264,10 +90273,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -93353,10 +90358,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -93411,10 +90412,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -93536,10 +90533,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -93651,10 +90644,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -93759,10 +90748,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -93817,10 +90802,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -93942,10 +90923,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94050,10 +91027,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94108,10 +91081,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -94233,10 +91202,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94341,10 +91306,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94399,10 +91360,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -94524,10 +91481,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94632,10 +91585,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94690,10 +91639,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -94815,10 +91760,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94923,10 +91864,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -94981,10 +91918,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -95106,10 +92039,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95214,10 +92143,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95272,10 +92197,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -95397,10 +92318,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95505,10 +92422,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95563,10 +92476,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -95688,10 +92597,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95796,10 +92701,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -95861,10 +92762,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -96427,10 +93324,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -96539,10 +93432,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -96600,10 +93489,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -96914,10 +93799,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97027,10 +93908,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97085,10 +93962,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -97210,10 +94083,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97325,10 +94194,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97433,10 +94298,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97491,10 +94352,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -97616,10 +94473,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97723,10 +94576,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -97788,10 +94637,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -98351,10 +95196,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -98410,10 +95251,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -98598,10 +95435,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -98706,10 +95539,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -98765,10 +95594,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -98953,10 +95778,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99061,10 +95882,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99120,10 +95937,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -99308,10 +96121,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99416,10 +96225,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99475,10 +96280,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -99663,10 +96464,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99771,10 +96568,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -99830,10 +96623,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -100018,10 +96807,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100126,10 +96911,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100185,10 +96966,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -100373,10 +97150,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100481,10 +97254,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100540,10 +97309,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -100728,10 +97493,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100836,10 +97597,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -100895,10 +97652,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -101083,10 +97836,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101191,10 +97940,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101250,10 +97995,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -101438,10 +98179,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101546,10 +98283,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101605,10 +98338,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -101793,10 +98522,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101901,10 +98626,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -101962,10 +98683,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -102276,10 +98993,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -102388,10 +99101,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -102453,10 +99162,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -103019,10 +99724,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -103107,10 +99808,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -103172,10 +99869,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -103738,10 +100431,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -103827,10 +100516,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -103923,10 +100608,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -103981,10 +100662,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -104106,10 +100783,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104214,10 +100887,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104272,10 +100941,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -104397,10 +101062,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104505,10 +101166,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104563,10 +101220,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -104688,10 +101341,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104796,10 +101445,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -104854,10 +101499,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -104979,10 +101620,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105087,10 +101724,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105145,10 +101778,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -105270,10 +101899,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105378,10 +102003,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105436,10 +102057,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -105561,10 +102178,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105669,10 +102282,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105727,10 +102336,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -105852,10 +102457,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -105960,10 +102561,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106018,10 +102615,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -106143,10 +102736,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106251,10 +102840,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106309,10 +102894,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -106431,10 +103012,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106489,10 +103066,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -106611,10 +103184,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106669,10 +103238,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -106791,10 +103356,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -106849,10 +103410,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -106971,10 +103528,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -107029,10 +103582,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107151,10 +103700,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -107209,10 +103754,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107331,10 +103872,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -107389,10 +103926,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107511,10 +104044,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -107569,10 +104098,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107691,10 +104216,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -107749,10 +104270,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -107872,10 +104389,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108021,10 +104534,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108089,10 +104598,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108147,10 +104652,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108270,10 +104771,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108419,10 +104916,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108487,10 +104980,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108545,10 +105034,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108668,10 +105153,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -108817,10 +105298,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108885,10 +105362,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -108943,10 +105416,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109066,10 +105535,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109215,10 +105680,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109283,10 +105744,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109341,10 +105798,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109464,10 +105917,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109613,10 +106062,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109681,10 +106126,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -109739,10 +106180,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -109862,10 +106299,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -110011,10 +106444,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110079,10 +106508,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110137,10 +106562,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -110260,10 +106681,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -110409,10 +106826,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110477,10 +106890,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110535,10 +106944,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -110658,10 +107063,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -110807,10 +107208,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110875,10 +107272,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -110933,10 +107326,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -111056,10 +107445,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -111205,10 +107590,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -111273,10 +107654,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -111331,10 +107708,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -111454,10 +107827,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -111603,10 +107972,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -111671,10 +108036,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -111729,10 +108090,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -111852,10 +108209,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112001,10 +108354,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112069,10 +108418,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112127,10 +108472,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112250,10 +108591,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112399,10 +108736,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112467,10 +108800,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112525,10 +108854,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112648,10 +108973,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -112797,10 +109118,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112865,10 +109182,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -112923,10 +109236,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113046,10 +109355,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113195,10 +109500,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -113263,10 +109564,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -113321,10 +109618,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113444,10 +109737,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113593,10 +109882,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -113661,10 +109946,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -113719,10 +110000,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113842,10 +110119,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -113991,10 +110264,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114058,10 +110327,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114116,10 +110381,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -114237,10 +110498,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114295,10 +110552,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -114416,10 +110669,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114474,10 +110723,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -114595,10 +110840,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114653,10 +110894,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -114774,10 +111011,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -114832,10 +111065,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -114953,10 +111182,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -115011,10 +111236,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -115132,10 +111353,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -115190,10 +111407,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -115311,10 +111524,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -115369,10 +111578,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -115490,10 +111695,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -115555,10 +111756,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -116119,10 +112316,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -116184,10 +112377,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -116750,10 +112939,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -116865,10 +113050,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -116953,10 +113134,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -117018,10 +113195,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -117584,10 +113757,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -117687,10 +113856,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -117752,10 +113917,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -118314,10 +114475,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -118379,10 +114536,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -118943,10 +115096,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -119001,10 +115150,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -119108,10 +115253,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -119211,10 +115352,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -119334,10 +115471,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -119392,10 +115525,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -119499,10 +115628,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -119602,10 +115727,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -120248,10 +116369,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -120308,10 +116425,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -120361,10 +116474,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>FSIM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -120473,10 +116582,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -120533,10 +116638,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -120591,10 +116692,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -121720,6 +117817,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FSI_OPTION_FLAGS</id>
 		<default>
 				<field><id>flipPort</id><value></value></field>
@@ -121753,23 +117854,6 @@
 	<attribute>
 		<id>TPM_ENABLED</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TPM_INFO</id>
-		<default>
-				<field><id>tpmEnabled</id><value></value></field>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddrLocality0</id><value></value></field>
-				<field><id>devAddrLocality1</id><value></value></field>
-				<field><id>devAddrLocality2</id><value></value></field>
-				<field><id>devAddrLocality3</id><value></value></field>
-				<field><id>devAddrLocality4</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>TPM_MODEL</id>
@@ -127011,6 +123095,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>FSI_OPTION_FLAGS</id>
 		<default>
 				<field><id>flipPort</id><value></value></field>
@@ -127044,23 +123132,6 @@
 	<attribute>
 		<id>TPM_ENABLED</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>TPM_INFO</id>
-		<default>
-				<field><id>tpmEnabled</id><value></value></field>
-				<field><id>i2cMasterPath</id><value></value></field>
-				<field><id>port</id><value></value></field>
-				<field><id>devAddrLocality0</id><value></value></field>
-				<field><id>devAddrLocality1</id><value></value></field>
-				<field><id>devAddrLocality2</id><value></value></field>
-				<field><id>devAddrLocality3</id><value></value></field>
-				<field><id>devAddrLocality4</id><value></value></field>
-				<field><id>engine</id><value></value></field>
-				<field><id>byteAddrOffset</id><value></value></field>
-				<field><id>i2cMuxBusSelector</id><value></value></field>
-				<field><id>i2cMuxPath</id><value></value></field>
-		</default>
 	</attribute>
 	<attribute>
 		<id>TPM_MODEL</id>
@@ -127307,22 +123378,6 @@
 		<default>DIMM</default>
 	</attribute>
 	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>DIMM</default>
-	</attribute>
-	<attribute>
-		<id>CEN_DQ_TO_DIMM_CONN_DQ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CEN_MBA_DIMM</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>CEN_MBA_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>LOGICAL_CARD</default>
 	</attribute>
@@ -127373,6 +123428,10 @@
 	</attribute>
 	<attribute>
 		<id>FRU_NAME</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_CALLOUTS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -127613,6 +123672,10 @@
 		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
+		<id>FRU_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>IO_OMI_CHANNEL_LOSS</id>
 		<default>HIGH_LOSS</default>
 	</attribute>
@@ -127670,14 +123733,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>DDR4</default>
-	</attribute>
-	<attribute>
-		<id>CDM_DOMAIN</id>
-		<default>MEM</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -128106,10 +124161,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>DDR4</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -131468,10 +127519,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -131532,10 +127579,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -131600,10 +127643,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -131664,10 +127703,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -131946,10 +127981,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -132526,10 +128557,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -132590,10 +128617,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -132743,10 +128766,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -132807,10 +128826,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -134903,10 +130918,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -134967,10 +130978,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -135035,10 +131042,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135099,10 +131102,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -135167,10 +131166,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135233,10 +131228,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135297,10 +131288,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -135617,10 +131604,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135681,10 +131664,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -135749,10 +131728,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135813,10 +131788,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -135881,10 +131852,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -135945,10 +131912,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -136013,10 +131976,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -136077,10 +132036,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -136145,10 +132100,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -136209,10 +132160,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -136277,10 +132224,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -136343,10 +132286,6 @@
 		<default>POWER</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -136407,10 +132346,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>POWER</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -162856,16 +158791,8 @@
 	<instance_name>NOR_FLASH.spi-slave</instance_name>
 	<position>0</position>
 	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>BUS_TYPE</id>
 		<default>SPI</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -162880,10 +158807,6 @@
 		<default>IN</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default></default>
 	</attribute>
@@ -162892,12 +158815,16 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SPI_ENGINE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>SPI_PORT</id>
+		<default>0x00</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -163057,10 +158984,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163121,10 +159044,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163189,10 +159108,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163253,10 +159168,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163321,10 +159232,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163385,10 +159292,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163453,10 +159356,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163517,10 +159416,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163585,10 +159480,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163649,10 +159540,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163717,10 +159604,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163781,10 +159664,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163849,10 +159728,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -163913,10 +159788,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163981,10 +159852,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -164045,10 +159912,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -164113,10 +159976,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -164177,10 +160036,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -164245,10 +160100,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -164309,10 +160160,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -164377,10 +160224,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -164441,10 +160284,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -164509,10 +160348,6 @@
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
-	</attribute>
-	<attribute>
 		<id>CHIP_UNIT</id>
 		<default>0</default>
 	</attribute>
@@ -164573,10 +160408,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>CHIPLET_ID</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
