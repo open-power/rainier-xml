@@ -50256,11 +50256,11 @@
 	</attribute>
 	<attribute>
 		<id>MSL_FIELD_SUPPORTED</id>
-		<default></default>
+		<default>POWER10~2.0;EXPLORER~2.0</default>
 	</attribute>
 	<attribute>
 		<id>MSL_MFG_ALLOW</id>
-		<default></default>
+		<default>POWER10~2.0;EXPLORER~2.0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_INTERLEAVE_ENABLE</id>
