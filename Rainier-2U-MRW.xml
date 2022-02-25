@@ -41881,7 +41881,7 @@
 	</attribute>
 	<attribute>
 		<id>DIMM_ERROR_TEMP_DEG_C</id>
-		<default>76</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_READ_TIMEOUT_SEC</id>
@@ -41889,7 +41889,7 @@
 	</attribute>
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>76</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>EARLY_TESTCASES_ISTEP</id>
@@ -42046,7 +42046,7 @@
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>82</default>
+		<default>87</default>
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_READ_TIMEOUT_SEC</id>
@@ -42054,7 +42054,7 @@
 	</attribute>
 	<attribute>
 		<id>MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default>82</default>
+		<default>84</default>
 	</attribute>
 	<attribute>
 		<id>MEM_MIRRORING_ALLOWED</id>
@@ -42517,7 +42517,7 @@
 	</attribute>
 	<attribute>
 		<id>PMIC_ERROR_TEMP_DEG_C</id>
-		<default>72</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>PMIC_HEALTH_CHECK_TIMER</id>
@@ -42529,7 +42529,7 @@
 	</attribute>
 	<attribute>
 		<id>PMIC_THROTTLE_TEMP_DEG_C</id>
-		<default>72</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>PM_HALT_FFDC_ENABLE</id>
