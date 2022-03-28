@@ -43083,7 +43083,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -46296,7 +46296,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>null</default>
+		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -52449,7 +52449,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>null</default>
+		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
