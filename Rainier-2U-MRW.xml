@@ -3184,6 +3184,21 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>PROC_LCO_MODE_SETUP</id>
+		<enumerator>
+		<name>ALL</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>ADAPTIVE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ECO_ONLY</name>
+		<value>2</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>PROC_MODULE_TYPE</id>
 		<enumerator>
 		<name>BLAISE</name>
@@ -4640,6 +4655,10 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+	<property>
+	<id>PROC_FABRIC_TOPOLOGY_MODE</id>
+	<value></value>
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
@@ -40342,6 +40361,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0/vdd-0/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0/vdd-0/vrd-i2c.enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -40429,6 +40455,13 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0/vdd-1/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40562,6 +40595,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0/vdd-0/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0/vdd-0/vrd-i2c.enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -40649,6 +40689,13 @@
 	<property>
 	<id>FRU_ID</id>
 	<value>0</value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0/vdd-1/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -40757,6 +40804,13 @@
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdn-vcs-0/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -40958,6 +41012,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vdn-vcs-1/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vdn-vcs-1/vrd-i2c-2.enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -41155,6 +41216,13 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vio-vcs-0/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/vio-vcs-0/vrd-i2c-2.enable</id>
 	<property>
 	<id>DIRECTION</id>
@@ -41348,6 +41416,13 @@
 	</property>
 	<property>
 	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/vio-vcs-1/avs-slave</id>
+	<property>
+	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -42571,6 +42646,18 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>PROC_LCO_MODE_SETUP</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>PROC_LCO_MODE_SETUP_ADAPTIVE_D</id>
+		<default>1000</default>
+	</attribute>
+	<attribute>
+		<id>PROC_LCO_MODE_SETUP_ADAPTIVE_N</id>
+		<default>333</default>
+	</attribute>
+	<attribute>
 		<id>PROC_MODULE_TYPE</id>
 		<default>GODEL</default>
 	</attribute>
@@ -43113,6 +43200,174 @@
 		<id>TYPE</id>
 		<default>NA</default>
 	</attribute>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/avs0-master => vdd-vrm-connector-0/vdd-vrm-0/vdd-0/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>avs0-master</source_target>
+		<dest_path>vdd-vrm-connector-0/vdd-vrm-0/vdd-0/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0,L:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-0/avs1-master => vdn-vcs-0/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-0/</source_path>
+		<source_target>avs1-master</source_target>
+		<dest_path>vdn-vcs-0/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/avs0-master => vdd-vrm-connector-0/vdd-vrm-0/vdd-1/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/</source_path>
+		<source_target>avs0-master</source_target>
+		<dest_path>vdd-vrm-connector-0/vdd-vrm-0/vdd-1/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0,L:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-0/godel-0/power10-1/avs1-master => vio-vcs-0/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-0/godel-0/power10-1/</source_path>
+		<source_target>avs1-master</source_target>
+		<dest_path>vio-vcs-0/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-0/avs0-master => vdd-vrm-connector-1/vdd-vrm-0/vdd-0/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-0/</source_path>
+		<source_target>avs0-master</source_target>
+		<dest_path>vdd-vrm-connector-1/vdd-vrm-0/vdd-0/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0,L:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-0/avs1-master => vdn-vcs-1/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-0/</source_path>
+		<source_target>avs1-master</source_target>
+		<dest_path>vdn-vcs-1/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/avs0-master => vdd-vrm-connector-1/vdd-vrm-0/vdd-1/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/</source_path>
+		<source_target>avs0-master</source_target>
+		<dest_path>vdd-vrm-connector-1/vdd-vrm-0/vdd-1/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0,L:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>proc_socket-1/godel-0/power10-1/avs1-master => vio-vcs-1/avs-slave</bus_id>
+		<bus_type>AVS</bus_type>
+		<cable>no</cable>
+		<source_path>proc_socket-1/godel-0/power10-1/</source_path>
+		<source_target>avs1-master</source_target>
+		<dest_path>vio-vcs-1/</dest_path>
+		<dest_target>avs-slave</dest_target>
+		<bus_attribute>
+			<id>BUS_WIDTH</id>
+		<default>2</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default>H:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+	</bus>
 	<bus>
 		<bus_id>Si5332LD-0/Si5332LD.OUT0 => proc_socket-0/godel-0/power10-0/osc0-sys-refclk</bus_id>
 		<bus_type>CLK</bus_type>
@@ -48529,6 +48784,10 @@
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48560,6 +48819,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48595,6 +48858,10 @@
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-0/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48626,6 +48893,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48661,6 +48932,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48692,6 +48967,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48727,6 +49006,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48758,6 +49041,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48793,6 +49080,10 @@
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48824,6 +49115,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48859,6 +49154,10 @@
 		<default>L:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/vdd-vrm-connector-1/vdd-vrm-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48890,6 +49189,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48925,6 +49228,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -48956,6 +49263,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -48991,6 +49302,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49022,6 +49337,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49057,6 +49376,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49088,6 +49411,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49123,6 +49450,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0(ucd90320-0)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49154,6 +49485,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49189,6 +49524,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49220,6 +49559,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49255,6 +49598,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49286,6 +49633,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/power-distribution-connector-0/emmons-0,H:/sys-0/node-0/nisqually-0/power-distribution-connector-0/emmons-0/power-supply-connector-0/power-supply-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49321,6 +49672,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,L:/sys-0/node-0/nisqually-0/power-distribution-connector-0/emmons-0,H:/sys-0/node-0/nisqually-0/power-distribution-connector-0/emmons-0/power-supply-connector-1/power-supply-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49352,6 +49707,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49387,6 +49746,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49418,6 +49781,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49453,6 +49820,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49484,6 +49855,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/base-op-panel-connector-0/blyth-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49519,6 +49894,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/lcd-op-panel-connector-0/russell-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49550,6 +49929,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/lcd-op-panel-connector-0/russell-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49585,6 +49968,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/tpm-connector-0/wilson-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49616,6 +50003,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49651,6 +50042,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49682,6 +50077,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49717,6 +50116,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49748,6 +50151,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49783,6 +50190,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49814,6 +50225,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49849,6 +50264,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49880,6 +50299,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49915,6 +50338,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -49946,6 +50373,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -49981,6 +50412,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50012,6 +50447,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50047,6 +50486,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50078,6 +50521,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50113,6 +50560,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50144,6 +50595,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50179,6 +50634,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50210,6 +50669,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50245,6 +50708,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50276,6 +50743,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50311,6 +50782,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50342,6 +50817,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50377,6 +50856,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50408,6 +50891,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50443,6 +50930,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50474,6 +50965,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50509,6 +51004,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50540,6 +51039,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50575,6 +51078,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50606,6 +51113,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50641,6 +51152,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50672,6 +51187,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50707,6 +51226,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50738,6 +51261,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50773,6 +51300,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50804,6 +51335,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50839,6 +51374,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50870,6 +51409,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50905,6 +51448,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -50936,6 +51483,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -50971,6 +51522,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51002,6 +51557,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51037,6 +51596,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51068,6 +51631,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51103,6 +51670,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51134,6 +51705,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51169,6 +51744,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51200,6 +51779,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51235,6 +51818,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51266,6 +51853,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51301,6 +51892,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51332,6 +51927,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51367,6 +51966,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51398,6 +52001,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51433,6 +52040,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51464,6 +52075,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51499,6 +52114,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51530,6 +52149,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51565,6 +52188,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51596,6 +52223,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51631,6 +52262,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51662,6 +52297,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51697,6 +52336,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51728,6 +52371,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51763,6 +52410,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51794,6 +52445,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51829,6 +52484,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51860,6 +52519,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51895,6 +52558,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51926,6 +52593,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -51961,6 +52632,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -51992,6 +52667,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52027,6 +52706,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52058,6 +52741,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52093,6 +52780,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52124,6 +52815,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52159,6 +52854,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52190,6 +52889,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52225,6 +52928,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52256,6 +52963,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52291,6 +53002,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52322,6 +53037,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52357,6 +53076,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52388,6 +53111,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52423,6 +53150,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52454,6 +53185,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52489,6 +53224,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52520,6 +53259,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52555,6 +53298,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52586,6 +53333,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52621,6 +53372,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52652,6 +53407,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52687,6 +53446,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52718,6 +53481,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52753,6 +53520,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52784,6 +53555,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52819,6 +53594,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52850,6 +53629,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52885,6 +53668,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52916,6 +53703,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -52951,6 +53742,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -52982,6 +53777,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53017,6 +53816,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53048,6 +53851,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53083,6 +53890,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53114,6 +53925,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53149,6 +53964,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53180,6 +53999,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53215,6 +54038,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53246,6 +54073,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53281,6 +54112,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53312,6 +54147,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53347,6 +54186,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53378,6 +54221,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53413,6 +54260,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53444,6 +54295,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53479,6 +54334,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53510,6 +54369,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53545,6 +54408,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53576,6 +54443,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53611,6 +54482,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53642,6 +54517,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53677,6 +54556,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53708,6 +54591,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53743,6 +54630,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53774,6 +54665,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53809,6 +54704,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53840,6 +54739,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53875,6 +54778,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53906,6 +54813,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -53941,6 +54852,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -53972,6 +54887,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54007,6 +54926,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54038,6 +54961,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54073,6 +55000,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54104,6 +55035,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54139,6 +55074,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54170,6 +55109,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54205,6 +55148,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54236,6 +55183,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54271,6 +55222,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54302,6 +55257,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54337,6 +55296,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54368,6 +55331,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54403,6 +55370,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54434,6 +55405,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54469,6 +55444,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54500,6 +55479,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54535,6 +55518,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54566,6 +55553,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54601,6 +55592,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54632,6 +55627,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54667,6 +55666,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54698,6 +55701,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54733,6 +55740,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54764,6 +55775,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54799,6 +55814,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54830,6 +55849,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54865,6 +55888,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54896,6 +55923,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54931,6 +55962,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -54962,6 +55997,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -54997,6 +56036,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55028,6 +56071,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55063,6 +56110,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55094,6 +56145,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55129,6 +56184,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55160,6 +56219,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55195,6 +56258,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55226,6 +56293,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55261,6 +56332,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55292,6 +56367,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55327,6 +56406,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55358,6 +56441,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55393,6 +56480,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55424,6 +56515,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55459,6 +56554,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55490,6 +56589,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55525,6 +56628,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55556,6 +56663,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55591,6 +56702,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55622,6 +56737,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55657,6 +56776,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55688,6 +56811,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55723,6 +56850,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55754,6 +56885,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55789,6 +56924,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55820,6 +56959,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55855,6 +56998,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55886,6 +57033,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55921,6 +57072,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -55952,6 +57107,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -55987,6 +57146,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56018,6 +57181,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56053,6 +57220,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56084,6 +57255,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/fan-card-connector-0/paradise-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56119,6 +57294,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/fan-card-connector-0/paradise-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56150,6 +57329,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/dasd-card-connector-0/pyramid-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56185,6 +57368,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/dasd-card-connector-0/pyramid-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56216,6 +57403,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/dasd-card-connector-0/pyramid-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56251,6 +57442,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56282,6 +57477,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56317,6 +57516,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56348,6 +57551,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56383,6 +57590,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56414,6 +57625,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56449,6 +57664,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56480,6 +57699,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56515,6 +57738,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56546,6 +57773,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56581,6 +57812,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56612,6 +57847,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56647,6 +57886,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56678,6 +57921,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56713,6 +57960,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56744,6 +57995,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56779,6 +58034,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56810,6 +58069,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56845,6 +58108,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56876,6 +58143,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56911,6 +58182,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -56942,6 +58217,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -56977,6 +58256,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57008,6 +58291,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57043,6 +58330,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57074,6 +58365,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57109,6 +58404,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57140,6 +58439,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57175,6 +58478,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57206,6 +58513,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57241,6 +58552,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57272,6 +58587,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57307,6 +58626,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57338,6 +58661,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57373,6 +58700,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57404,6 +58735,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57439,6 +58774,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57470,6 +58809,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57505,6 +58848,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57536,6 +58883,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57571,6 +58922,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57602,6 +58957,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57637,6 +58996,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57668,6 +59031,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57703,6 +59070,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57734,6 +59105,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57769,6 +59144,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57800,6 +59179,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57835,6 +59218,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57866,6 +59253,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57901,6 +59292,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57932,6 +59327,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -57967,6 +59366,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -57998,6 +59401,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -58033,6 +59440,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58064,6 +59475,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -58099,6 +59514,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/tpm-connector-0/wilson-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58130,6 +59549,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -58165,6 +59588,10 @@
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-0/godel-0(power10)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58196,6 +59623,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>L:/sys-0/node-0/nisqually-0,H:/sys-0/node-0/nisqually-0/proc_socket-1/godel-0(power10)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -58231,6 +59662,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58262,6 +59697,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -58297,6 +59736,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58330,6 +59773,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -58361,6 +59808,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0),L:/sys-0/node-0/nisqually-0</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -59609,6 +61060,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-1/ddimm-0/ocmb/omi</bus_id>
@@ -59621,6 +61076,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59635,6 +61094,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-3/ddimm-0/ocmb/omi</bus_id>
@@ -59647,6 +61110,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59661,6 +61128,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-5/ddimm-0/ocmb/omi</bus_id>
@@ -59673,6 +61144,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59687,6 +61162,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-7/ddimm-0/ocmb/omi</bus_id>
@@ -59699,6 +61178,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59713,6 +61196,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc0/mi0/mcc0/omic0/omi1 => ddimm-connector-17/ddimm-0/ocmb/omi</bus_id>
@@ -59725,6 +61212,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59739,6 +61230,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc0/mi0/mcc1/omic1/omi3 => ddimm-connector-19/ddimm-0/ocmb/omi</bus_id>
@@ -59751,6 +61246,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59765,6 +61264,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc1/mi1/mcc2/omic2/omi5 => ddimm-connector-21/ddimm-0/ocmb/omi</bus_id>
@@ -59777,6 +61280,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59791,6 +61298,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-0/mc1/mi1/mcc3/omic3/omi7 => ddimm-connector-23/ddimm-0/ocmb/omi</bus_id>
@@ -59803,6 +61314,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59817,6 +61332,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-9/ddimm-0/ocmb/omi</bus_id>
@@ -59829,6 +61348,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59843,6 +61366,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-11/ddimm-0/ocmb/omi</bus_id>
@@ -59855,6 +61382,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59869,6 +61400,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-13/ddimm-0/ocmb/omi</bus_id>
@@ -59881,6 +61416,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59895,6 +61434,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-0/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-15/ddimm-0/ocmb/omi</bus_id>
@@ -59907,6 +61450,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59921,6 +61468,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc4/omic4/omi9 => ddimm-connector-25/ddimm-0/ocmb/omi</bus_id>
@@ -59933,6 +61484,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59947,6 +61502,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc2/mi2/mcc5/omic5/omi11 => ddimm-connector-27/ddimm-0/ocmb/omi</bus_id>
@@ -59959,6 +61518,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59973,6 +61536,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc6/omic6/omi13 => ddimm-connector-29/ddimm-0/ocmb/omi</bus_id>
@@ -59985,6 +61552,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -59999,6 +61570,10 @@
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
+		</bus_attribute>
 	</bus>
 	<bus>
 		<bus_id>proc_socket-1/godel-0/power10-1/mc3/mi3/mcc7/omic7/omi15 => ddimm-connector-31/ddimm-0/ocmb/omi</bus_id>
@@ -60011,6 +61586,10 @@
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>FRU_PATH</id>
+		<default></default>
 		</bus_attribute>
 	</bus>
 	<bus>
@@ -79541,6 +81120,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -79574,6 +81157,10 @@
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0)</default>
 		</bus_attribute>
 		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
+		</bus_attribute>
+		<bus_attribute>
 			<id>I2C_PURPOSE</id>
 		<default></default>
 		</bus_attribute>
@@ -79605,6 +81192,10 @@
 		<bus_attribute>
 			<id>FRU_PATH</id>
 		<default>H:/sys-0/node-0/nisqually-0/ebmc-card-connector-0/ingraham-0(BMC-0)</default>
+		</bus_attribute>
+		<bus_attribute>
+			<id>I2C_BUS_ALIAS</id>
+		<default></default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>I2C_PURPOSE</id>
@@ -125747,6 +127338,7 @@
 	<child_id>vrd-i2c.enable</child_id>
 	<child_id>vrd-i2c.vin</child_id>
 	<child_id>vrd-i2c.vout</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -126035,6 +127627,37 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
+	<id>avs-slave</id>
+	<type>unit-avs-slave</type>
+	<is_root>false</is_root>
+	<instance_name>avs-slave</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>AVS</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
 	<id>vdd-1</id>
 	<type>chip-vrd-i2c</type>
 	<is_root>false</is_root>
@@ -126045,6 +127668,7 @@
 	<child_id>vrd-i2c.enable</child_id>
 	<child_id>vrd-i2c.vin</child_id>
 	<child_id>vrd-i2c.vout</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -126273,6 +127897,7 @@
 	<child_id>vrd-i2c-2.vin</child_id>
 	<child_id>vrd-i2c-2.vout1</child_id>
 	<child_id>vrd-i2c-2.vout2</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -126735,6 +128360,7 @@
 	<child_id>vrd-i2c-2.vin</child_id>
 	<child_id>vrd-i2c-2.vout1</child_id>
 	<child_id>vrd-i2c-2.vout2</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -126801,6 +128427,7 @@
 	<child_id>vrd-i2c-2.vin</child_id>
 	<child_id>vrd-i2c-2.vout1</child_id>
 	<child_id>vrd-i2c-2.vout2</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -126867,6 +128494,7 @@
 	<child_id>vrd-i2c-2.vin</child_id>
 	<child_id>vrd-i2c-2.vout1</child_id>
 	<child_id>vrd-i2c-2.vout2</child_id>
+	<child_id>avs-slave</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -143710,6 +145338,7 @@
 	<child_id>cablecard-LED-CXP-TOP</child_id>
 	<child_id>cablecard-LED-CXP-BOT</child_id>
 	<child_id>i2c-slave</child_id>
+	<child_id>cablecard-TMP435</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -144549,6 +146178,109 @@
 	<attribute>
 		<id>VIEW_REAR</id>
 		<default>YES</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>cablecard-TMP435</id>
+	<type>chip-tmp-device</type>
+	<is_root>false</is_root>
+	<instance_name>cablecard-TMP435</instance_name>
+	<position>-1</position>
+	<child_id>TMP435-i2c</child_id>
+	<attribute>
+		<id>CLASS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>COOLING_ZONE_MASK</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>I2C_SPEED</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>TMP</default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RU_TYPE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>TARGET-FRU-TYPE</id>
+		<default>planar</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>TMP435-i2c</id>
+	<type>unit-i2c-slave</type>
+	<is_root>false</is_root>
+	<instance_name>TMP435-i2c</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>I2C</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>I2C_ADDRESS</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>POWER10</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>VPD_SIZE</id>
+		<default>NA</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
