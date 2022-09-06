@@ -891,6 +891,10 @@
 		<value>0</value>
 		</enumerator>
 		<enumerator>
+		<name>PLANAR_OCMB_SPD</name>
+		<value>9</value>
+		</enumerator>
+		<enumerator>
 		<name>WOF_DATA</name>
 		<value>7</value>
 		</enumerator>
@@ -1037,13 +1041,6 @@
 		<enumerator>
 		<name>OCC</name>
 		<value>0x03</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>FAPI_POS</id>
-		<enumerator>
-		<name>NA</name>
-		<value>0xFFFFFFFF</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -1608,6 +1605,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>IO_IOHS_XTALK</id>
+		<enumerator>
+		<name>HI_XTALK</name>
+		<value>0x01</value>
+		</enumerator>
+		<enumerator>
+		<name>NO_XTALK</name>
+		<value>0x00</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>IO_OMI_CHANNEL_LOSS</id>
 		<enumerator>
 		<name>MID_LOSS</name>
@@ -2076,10 +2084,6 @@
 		<value>0x0001</value>
 		</enumerator>
 		<enumerator>
-		<name>EX</name>
-		<value>0x0202</value>
-		</enumerator>
-		<enumerator>
 		<name>PCI</name>
 		<value>0x0303</value>
 		</enumerator>
@@ -2094,6 +2098,10 @@
 		<enumerator>
 		<name>MCS</name>
 		<value>0x0207</value>
+		</enumerator>
+		<enumerator>
+		<name>FC</name>
+		<value>0x0202</value>
 		</enumerator>
 		<enumerator>
 		<name>SP-CHIP</name>
@@ -2286,6 +2294,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_DDR5_DRAM_READ_CRC</id>
+		<enumerator>
+		<name>DISABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLE</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_MRW_DIMM_HEIGHT_MIXING_POLICY</id>
 		<enumerator>
 		<name>ALLOWED</name>
@@ -2350,6 +2369,10 @@
 		<enumerator>
 		<name>FLY_2X</name>
 		<value>5</value>
+		</enumerator>
+		<enumerator>
+		<name>DDR5_FINE</name>
+		<value>7</value>
 		</enumerator>
 		<enumerator>
 		<name>FIXED_4X</name>
@@ -3174,17 +3197,6 @@
 		<enumerator>
 		<name>2_BYTE</name>
 		<value>1</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>PROC_FAVOR_AGGRESSIVE_PREFETCH</id>
-		<enumerator>
-		<name>TRUE</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>FALSE</name>
-		<value>0</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -50380,6 +50392,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_DDR5_DRAM_READ_CRC</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>MSS_MRW_DIMM_HEIGHT_MIXING_POLICY</id>
 		<default>NOT_ALLOWED</default>
 	</attribute>
@@ -50442,6 +50458,10 @@
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_SLOPE</id>
 		<default>0x2DFFF40001EC0000,0x3DFFF40002A80000,0x4DFFF40002D00000,0x5DFFF40002CD0000,0x3DFFF80002F00000,0x4DFFF80002FA0000,0x5DFFF800033D0000,0x6DFFF80003410000,0xFFFFFC0003AB0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_OCMB_SAFEMODE_UTIL_ARRAY</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_THERMAL_MEMORY_POWER_LIMIT</id>
@@ -50703,10 +50723,6 @@
 		<default>MODE0</default>
 	</attribute>
 	<attribute>
-		<id>PROC_FAVOR_AGGRESSIVE_PREFETCH</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>PROC_IO_READ_TIMEOUT_SEC</id>
 		<default>5</default>
 	</attribute>
@@ -50901,6 +50917,10 @@
 	<attribute>
 		<id>SYSTEM_VDM_DISABLE</id>
 		<default>0x00</default>
+	</attribute>
+	<attribute>
+		<id>SYS_CLOCK_INTEGRATED_SPARES</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>SYS_VFRT_STATIC_DATA_ENABLE</id>
@@ -83656,10 +83676,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_CORE_BOOT_MHZ</id>
 		<default>0x7D0</default>
 	</attribute>
@@ -83957,10 +83973,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c0</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84012,10 +84024,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84070,10 +84078,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84283,10 +84287,6 @@
 		<default>pu.c:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84338,10 +84338,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84398,10 +84394,6 @@
 		<default>pu.c:k0:n0:s0:p00:c2</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84454,10 +84446,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c3</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84513,10 +84501,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84568,10 +84552,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84628,10 +84608,6 @@
 		<default>pu.c:k0:n0:s0:p00:c4</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84686,10 +84662,6 @@
 		<default>pu.c:k0:n0:s0:p00:c5</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84741,10 +84713,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84801,10 +84769,6 @@
 		<default>pu.c:k0:n0:s0:p00:c6</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84857,10 +84821,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c7</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -84916,10 +84876,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c2</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -84971,10 +84927,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85031,10 +84983,6 @@
 		<default>pu.c:k0:n0:s0:p00:c8</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>8</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85089,10 +85037,6 @@
 		<default>pu.c:k0:n0:s0:p00:c9</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>9</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85144,10 +85088,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85204,10 +85144,6 @@
 		<default>pu.c:k0:n0:s0:p00:c10</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>10</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85260,10 +85196,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c11</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>11</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85319,10 +85251,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85374,10 +85302,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85434,10 +85358,6 @@
 		<default>pu.c:k0:n0:s0:p00:c12</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>12</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85492,10 +85412,6 @@
 		<default>pu.c:k0:n0:s0:p00:c13</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>13</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85547,10 +85463,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85607,10 +85519,6 @@
 		<default>pu.c:k0:n0:s0:p00:c14</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>14</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85663,10 +85571,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c15</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>15</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85722,10 +85626,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c4</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85777,10 +85677,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -85837,10 +85733,6 @@
 		<default>pu.c:k0:n0:s0:p00:c16</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>16</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85895,10 +85787,6 @@
 		<default>pu.c:k0:n0:s0:p00:c17</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>17</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -85950,10 +85838,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86010,10 +85894,6 @@
 		<default>pu.c:k0:n0:s0:p00:c18</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>18</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86066,10 +85946,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c19</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>19</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86125,10 +86001,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c5</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86180,10 +86052,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86240,10 +86108,6 @@
 		<default>pu.c:k0:n0:s0:p00:c20</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>20</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86298,10 +86162,6 @@
 		<default>pu.c:k0:n0:s0:p00:c21</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>21</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86353,10 +86213,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86413,10 +86269,6 @@
 		<default>pu.c:k0:n0:s0:p00:c22</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>22</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86469,10 +86321,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c23</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>23</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86528,10 +86376,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c6</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86583,10 +86427,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86643,10 +86483,6 @@
 		<default>pu.c:k0:n0:s0:p00:c24</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>24</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86701,10 +86537,6 @@
 		<default>pu.c:k0:n0:s0:p00:c25</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>25</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86756,10 +86588,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86816,10 +86644,6 @@
 		<default>pu.c:k0:n0:s0:p00:c26</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>26</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86872,10 +86696,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c27</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>27</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -86931,10 +86751,6 @@
 		<default>pu.eq:k0:n0:s0:p00:c7</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -86986,10 +86802,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -87046,10 +86858,6 @@
 		<default>pu.c:k0:n0:s0:p00:c28</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>28</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -87104,10 +86912,6 @@
 		<default>pu.c:k0:n0:s0:p00:c29</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>29</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -87159,10 +86963,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -87219,10 +87019,6 @@
 		<default>pu.c:k0:n0:s0:p00:c30</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -87275,10 +87071,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.c:k0:n0:s0:p00:c31</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>31</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -87451,10 +87243,6 @@
 		<default>pu.mc:k0:n0:s0:p00:c0</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_MC_MHZ</id>
 		<default>0x640</default>
 	</attribute>
@@ -87512,10 +87300,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -87566,10 +87350,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -87665,10 +87445,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -87722,10 +87498,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -87811,10 +87583,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -87893,10 +87661,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -87992,10 +87756,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -88049,10 +87809,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c2</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -88138,10 +87894,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -88222,10 +87974,6 @@
 		<default>pu.mc:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_MC_MHZ</id>
 		<default>0x640</default>
 	</attribute>
@@ -88283,10 +88031,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -88337,10 +88081,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -88436,10 +88176,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -88493,10 +88229,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c4</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -88582,10 +88314,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c5</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -88664,10 +88392,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -88763,10 +88487,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -88820,10 +88540,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c6</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -88909,10 +88625,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c7</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -88993,10 +88705,6 @@
 		<default>pu.mc:k0:n0:s0:p00:c2</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_MC_MHZ</id>
 		<default>0x640</default>
 	</attribute>
@@ -89054,10 +88762,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -89108,10 +88812,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -89207,10 +88907,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -89264,10 +88960,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c8</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>8</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -89353,10 +89045,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c9</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>9</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -89435,10 +89123,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -89534,10 +89218,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -89591,10 +89271,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c10</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -89680,10 +89356,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c11</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>11</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -89764,10 +89436,6 @@
 		<default>pu.mc:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_MC_MHZ</id>
 		<default>0x640</default>
 	</attribute>
@@ -89825,10 +89493,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -89879,10 +89543,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -89978,10 +89638,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -90035,10 +89691,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c12</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>12</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -90124,10 +89776,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c13</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>13</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -90206,10 +89854,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -90305,10 +89949,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -90362,10 +90002,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.omi:k0:n0:s0:p00:c14</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>14</default>
 	</attribute>
 	<attribute>
 		<id>FRU_PATH</id>
@@ -90451,10 +90087,6 @@
 		<default>pu.omi:k0:n0:s0:p00:c15</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>15</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -90535,10 +90167,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.pec:k0:n0:s0:p00:c0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -90663,10 +90291,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c0</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -90917,10 +90541,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c0</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -91114,10 +90734,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c1</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -91369,10 +90985,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -91568,10 +91180,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c2</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -91765,10 +91373,6 @@
 		<default>pu.pec:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -91891,10 +91495,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c3</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -92145,10 +91745,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -92342,10 +91938,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c4</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -92597,10 +92189,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c4</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -92796,10 +92384,6 @@
 		<default>pu.phb:k0:n0:s0:p00:c5</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -92993,10 +92577,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -93050,10 +92630,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c0</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -93088,6 +92664,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -93461,10 +93041,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c1</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -93499,6 +93075,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -93666,10 +93246,6 @@
 		<default>pu.pau:k0:n0:s0:p00:c0</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -93722,10 +93298,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -93781,10 +93353,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c2</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -93819,6 +93387,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -93988,10 +93560,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -94026,6 +93594,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -94193,10 +93765,6 @@
 		<default>pu.pau:k0:n0:s0:p00:c3</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -94252,10 +93820,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>2</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -94309,10 +93873,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c4</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -94347,6 +93907,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -94516,10 +94080,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c5</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -94554,6 +94114,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -94721,10 +94285,6 @@
 		<default>pu.pau:k0:n0:s0:p00:c4</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -94774,10 +94334,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.pau:k0:n0:s0:p00:c5</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>5</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -94835,10 +94391,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>3</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -94892,10 +94444,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c6</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -94930,6 +94478,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -95099,10 +94651,6 @@
 		<default>pu.iohs:k0:n0:s0:p00:c7</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>7</default>
-	</attribute>
-	<attribute>
 		<id>FREQ_IOHS_LINK_MHZ</id>
 		<default>32500</default>
 	</attribute>
@@ -95137,6 +94685,10 @@
 	<attribute>
 		<id>IO_IOHS_PRE2</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>IO_IOHS_XTALK</id>
+		<default>NO_XTALK</default>
 	</attribute>
 	<attribute>
 		<id>LINK_SPEED</id>
@@ -95304,10 +94856,6 @@
 		<default>pu.pau:k0:n0:s0:p00:c6</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>6</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95357,10 +94905,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.pau:k0:n0:s0:p00:c7</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>7</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95414,10 +94958,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95467,10 +95007,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95524,10 +95060,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95577,10 +95109,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95634,10 +95162,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95687,10 +95211,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95744,10 +95264,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95797,10 +95313,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95854,10 +95366,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -95907,10 +95415,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -95964,10 +95468,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96017,10 +95517,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96074,10 +95570,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96127,10 +95619,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96184,10 +95672,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96237,10 +95721,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96294,10 +95774,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96347,10 +95823,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96404,10 +95876,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96457,10 +95925,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96514,10 +95978,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96567,10 +96027,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96624,10 +96080,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96677,10 +96129,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96734,10 +96182,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96787,10 +96231,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96844,10 +96284,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -96897,10 +96333,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -96954,10 +96386,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -97009,10 +96437,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>MODEL</id>
 		<default>POWER10</default>
 	</attribute>
@@ -97062,10 +96486,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -100361,10 +99781,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FREQ_CORE_BOOT_MHZ</id>
@@ -145361,10 +144777,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -145473,6 +144885,10 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -145505,10 +144921,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -145518,6 +144930,10 @@
 				<field><id>flipPort</id><value></value></field>
 				<field><id>reserved</id><value></value></field>
 		</default>
+	</attribute>
+	<attribute>
+		<id>IO_TANK_PLL_BYPASS</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>LOCATION_CODE</id>
@@ -145611,10 +145027,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>FRU_PATH</id>
 		<default></default>
 	</attribute>
@@ -145696,10 +145108,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
@@ -146192,10 +145600,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>I2C_DEV_TYPE</id>
@@ -146896,10 +146300,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>I2C_DEV_TYPE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -146981,7 +146381,7 @@
 	</attribute>
 	<attribute>
 		<id>VPD_TYPE</id>
-		<default>SPD</default>
+		<default>RSPD</default>
 	</attribute>
 	<attribute>
 		<id>WRITE_CYCLE_TIME</id>
@@ -146989,7 +146389,7 @@
 	</attribute>
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
-		<default>0x20</default>
+		<default>0x08</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147029,7 +146429,7 @@
 	</attribute>
 	<attribute>
 		<id>VPD_TYPE</id>
-		<default>SPD</default>
+		<default>RSPD</default>
 	</attribute>
 	<attribute>
 		<id>WRITE_CYCLE_TIME</id>
@@ -147037,7 +146437,7 @@
 	</attribute>
 	<attribute>
 		<id>WRITE_PAGE_SIZE</id>
-		<default>0x20</default>
+		<default>0x08</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -147173,10 +146573,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>I2C_DEV_TYPE</id>
@@ -147399,10 +146795,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>I2C_DEV_TYPE</id>
@@ -161413,10 +160805,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>I2C_DEV_TYPE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -166700,10 +166088,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>I2C_DEV_TYPE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -166794,10 +166178,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>I2C_DEV_TYPE</id>
@@ -166892,10 +166272,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
-	</attribute>
-	<attribute>
 		<id>I2C_DEV_TYPE</id>
 		<default>0xFF</default>
 	</attribute>
@@ -166986,10 +166362,6 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_POS</id>
-		<default>0xFFFFFFFF</default>
 	</attribute>
 	<attribute>
 		<id>I2C_DEV_TYPE</id>
