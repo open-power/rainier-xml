@@ -1112,6 +1112,10 @@
 		<value>1333</value>
 		</enumerator>
 		<enumerator>
+		<name>2400</name>
+		<value>2400</value>
+		</enumerator>
+		<enumerator>
 		<name>2000</name>
 		<value>2000</value>
 		</enumerator>
@@ -1129,6 +1133,10 @@
 		<enumerator>
 		<name>32000</name>
 		<value>32000</value>
+		</enumerator>
+		<enumerator>
+		<name>38400</name>
+		<value>38400</value>
 		</enumerator>
 		<enumerator>
 		<name>25600</name>
@@ -1569,6 +1577,17 @@
 </enumerationType>
 <enumerationType>
 	<id>IOHS_LINK_SPLIT</id>
+		<enumerator>
+		<name>TRUE</name>
+		<value>0x1</value>
+		</enumerator>
+		<enumerator>
+		<name>FALSE</name>
+		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>IOHS_SMP9_INTERCONNECT</id>
 		<enumerator>
 		<name>TRUE</name>
 		<value>0x1</value>
@@ -2272,6 +2291,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_MRW_ALLOW_DDR5</id>
+		<enumerator>
+		<name>REJECT</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>ALLOW</name>
+		<value>1</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_MRW_ALLOW_UNSUPPORTED_RCW</id>
 		<enumerator>
 		<name>DISABLE</name>
@@ -2648,6 +2678,17 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
+		<enumerator>
+		<name>BIG_ENDIAN</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>LITTLE_ENDIAN</name>
+		<value>0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MSS_OMI_EDPL_DISABLE</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -2710,6 +2751,10 @@
 		<enumerator>
 		<name>EXPLORER</name>
 		<value>0x8</value>
+		</enumerator>
+		<enumerator>
+		<name>ODYSSEY</name>
+		<value>0xB</value>
 		</enumerator>
 		<enumerator>
 		<name>NONE</name>
@@ -2790,6 +2835,43 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>OMI_BIST_DAC_TEST</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_BIST_ESD_TEST</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>ENABLED</name>
+		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_RX_LANES</id>
+		<enumerator>
+		<name>X8</name>
+		<value>0xFF</value>
+		</enumerator>
+		<enumerator>
+		<name>X2</name>
+		<value>0x81</value>
+		</enumerator>
+		<enumerator>
+		<name>X4</name>
+		<value>0xA5</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>OMI_SPREAD_SPECTRUM</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -2798,6 +2880,21 @@
 		<enumerator>
 		<name>ENABLED</name>
 		<value>0x01</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>OMI_TX_LANES</id>
+		<enumerator>
+		<name>X8</name>
+		<value>0xFF</value>
+		</enumerator>
+		<enumerator>
+		<name>X2</name>
+		<value>0x81</value>
+		</enumerator>
+		<enumerator>
+		<name>X4</name>
+		<value>0xA5</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4294,7 +4391,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>88</value>
+		<value>104</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -4339,6 +4436,10 @@
 		<enumerator>
 		<name>REFCLKENDPT</name>
 		<value>28</value>
+		</enumerator>
+		<enumerator>
+		<name>TEMP_SENSOR</name>
+		<value>103</value>
 		</enumerator>
 		<enumerator>
 		<name>NX</name>
@@ -4435,6 +4536,10 @@
 		<enumerator>
 		<name>SYSREFCLKENDPT</name>
 		<value>47</value>
+		</enumerator>
+		<enumerator>
+		<name>POWER_IC</name>
+		<value>102</value>
 		</enumerator>
 		<enumerator>
 		<name>L3</name>
@@ -50019,6 +50124,66 @@
 		<default>1,1,1,1,1,1,1,1</default>
 	</attribute>
 	<attribute>
+		<id>DDR5_DIMM_ERROR_TEMP_DEG_C</id>
+		<default>84</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_DIMM_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_DIMM_THROTTLE_TEMP_DEG_C</id>
+		<default>69</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_DRAM_ERROR_TEMP_DEG_C</id>
+		<default>99</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_DRAM_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_DRAM_THROTTLE_TEMP_DEG_C</id>
+		<default>89</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_EXT_ERROR_TEMP_DEG_C</id>
+		<default>99</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_EXT_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MC_EXT_THROTTLE_TEMP_DEG_C</id>
+		<default>89</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MEMCTRL_ERROR_TEMP_DEG_C</id>
+		<default>99</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MEMCTRL_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
+		<default>89</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
+		<default>95</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_PMIC_READ_TIMEOUT_SEC</id>
+		<default>30</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
+		<default>85</default>
+	</attribute>
+	<attribute>
 		<id>DDS_DELAY_ADJUST</id>
 		<default></default>
 	</attribute>
@@ -50126,6 +50291,18 @@
 	<attribute>
 		<id>HW543822_WAR_MODE</id>
 		<default>NONE</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
+		<default>1120,930,2260,1880,1500,3020,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
+		<default>1500,1250,3000,2500,2000,4000,0,0,0,0,0,0</default>
+	</attribute>
+	<attribute>
+		<id>INDEX_POWER_LIMIT_CONFIG</id>
+		<default>0x2B1D0202,0x2B1D0102,0x2B1D0204,0x2B1D0104,0x2B1E0202,0x2B1E0204,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -50384,6 +50561,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>MSS_MRW_ALLOW_DDR5</id>
+		<default>ALLOW</default>
+	</attribute>
+	<attribute>
 		<id>MSS_MRW_ALLOW_UNSUPPORTED_RCW</id>
 		<default>1</default>
 	</attribute>
@@ -50394,6 +50575,10 @@
 	<attribute>
 		<id>MSS_MRW_DDR5_DRAM_READ_CRC</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>MSS_MRW_DDR5_MAX_DRAM_DATABUS_UTIL</id>
+		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_HEIGHT_MIXING_POLICY</id>
@@ -50550,6 +50735,10 @@
 	<attribute>
 		<id>MSS_OCMB_ENTERPRISE_POLICY</id>
 		<default>ALLOW_ENTERPRISE</default>
+	</attribute>
+	<attribute>
+		<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
+		<default>LITTLE_ENDIAN</default>
 	</attribute>
 	<attribute>
 		<id>MSS_OMI_EDPL_DISABLE</id>
@@ -50772,6 +50961,10 @@
 	</attribute>
 	<attribute>
 		<id>QUAD_WEIGHT_TENTHS</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
 		<default>1</default>
 	</attribute>
 	<attribute>
@@ -51259,7 +51452,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default></default>
+		<default>null</default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -92654,6 +92847,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
+	</attribute>
+	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
 		<default>LOW_LOSS</default>
 	</attribute>
@@ -93065,6 +93262,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
+	</attribute>
+	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
 		<default>LOW_LOSS</default>
 	</attribute>
@@ -93377,6 +93578,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
+	</attribute>
+	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
 		<default>LOW_LOSS</default>
 	</attribute>
@@ -93582,6 +93787,10 @@
 	<attribute>
 		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
@@ -93897,6 +94106,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
+	</attribute>
+	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
 		<default>LOW_LOSS</default>
 	</attribute>
@@ -94102,6 +94315,10 @@
 	<attribute>
 		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
@@ -94468,6 +94685,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
+	</attribute>
+	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
 		<default>LOW_LOSS</default>
 	</attribute>
@@ -94673,6 +94894,10 @@
 	<attribute>
 		<id>IOHS_LINK_SPLIT</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>IOHS_SMP9_INTERCONNECT</id>
+		<default>FALSE</default>
 	</attribute>
 	<attribute>
 		<id>IO_IOHS_CHANNEL_LOSS</id>
@@ -144756,6 +144981,23 @@
 		</default>
 	</attribute>
 	<attribute>
+		<id>EEPROM_VPD_BACKUP_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
+				<field><id>port</id><value>0xFF</value></field>
+				<field><id>devAddr</id><value>0xFF</value></field>
+				<field><id>engine</id><value>0xFF</value></field>
+				<field><id>byteAddrOffset</id><value>0xFF</value></field>
+				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>chipCount</id><value>0xFF</value></field>
+				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
+				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
+				<field><id>eepromContentType</id><value>0x4</value></field>
+		</default>
+	</attribute>
+	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -144889,6 +145131,23 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>EEPROM_VPD_BACKUP_INFO</id>
+		<default>
+				<field><id>i2cMasterPath</id><value>physical:sys-0</value></field>
+				<field><id>port</id><value>0xFF</value></field>
+				<field><id>devAddr</id><value>0xFF</value></field>
+				<field><id>engine</id><value>0xFF</value></field>
+				<field><id>byteAddrOffset</id><value>0xFF</value></field>
+				<field><id>maxMemorySizeKB</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>chipCount</id><value>0xFF</value></field>
+				<field><id>writePageSize</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>writeCycleTime</id><value>0xFFFFFFFFFFFFFFFF</value></field>
+				<field><id>i2cMuxBusSelector</id><value>0xFF</value></field>
+				<field><id>i2cMuxPath</id><value>physical:sys-0</value></field>
+				<field><id>eepromContentType</id><value>0xFFFFFFFF</value></field>
+		</default>
+	</attribute>
+	<attribute>
 		<id>EEPROM_VPD_PRIMARY_INFO</id>
 		<default>
 				<field><id>i2cMasterPath</id><value></value></field>
@@ -144919,6 +145178,10 @@
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>FREQ_OMI_MHZ</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>FRU_ID</id>
@@ -144970,6 +145233,26 @@
 	<attribute>
 		<id>OCMB_COUNTER</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_DAC_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_ESD_TEST</id>
+		<default>DISABLED</default>
+	</attribute>
+	<attribute>
+		<id>OMI_BIST_TIMER</id>
+		<default>5</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_LANES</id>
+		<default>X8</default>
+	</attribute>
+	<attribute>
+		<id>OMI_TX_LANES</id>
+		<default>X8</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -146595,6 +146878,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -146815,6 +147102,10 @@
 	<attribute>
 		<id>PHYS_PATH</id>
 		<default></default>
+	</attribute>
+	<attribute>
+		<id>POSITION</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
