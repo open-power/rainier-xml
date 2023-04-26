@@ -42084,7 +42084,7 @@
 	</attribute>
 	<attribute>
 		<id>INDEX_POWER_LIMIT_CONFIG</id>
-		<default>0x51E90202,0x51E90102,0,0,0,0,0,0,0,0,0,0</default>
+		<default>0x51E90201,0x51E90101,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
