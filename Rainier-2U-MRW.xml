@@ -129254,6 +129254,8 @@
 	<child_id>omi</child_id>
 	<child_id>mem_port0</child_id>
 	<child_id>mem_port1</child_id>
+	<child_id>odyperv1</child_id>
+	<child_id>odyperv8</child_id>
 	<child_id>i2c-ocmb-master</child_id>
 	<child_id>i2c-ocmb-slave</child_id>
 	<child_id>i2c-ts0</child_id>
@@ -129639,6 +129641,100 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>MEM_PORT</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>odyperv1</id>
+	<type>unit-perv</type>
+	<is_root>false</is_root>
+	<instance_name>odyperv1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0x1</default>
+	</attribute>	
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PERV</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>odyperv8</id>
+	<type>unit-perv</type>
+	<is_root>false</is_root>
+	<instance_name>odyperv8</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0x8</default>
+	</attribute>	
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>8</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PERV</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
