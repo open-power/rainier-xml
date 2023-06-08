@@ -129755,7 +129755,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -130405,7 +130405,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ddrA</id>
-	<type>unit-ddr-jedec</type>
+	<type>unit-ddr</type>
 	<is_root>false</is_root>
 	<instance_name>ddrA</instance_name>
 	<position>-1</position>
@@ -130456,7 +130456,7 @@
 </targetInstance>
 <targetInstance>
 	<id>ddrB</id>
-	<type>unit-ddr-jedec</type>
+	<type>unit-ddr</type>
 	<is_root>false</is_root>
 	<instance_name>ddrB</instance_name>
 	<position>-1</position>
