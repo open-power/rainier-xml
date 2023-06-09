@@ -84,6 +84,10 @@
 		<value>15</value>
 		</enumerator>
 		<enumerator>
+		<name>DDR</name>
+		<value>31</value>
+		</enumerator>
+		<enumerator>
 		<name>OBUS</name>
 		<value>27</value>
 		</enumerator>
@@ -13337,9 +13341,13 @@
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -13442,6 +13450,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13623,7 +13635,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -13726,6 +13738,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13881,7 +13897,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -13984,6 +14000,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14154,7 +14174,18 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ddrA</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ddrB</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -14257,6 +14288,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14423,7 +14458,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -14711,7 +14746,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -14814,6 +14849,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14969,7 +15008,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15072,6 +15111,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15242,7 +15285,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15345,6 +15388,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15500,7 +15547,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -15603,6 +15650,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15777,7 +15828,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -16039,7 +16090,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -16142,6 +16193,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16297,7 +16352,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -16400,6 +16455,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16570,7 +16629,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -16673,6 +16732,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16843,7 +16906,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -16946,6 +17009,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17110,9 +17177,17 @@
 	<id>FRU_NAME</id>
 	<value></value>
 	</property>
+	<property>
+	<id>IPMI_INSTANCE</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -17215,6 +17290,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17381,7 +17460,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -17484,6 +17563,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17652,9 +17735,13 @@
 	<id>IPMI_INSTANCE</id>
 	<value></value>
 	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -17757,6 +17844,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17912,7 +18003,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18185,7 +18276,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18215,6 +18306,10 @@
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
 	<value>6</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18288,6 +18383,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18454,7 +18553,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18484,6 +18583,10 @@
 	<property>
 	<id>MSS_MRW_OCMB_RESET_GROUP</id>
 	<value>6</value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
 	</property>
 </globalSetting>
 <globalSetting>
@@ -18557,6 +18660,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18712,7 +18819,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -18815,6 +18922,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18970,7 +19081,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19073,6 +19184,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19243,7 +19358,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19346,6 +19461,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19512,7 +19631,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19615,6 +19734,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19770,7 +19893,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -19873,6 +19996,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20047,7 +20174,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -20150,6 +20277,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20316,7 +20447,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -20419,6 +20550,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20593,7 +20728,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -20696,6 +20831,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20873,7 +21012,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -20980,6 +21119,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21150,7 +21293,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -21253,6 +21396,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21423,7 +21570,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -21704,7 +21851,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ddr5</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ddrA</id>
 	<property>
 	<id>DIRECTION</id>
 	<value></value>
@@ -21807,6 +21954,10 @@
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/mem_port0</id>
 	<property>
 	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -45814,832 +45965,832 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-0/ddimm-0/ocmb/mem_port0 => ddimm-connector-0/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-0/ddimm-0/ocmb/mem_port0 => ddimm-connector-0/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-0/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port0</source_target>
 		<dest_path>ddimm-connector-0/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-1/ddimm-0/ocmb/mem_port0 => ddimm-connector-1/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-1/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-2/ddimm-0/ocmb/mem_port0 => ddimm-connector-2/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-2/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-3/ddimm-0/ocmb/mem_port0 => ddimm-connector-3/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-3/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-4/ddimm-0/ocmb/mem_port0 => ddimm-connector-4/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-4/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-5/ddimm-0/ocmb/mem_port0 => ddimm-connector-5/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-5/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-6/ddimm-0/ocmb/mem_port0 => ddimm-connector-6/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-6/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-7/ddimm-0/ocmb/mem_port0 => ddimm-connector-7/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-7/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-8/ddimm-0/ocmb/mem_port0 => ddimm-connector-8/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-8/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-9/ddimm-0/ocmb/mem_port0 => ddimm-connector-9/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-9/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-10/ddimm-0/ocmb/mem_port0 => ddimm-connector-10/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-10/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-11/ddimm-0/ocmb/mem_port0 => ddimm-connector-11/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-11/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-12/ddimm-0/ocmb/mem_port0 => ddimm-connector-12/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-12/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-13/ddimm-0/ocmb/mem_port0 => ddimm-connector-13/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-13/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-14/ddimm-0/ocmb/mem_port0 => ddimm-connector-14/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-14/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-15/ddimm-0/ocmb/mem_port0 => ddimm-connector-15/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-15/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-16/ddimm-0/ocmb/mem_port0 => ddimm-connector-16/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-16/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-17/ddimm-0/ocmb/mem_port0 => ddimm-connector-17/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-17/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-18/ddimm-0/ocmb/mem_port0 => ddimm-connector-18/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-18/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-19/ddimm-0/ocmb/mem_port0 => ddimm-connector-19/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-19/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-20/ddimm-0/ocmb/mem_port0 => ddimm-connector-20/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-20/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-21/ddimm-0/ocmb/mem_port0 => ddimm-connector-21/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-21/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-22/ddimm-0/ocmb/mem_port0 => ddimm-connector-22/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-22/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-23/ddimm-0/ocmb/mem_port0 => ddimm-connector-23/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-23/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-24/ddimm-0/ocmb/mem_port0 => ddimm-connector-24/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-24/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-25/ddimm-0/ocmb/mem_port0 => ddimm-connector-25/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-25/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-26/ddimm-0/ocmb/mem_port0 => ddimm-connector-26/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-26/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-27/ddimm-0/ocmb/mem_port0 => ddimm-connector-27/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-27/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-28/ddimm-0/ocmb/mem_port0 => ddimm-connector-28/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-28/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-29/ddimm-0/ocmb/mem_port0 => ddimm-connector-29/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-29/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-30/ddimm-0/ocmb/mem_port0 => ddimm-connector-30/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-30/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-31/ddimm-0/ocmb/mem_port0 => ddimm-connector-31/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
-		<cable>no</cable>
-		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
-		<source_target>mem_port0</source_target>
-		<dest_path>ddimm-connector-31/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
-		<bus_attribute>
-			<id>CLASS</id>
-		<default>BUS</default>
-		</bus_attribute>
-	</bus>
-	<bus>
-		<bus_id>ddimm-connector-0/ddimm-0/ocmb/mem_port1 => ddimm-connector-0/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-0/ddimm-0/ocmb/mem_port1 => ddimm-connector-0/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-0/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-0/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-1/ddimm-0/ocmb/mem_port1 => ddimm-connector-1/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-1/ddimm-0/ocmb/mem_port0 => ddimm-connector-1/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-1/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-1/ddimm-0/ocmb/mem_port1 => ddimm-connector-1/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-1/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-2/ddimm-0/ocmb/mem_port1 => ddimm-connector-2/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-2/ddimm-0/ocmb/mem_port0 => ddimm-connector-2/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-2/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-2/ddimm-0/ocmb/mem_port1 => ddimm-connector-2/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-2/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-3/ddimm-0/ocmb/mem_port1 => ddimm-connector-3/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-3/ddimm-0/ocmb/mem_port0 => ddimm-connector-3/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-3/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-3/ddimm-0/ocmb/mem_port1 => ddimm-connector-3/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-3/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-4/ddimm-0/ocmb/mem_port1 => ddimm-connector-4/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-4/ddimm-0/ocmb/mem_port0 => ddimm-connector-4/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-4/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-4/ddimm-0/ocmb/mem_port1 => ddimm-connector-4/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-4/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-5/ddimm-0/ocmb/mem_port1 => ddimm-connector-5/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-5/ddimm-0/ocmb/mem_port0 => ddimm-connector-5/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-5/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-5/ddimm-0/ocmb/mem_port1 => ddimm-connector-5/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-5/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-6/ddimm-0/ocmb/mem_port1 => ddimm-connector-6/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-6/ddimm-0/ocmb/mem_port0 => ddimm-connector-6/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-6/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-6/ddimm-0/ocmb/mem_port1 => ddimm-connector-6/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-6/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-7/ddimm-0/ocmb/mem_port1 => ddimm-connector-7/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-7/ddimm-0/ocmb/mem_port0 => ddimm-connector-7/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-7/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-7/ddimm-0/ocmb/mem_port1 => ddimm-connector-7/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-7/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-8/ddimm-0/ocmb/mem_port1 => ddimm-connector-8/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-8/ddimm-0/ocmb/mem_port0 => ddimm-connector-8/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-8/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-8/ddimm-0/ocmb/mem_port1 => ddimm-connector-8/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-8/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-9/ddimm-0/ocmb/mem_port1 => ddimm-connector-9/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-9/ddimm-0/ocmb/mem_port0 => ddimm-connector-9/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-9/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-9/ddimm-0/ocmb/mem_port1 => ddimm-connector-9/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-9/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-10/ddimm-0/ocmb/mem_port1 => ddimm-connector-10/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-10/ddimm-0/ocmb/mem_port0 => ddimm-connector-10/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-10/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-10/ddimm-0/ocmb/mem_port1 => ddimm-connector-10/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-10/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-11/ddimm-0/ocmb/mem_port1 => ddimm-connector-11/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-11/ddimm-0/ocmb/mem_port0 => ddimm-connector-11/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-11/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-11/ddimm-0/ocmb/mem_port1 => ddimm-connector-11/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-11/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-12/ddimm-0/ocmb/mem_port1 => ddimm-connector-12/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-12/ddimm-0/ocmb/mem_port0 => ddimm-connector-12/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-12/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-12/ddimm-0/ocmb/mem_port1 => ddimm-connector-12/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-12/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-13/ddimm-0/ocmb/mem_port1 => ddimm-connector-13/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-13/ddimm-0/ocmb/mem_port0 => ddimm-connector-13/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-13/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-13/ddimm-0/ocmb/mem_port1 => ddimm-connector-13/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-13/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-14/ddimm-0/ocmb/mem_port1 => ddimm-connector-14/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-14/ddimm-0/ocmb/mem_port0 => ddimm-connector-14/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-14/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-14/ddimm-0/ocmb/mem_port1 => ddimm-connector-14/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-14/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-15/ddimm-0/ocmb/mem_port1 => ddimm-connector-15/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-15/ddimm-0/ocmb/mem_port0 => ddimm-connector-15/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-15/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-15/ddimm-0/ocmb/mem_port1 => ddimm-connector-15/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-15/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-16/ddimm-0/ocmb/mem_port1 => ddimm-connector-16/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-16/ddimm-0/ocmb/mem_port0 => ddimm-connector-16/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-16/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-16/ddimm-0/ocmb/mem_port1 => ddimm-connector-16/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-16/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-17/ddimm-0/ocmb/mem_port1 => ddimm-connector-17/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-17/ddimm-0/ocmb/mem_port0 => ddimm-connector-17/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-17/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-17/ddimm-0/ocmb/mem_port1 => ddimm-connector-17/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-17/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-18/ddimm-0/ocmb/mem_port1 => ddimm-connector-18/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-18/ddimm-0/ocmb/mem_port0 => ddimm-connector-18/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-18/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-18/ddimm-0/ocmb/mem_port1 => ddimm-connector-18/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-18/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-19/ddimm-0/ocmb/mem_port1 => ddimm-connector-19/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-19/ddimm-0/ocmb/mem_port0 => ddimm-connector-19/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-19/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-19/ddimm-0/ocmb/mem_port1 => ddimm-connector-19/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-19/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-20/ddimm-0/ocmb/mem_port1 => ddimm-connector-20/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-20/ddimm-0/ocmb/mem_port0 => ddimm-connector-20/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-20/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-20/ddimm-0/ocmb/mem_port1 => ddimm-connector-20/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-20/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-21/ddimm-0/ocmb/mem_port1 => ddimm-connector-21/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-21/ddimm-0/ocmb/mem_port0 => ddimm-connector-21/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-21/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-21/ddimm-0/ocmb/mem_port1 => ddimm-connector-21/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-21/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-22/ddimm-0/ocmb/mem_port1 => ddimm-connector-22/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-22/ddimm-0/ocmb/mem_port0 => ddimm-connector-22/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-22/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-22/ddimm-0/ocmb/mem_port1 => ddimm-connector-22/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-22/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-23/ddimm-0/ocmb/mem_port1 => ddimm-connector-23/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-23/ddimm-0/ocmb/mem_port0 => ddimm-connector-23/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-23/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-23/ddimm-0/ocmb/mem_port1 => ddimm-connector-23/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-23/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-24/ddimm-0/ocmb/mem_port1 => ddimm-connector-24/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-24/ddimm-0/ocmb/mem_port0 => ddimm-connector-24/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-24/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-24/ddimm-0/ocmb/mem_port1 => ddimm-connector-24/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-24/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-25/ddimm-0/ocmb/mem_port1 => ddimm-connector-25/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-25/ddimm-0/ocmb/mem_port0 => ddimm-connector-25/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-25/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-25/ddimm-0/ocmb/mem_port1 => ddimm-connector-25/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-25/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-26/ddimm-0/ocmb/mem_port1 => ddimm-connector-26/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-26/ddimm-0/ocmb/mem_port0 => ddimm-connector-26/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-26/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-26/ddimm-0/ocmb/mem_port1 => ddimm-connector-26/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-26/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-27/ddimm-0/ocmb/mem_port1 => ddimm-connector-27/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-27/ddimm-0/ocmb/mem_port0 => ddimm-connector-27/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-27/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-27/ddimm-0/ocmb/mem_port1 => ddimm-connector-27/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-27/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-28/ddimm-0/ocmb/mem_port1 => ddimm-connector-28/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-28/ddimm-0/ocmb/mem_port0 => ddimm-connector-28/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-28/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-28/ddimm-0/ocmb/mem_port1 => ddimm-connector-28/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-28/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-29/ddimm-0/ocmb/mem_port1 => ddimm-connector-29/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-29/ddimm-0/ocmb/mem_port0 => ddimm-connector-29/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-29/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-29/ddimm-0/ocmb/mem_port1 => ddimm-connector-29/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-29/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-30/ddimm-0/ocmb/mem_port1 => ddimm-connector-30/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-30/ddimm-0/ocmb/mem_port0 => ddimm-connector-30/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-30/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-30/ddimm-0/ocmb/mem_port1 => ddimm-connector-30/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-30/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-31/ddimm-0/ocmb/mem_port1 => ddimm-connector-31/ddimm-0/ddr5</bus_id>
-		<bus_type>DDR5</bus_type>
+		<bus_id>ddimm-connector-31/ddimm-0/ocmb/mem_port0 => ddimm-connector-31/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
+		<cable>no</cable>
+		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
+		<source_target>mem_port0</source_target>
+		<dest_path>ddimm-connector-31/ddimm-0/</dest_path>
+		<dest_target>ddrA</dest_target>
+		<bus_attribute>
+			<id>CLASS</id>
+		<default>BUS</default>
+		</bus_attribute>
+	</bus>
+	<bus>
+		<bus_id>ddimm-connector-31/ddimm-0/ocmb/mem_port1 => ddimm-connector-31/ddimm-0/ddrA</bus_id>
+		<bus_type>DDR</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
 		<source_target>mem_port1</source_target>
 		<dest_path>ddimm-connector-31/ddimm-0/</dest_path>
-		<dest_target>ddr5</dest_target>
+		<dest_target>ddrA</dest_target>
 		<bus_attribute>
 			<id>CLASS</id>
 		<default>BUS</default>
@@ -129086,8 +129237,8 @@
 	<child_id>pmic1</child_id>
 	<child_id>spdA</child_id>
 	<child_id>spdB</child_id>
-	<child_id>ddr4</child_id>
-	<child_id>ddr5</child_id>
+	<child_id>ddrA</child_id>
+	<child_id>ddrB</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
 	<hidden_child_id>dimm_func_sensor</hidden_child_id>
@@ -129254,6 +129405,8 @@
 	<child_id>omi</child_id>
 	<child_id>mem_port0</child_id>
 	<child_id>mem_port1</child_id>
+	<child_id>odyperv1</child_id>
+	<child_id>odyperv8</child_id>
 	<child_id>i2c-ocmb-master</child_id>
 	<child_id>i2c-ocmb-slave</child_id>
 	<child_id>i2c-ts0</child_id>
@@ -129543,7 +129696,7 @@
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>DDR5</default>
+		<default>DDR</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -129598,11 +129751,11 @@
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>DDR5</default>
+		<default>DDR</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -129639,6 +129792,108 @@
 	<attribute>
 		<id>TYPE</id>
 		<default>MEM_PORT</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>odyperv1</id>
+	<type>unit-perv</type>
+	<is_root>false</is_root>
+	<instance_name>odyperv1</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0x1</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>1</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PERV</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>odyperv8</id>
+	<type>unit-perv</type>
+	<is_root>false</is_root>
+	<instance_name>odyperv8</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>CHIPLET_ID</id>
+		<default>0x8</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>8</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>PERV</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
@@ -130149,10 +130404,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr4</id>
-	<type>unit-ddr4-jedec</type>
+	<id>ddrA</id>
+	<type>unit-ddr</type>
 	<is_root>false</is_root>
-	<instance_name>ddr4</instance_name>
+	<instance_name>ddrA</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>AFFINITY_PATH</id>
@@ -130160,7 +130415,7 @@
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>DDR4</default>
+		<default>DDR</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -130200,10 +130455,10 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>ddr5</id>
-	<type>unit-ddr5-jedec</type>
+	<id>ddrB</id>
+	<type>unit-ddr</type>
 	<is_root>false</is_root>
-	<instance_name>ddr5</instance_name>
+	<instance_name>ddrB</instance_name>
 	<position>-1</position>
 	<attribute>
 		<id>AFFINITY_PATH</id>
@@ -130211,7 +130466,7 @@
 	</attribute>
 	<attribute>
 		<id>BUS_TYPE</id>
-		<default>DDR5</default>
+		<default>DDR</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
@@ -163626,6 +163881,108 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>ddr4</id>
+	<type>unit-ddr4-jedec</type>
+	<is_root>false</is_root>
+	<instance_name>ddr4</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR4</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>JEDEC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>NA</default>
+	</attribute>
+</targetInstance>
+<targetInstance>
+	<id>ddr5</id>
+	<type>unit-ddr5-jedec</type>
+	<is_root>false</is_root>
+	<instance_name>ddr5</instance_name>
+	<position>-1</position>
+	<attribute>
+		<id>AFFINITY_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>BUS_TYPE</id>
+		<default>DDR5</default>
+	</attribute>
+	<attribute>
+		<id>CHIP_UNIT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>CLASS</id>
+		<default>UNIT</default>
+	</attribute>
+	<attribute>
+		<id>DIRECTION</id>
+		<default>IN</default>
+	</attribute>
+	<attribute>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
+	</attribute>
+	<attribute>
+		<id>MODEL</id>
+		<default>JEDEC</default>
+	</attribute>
+	<attribute>
+		<id>MRW_TYPE</id>
+		<default>NA</default>
+	</attribute>
+	<attribute>
+		<id>PHYS_PATH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
