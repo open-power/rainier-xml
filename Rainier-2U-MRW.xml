@@ -130018,7 +130018,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>TEMP_SENSOR</default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>VPD_SIZE</id>
@@ -130057,7 +130057,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>TEMP_SENSOR</default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>VPD_SIZE</id>
@@ -130096,7 +130096,7 @@
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
-		<default>TEMP_SENSOR</default>
+		<default>NA</default>
 	</attribute>
 	<attribute>
 		<id>VPD_SIZE</id>
