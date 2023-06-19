@@ -44876,7 +44876,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_MTM</id>
-		<default>NULL</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
@@ -45239,7 +45239,7 @@
 	</attribute>
 	<attribute>
 		<id>MODEL</id>
-		<default>null</default>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
@@ -61548,7 +61548,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>null</default>
+		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -63213,7 +63213,7 @@
 		</bus_attribute>
 		<bus_attribute>
 			<id>CLASS</id>
-		<default>null</default>
+		<default>BUS</default>
 		</bus_attribute>
 		<bus_attribute>
 			<id>FRU_PATH</id>
@@ -163881,108 +163881,6 @@
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>IPMI_SENSOR</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>ddr4</id>
-	<type>unit-ddr4-jedec</type>
-	<is_root>false</is_root>
-	<instance_name>ddr4</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>DDR4</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>JEDEC</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>ddr5</id>
-	<type>unit-ddr5-jedec</type>
-	<is_root>false</is_root>
-	<instance_name>ddr5</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>DDR5</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>JEDEC</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
