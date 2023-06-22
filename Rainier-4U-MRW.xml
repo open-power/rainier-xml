@@ -50294,15 +50294,15 @@
 	</attribute>
 	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>1120,930,2260,1880,1500,3020,0,0,0,0,0,0</default>
+		<default>1120,930,2260,1880,1500,3020,1120,930,2260,1880,1500,3020,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>INDEX_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>1500,1250,3000,2500,2000,4000,0,0,0,0,0,0</default>
+		<default>1500,1250,3000,2500,2000,4000,1500,1250,3000,2500,2000,4000,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>INDEX_POWER_LIMIT_CONFIG</id>
-		<default>0x2B1D0202,0x2B1D0102,0x2B1D0204,0x2B1D0104,0x2B1E0202,0x2B1E0204,0,0,0,0,0,0</default>
+		<default>0x2B1D0202,0x2B1D0102,0x2B1D0204,0x2B1D0104,0x2B1E0202,0x2B1E0204,0x2B1D0201,0x2B1D0101,0x2B1D0203,0x2B1D0103,0x2B1E0201,0x2B1E0203,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -83854,7 +83854,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
@@ -84074,7 +84074,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -99993,7 +99993,7 @@
 	</attribute>
 	<attribute>
 		<id>EXTERNAL_VRM_STEPSIZE</id>
-		<default>0x00</default>
+		<default>0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>FABRIC_CHIP_ID</id>
@@ -100213,7 +100213,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
