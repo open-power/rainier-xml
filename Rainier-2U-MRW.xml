@@ -44081,15 +44081,15 @@
 	</attribute>
 	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
-		<default>1880,930,0,0,0,0,0,0,0,0,0,0</default>
+		<default>1880,930,1880,930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>INDEX_N_PLUS_ONE_BULK_POWER_LIMIT_WATTS</id>
-		<default>2500,1250,0,0,0,0,0,0,0,0,0,0</default>
+		<default>2500,1250,2500,1250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>INDEX_POWER_LIMIT_CONFIG</id>
-		<default>0x51E90202,0x51E90102,0,0,0,0,0,0,0,0,0,0</default>
+		<default>0x51E90202,0x51E90102,0x51E90201,0x51E90101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>IPMI_SENSORS</id>
@@ -68449,7 +68449,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
@@ -84584,7 +84584,7 @@
 	</attribute>
 	<attribute>
 		<id>PROC_VRM_VOFFSET_UV</id>
-		<default></default>
+		<default>0,0,50000,0</default>
 	</attribute>
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
