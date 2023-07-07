@@ -84,10 +84,6 @@
 		<value>15</value>
 		</enumerator>
 		<enumerator>
-		<name>DDR</name>
-		<value>31</value>
-		</enumerator>
-		<enumerator>
 		<name>OBUS</name>
 		<value>27</value>
 		</enumerator>
@@ -162,10 +158,6 @@
 		<enumerator>
 		<name>U750</name>
 		<value>16</value>
-		</enumerator>
-		<enumerator>
-		<name>DDR5</name>
-		<value>30</value>
 		</enumerator>
 		<enumerator>
 		<name>DDR4</name>
@@ -397,6 +389,25 @@
 		<enumerator>
 		<name>SP</name>
 		<value>10</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>CLOCKSTOP_ON_XSTOP</id>
+		<enumerator>
+		<name>DISABLED</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP_AND_SPATTN</name>
+		<value>0x5B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_XSTOP</name>
+		<value>0x7B</value>
+		</enumerator>
+		<enumerator>
+		<name>STOP_ON_STAGED_XSTOP</name>
+		<value>0xFD</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -1101,10 +1112,6 @@
 		<value>1333</value>
 		</enumerator>
 		<enumerator>
-		<name>2400</name>
-		<value>2400</value>
-		</enumerator>
-		<enumerator>
 		<name>2000</name>
 		<value>2000</value>
 		</enumerator>
@@ -1122,10 +1129,6 @@
 		<enumerator>
 		<name>32000</name>
 		<value>32000</value>
-		</enumerator>
-		<enumerator>
-		<name>38400</name>
-		<value>38400</value>
 		</enumerator>
 		<enumerator>
 		<name>25600</name>
@@ -1860,6 +1863,45 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
+	<id>MNFG_FLAGS</id>
+		<enumerator>
+		<name>MNFG_NO_FLAG</name>
+		<value>0x0000000000000000</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DISABLE_MEMORY_eREPAIR</name>
+		<value>0x0000000000001000</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_ENABLE_STANDARD_PATTERN_TEST</name>
+		<value>0x0000000000000200</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DMI_DEPLOY_LANE_SPARES</name>
+		<value>0x0000000000004000</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_TEST_ALL_SPARE_DRAM_ROWS</name>
+		<value>0x0000000000000040</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_THRESHOLDS</name>
+		<value>0x0000000000000001</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DISABLE_DRAM_REPAIRS</name>
+		<value>0x0000000000000080</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_FABRIC_DEPLOY_LANE_SPARES</name>
+		<value>0x0000000000002000</value>
+		</enumerator>
+		<enumerator>
+		<name>MNFG_DISABLE_FABRIC_eREPAIR</name>
+		<value>0x0000000000000800</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
 	<id>MODEL</id>
 		<enumerator>
 		<name>MURANO</name>
@@ -2238,17 +2280,6 @@
 		<enumerator>
 		<name>256_B</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>MSS_MRW_ALLOW_DDR5</id>
-		<enumerator>
-		<name>REJECT</name>
-		<value>0</value>
-		</enumerator>
-		<enumerator>
-		<name>ALLOW</name>
-		<value>1</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -2774,43 +2805,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>OMI_BIST_DAC_TEST</id>
-		<enumerator>
-		<name>DISABLED</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLED</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>OMI_BIST_ESD_TEST</id>
-		<enumerator>
-		<name>DISABLED</name>
-		<value>0x00</value>
-		</enumerator>
-		<enumerator>
-		<name>ENABLED</name>
-		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>OMI_RX_LANES</id>
-		<enumerator>
-		<name>X8</name>
-		<value>0xFF000000</value>
-		</enumerator>
-		<enumerator>
-		<name>X2</name>
-		<value>0x81000000</value>
-		</enumerator>
-		<enumerator>
-		<name>X4</name>
-		<value>0xA5000000</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>OMI_SPREAD_SPECTRUM</id>
 		<enumerator>
 		<name>DISABLED</name>
@@ -2819,21 +2813,6 @@
 		<enumerator>
 		<name>ENABLED</name>
 		<value>0x01</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
-	<id>OMI_TX_LANES</id>
-		<enumerator>
-		<name>X8</name>
-		<value>0xFF000000</value>
-		</enumerator>
-		<enumerator>
-		<name>X2</name>
-		<value>0x81000000</value>
-		</enumerator>
-		<enumerator>
-		<name>X4</name>
-		<value>0xA5000000</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -4330,7 +4309,7 @@
 		</enumerator>
 		<enumerator>
 		<name>LAST_IN_RANGE</name>
-		<value>104</value>
+		<value>88</value>
 		</enumerator>
 		<enumerator>
 		<name>PCI</name>
@@ -4375,10 +4354,6 @@
 		<enumerator>
 		<name>REFCLKENDPT</name>
 		<value>28</value>
-		</enumerator>
-		<enumerator>
-		<name>TEMP_SENSOR</name>
-		<value>103</value>
 		</enumerator>
 		<enumerator>
 		<name>NX</name>
@@ -4475,10 +4450,6 @@
 		<enumerator>
 		<name>SYSREFCLKENDPT</name>
 		<value>47</value>
-		</enumerator>
-		<enumerator>
-		<name>POWER_IC</name>
-		<value>102</value>
 		</enumerator>
 		<enumerator>
 		<name>L3</name>
@@ -41995,66 +41966,6 @@
 		<default>1,1,1,1,1,1,1,1</default>
 	</attribute>
 	<attribute>
-		<id>DDR5_DIMM_ERROR_TEMP_DEG_C</id>
-		<default>84</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_DIMM_READ_TIMEOUT_SEC</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>69</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_DRAM_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_DRAM_READ_TIMEOUT_SEC</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_DRAM_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_EXT_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_EXT_READ_TIMEOUT_SEC</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MC_EXT_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MEMCTRL_READ_TIMEOUT_SEC</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
-		<default>95</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_PMIC_READ_TIMEOUT_SEC</id>
-		<default>30</default>
-	</attribute>
-	<attribute>
-		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
-		<default>85</default>
-	</attribute>
-	<attribute>
 		<id>DDS_DELAY_ADJUST</id>
 		<default></default>
 	</attribute>
@@ -42079,16 +41990,16 @@
 		<default>80</default>
 	</attribute>
 	<attribute>
-		<id>DIMM_POWER_UTIL_INTERMEDIATE_POINTS</id>
-		<default>50,75,0,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
 		<id>DIMM_READ_TIMEOUT_SEC</id>
 		<default>30</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
 		<default>77</default>
+	</attribute>
+	<attribute>
+		<id>EARLY_TESTCASES_ISTEP</id>
+		<default>0x0609</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -42164,10 +42075,6 @@
 		<default>NONE</default>
 	</attribute>
 	<attribute>
-		<id>INDEX_MIN_POWER_CAP_WATTS</id>
-		<default>1060,750,1060,750,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
-	</attribute>
-	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
 		<default>1880,930,1880,930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
 	</attribute>
@@ -42217,10 +42124,6 @@
 	</attribute>
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MAX_DIMM_POWER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -42305,6 +42208,10 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_DMI_MIN_EYE_WIDTH</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MNFG_FLAGS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -42436,10 +42343,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>MSS_MRW_ALLOW_DDR5</id>
-		<default>ALLOW</default>
-	</attribute>
-	<attribute>
 		<id>MSS_MRW_ALLOW_UNSUPPORTED_RCW</id>
 		<default>1</default>
 	</attribute>
@@ -42450,10 +42353,6 @@
 	<attribute>
 		<id>MSS_MRW_DDR5_DRAM_READ_CRC</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>MSS_MRW_DDR5_MAX_DRAM_DATABUS_UTIL</id>
-		<default>0x00002710</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_DIMM_HEIGHT_MIXING_POLICY</id>
@@ -42835,10 +42734,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>RCD_PARITY_RECONFIG_LOOPS_ALLOWED</id>
-		<default>1</default>
-	</attribute>
-	<attribute>
 		<id>REDUNDANT_CLOCKS</id>
 		<default></default>
 	</attribute>
@@ -42968,10 +42863,6 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RING_DBG_MODE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>SYSTEM_THERMAL_RESISTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -63428,12 +63319,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>CHIP_FAN_CFM</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
@@ -79567,12 +79458,12 @@
 		<default></default>
 	</attribute>
 	<attribute>
-		<id>CHIP_FAN_CFM</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLOCK_MUX0A_RCS_PLL_INPUT</id>
@@ -124549,10 +124440,6 @@
 	<child_id>pmic1</child_id>
 	<child_id>spd</child_id>
 	<child_id>ddr4</child_id>
-	<child_id>spdA</child_id>
-	<child_id>spdB</child_id>
-	<child_id>ddrA</child_id>
-	<child_id>ddrB</child_id>
 	<hidden_child_id>dimm_temp_sensor0</hidden_child_id>
 	<hidden_child_id>dimm_temp_sensor1</hidden_child_id>
 	<hidden_child_id>dimm_func_sensor</hidden_child_id>
@@ -124683,10 +124570,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PREHEAT_PERCENT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -124732,6 +124615,10 @@
 	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
+	</attribute>
+	<attribute>
+		<id>CLOCKSTOP_ON_XSTOP</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>EEPROM_VPD_BACKUP_INFO</id>
@@ -124783,10 +124670,6 @@
 		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>FREQ_OMI_MHZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
 		<id>FRU_ID</id>
 		<default>0</default>
 	</attribute>
@@ -124835,62 +124718,6 @@
 	</attribute>
 	<attribute>
 		<id>OCMB_COUNTER</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_BIST_DAC_TEST</id>
-		<default>DISABLED</default>
-	</attribute>
-	<attribute>
-		<id>OMI_BIST_ESD_TEST</id>
-		<default>DISABLED</default>
-	</attribute>
-	<attribute>
-		<id>OMI_BIST_TIMER</id>
-		<default>5</default>
-	</attribute>
-	<attribute>
-		<id>OMI_CHANNEL_LENGTH</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_LANES</id>
-		<default>X8</default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_LTEG</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_LTEZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_VERT_OFFSET</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_TX_LANES</id>
-		<default>X8</default>
-	</attribute>
-	<attribute>
-		<id>OMI_TX_POST</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>OMI_TX_PRE1</id>
-		<default>4</default>
-	</attribute>
-	<attribute>
-		<id>OMI_TX_PRE2</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -125434,263 +125261,6 @@
 	<attribute>
 		<id>BUS_TYPE</id>
 		<default>DDR4</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>JEDEC</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>spdA</id>
-	<type>chip-spd-device</type>
-	<is_root>false</is_root>
-	<instance_name>spdA</instance_name>
-	<position>-1</position>
-	<child_id>i2c-spd</child_id>
-	<attribute>
-		<id>BYTE_ADDRESS_OFFSET</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MEMORY_SIZE_IN_KB</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>SPD</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VPD_TYPE</id>
-		<default>SPD</default>
-	</attribute>
-	<attribute>
-		<id>WRITE_CYCLE_TIME</id>
-		<default>0x05</default>
-	</attribute>
-	<attribute>
-		<id>WRITE_PAGE_SIZE</id>
-		<default>0x50</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>i2c-spd</id>
-	<type>unit-i2c-slave</type>
-	<is_root>false</is_root>
-	<instance_name>i2c-spd</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default>0xA0</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>POWER10</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>spdB</id>
-	<type>chip-spd-device</type>
-	<is_root>false</is_root>
-	<instance_name>spdB</instance_name>
-	<position>-1</position>
-	<child_id>i2c-spd</child_id>
-	<attribute>
-		<id>BYTE_ADDRESS_OFFSET</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MEMORY_SIZE_IN_KB</id>
-		<default>0x01</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>SPD</default>
-	</attribute>
-	<attribute>
-		<id>POSITION</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>RU_TYPE</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>VPD_TYPE</id>
-		<default>SPD</default>
-	</attribute>
-	<attribute>
-		<id>WRITE_CYCLE_TIME</id>
-		<default>0x05</default>
-	</attribute>
-	<attribute>
-		<id>WRITE_PAGE_SIZE</id>
-		<default>0x50</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>ddrA</id>
-	<type>unit-ddr</type>
-	<is_root>false</is_root>
-	<instance_name>ddrA</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>DDR</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>CLASS</id>
-		<default>UNIT</default>
-	</attribute>
-	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
-	</attribute>
-	<attribute>
-		<id>FAPI_NAME</id>
-		<default>unknown</default>
-	</attribute>
-	<attribute>
-		<id>MODEL</id>
-		<default>JEDEC</default>
-	</attribute>
-	<attribute>
-		<id>MRW_TYPE</id>
-		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>PHYS_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>RESOURCE_IS_CRITICAL</id>
-		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
-	</attribute>
-</targetInstance>
-<targetInstance>
-	<id>ddrB</id>
-	<type>unit-ddr</type>
-	<is_root>false</is_root>
-	<instance_name>ddrB</instance_name>
-	<position>-1</position>
-	<attribute>
-		<id>AFFINITY_PATH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>BUS_TYPE</id>
-		<default>DDR</default>
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
