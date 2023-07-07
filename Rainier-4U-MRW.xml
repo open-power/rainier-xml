@@ -50142,6 +50142,10 @@
 		<id>HW543822_WAR_MODE</id>
 		<default>NONE</default>
 	</attribute>
+	<attribute>	
+		<id>INDEX_MIN_POWER_CAP_WATTS</id>	
+		<default>780,750,1030,840,870,2000,780,750,1030,840,870,2000,0,0,0,0,0,0,0,0,0,0,0,0</default>	
+	</attribute>
 	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
 		<default>1120,930,2260,1880,1500,3020,1120,930,2260,1880,1500,3020,0,0,0,0,0,0,0,0,0,0,0,0</default>
