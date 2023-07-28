@@ -13402,7 +13402,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13417,7 +13417,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13432,7 +13432,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13690,7 +13690,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13705,7 +13705,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13720,7 +13720,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13952,7 +13952,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13967,7 +13967,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -13982,7 +13982,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14240,7 +14240,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14255,7 +14255,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14270,7 +14270,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14513,7 +14513,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14528,7 +14528,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14543,7 +14543,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14801,7 +14801,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14816,7 +14816,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -14831,7 +14831,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15063,7 +15063,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15078,7 +15078,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15093,7 +15093,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15340,7 +15340,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15355,7 +15355,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15370,7 +15370,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15602,7 +15602,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15617,7 +15617,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15632,7 +15632,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15883,7 +15883,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15898,7 +15898,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -15913,7 +15913,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16145,7 +16145,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16160,7 +16160,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16175,7 +16175,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16407,7 +16407,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16422,7 +16422,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16437,7 +16437,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16684,7 +16684,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16699,7 +16699,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16714,7 +16714,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16961,7 +16961,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16976,7 +16976,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -16991,7 +16991,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17242,7 +17242,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17257,7 +17257,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17272,7 +17272,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>NA</value>
@@ -17515,7 +17515,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17530,7 +17530,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17545,7 +17545,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17796,7 +17796,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17811,7 +17811,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -17826,7 +17826,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18058,7 +18058,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18073,7 +18073,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18088,7 +18088,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18335,7 +18335,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18350,7 +18350,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18365,7 +18365,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18612,7 +18612,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18627,7 +18627,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18642,7 +18642,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18874,7 +18874,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18889,7 +18889,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -18904,7 +18904,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19136,7 +19136,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19151,7 +19151,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19166,7 +19166,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19413,7 +19413,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19428,7 +19428,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19443,7 +19443,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19686,7 +19686,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19701,7 +19701,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19716,7 +19716,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19948,7 +19948,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19963,7 +19963,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -19978,7 +19978,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20229,7 +20229,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20244,7 +20244,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20259,7 +20259,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20502,7 +20502,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20517,7 +20517,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20532,7 +20532,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20783,7 +20783,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20798,7 +20798,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -20813,7 +20813,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21071,7 +21071,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21086,7 +21086,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21101,7 +21101,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21348,7 +21348,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21363,7 +21363,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21378,7 +21378,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21625,7 +21625,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21640,7 +21640,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21655,7 +21655,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21906,7 +21906,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/i2c-ts0</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21921,7 +21921,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/i2c-ts1</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/ts1/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -21936,7 +21936,7 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/i2c-ts2</id>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/ts2/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
 	<value>IN</value>
@@ -61132,13 +61132,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-0/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-0/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-0/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61169,13 +61169,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-0/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-0/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-0/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61206,13 +61206,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-0/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-0/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-0/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-0/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-0/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61243,13 +61243,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-1/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-1/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61280,13 +61280,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-1/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-1/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61317,13 +61317,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-1/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-1/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-1/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-1/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-1/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61354,13 +61354,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-2/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-2/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61391,13 +61391,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-2/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-2/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61428,13 +61428,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-2/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-2/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-2/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-2/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-2/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61465,13 +61465,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-3/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-3/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61502,13 +61502,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-3/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-3/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61539,13 +61539,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-3/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-3/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-3/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-3/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-3/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61576,13 +61576,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-4/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-4/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61613,13 +61613,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-4/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-4/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61650,13 +61650,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-4/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-4/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-4/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-4/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-4/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61687,13 +61687,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-5/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-5/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61724,13 +61724,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-5/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-5/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61761,13 +61761,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-5/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-5/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-5/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-5/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-5/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61798,13 +61798,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-6/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-6/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61835,13 +61835,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-6/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-6/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61872,13 +61872,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-6/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-6/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-6/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-6/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-6/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61909,13 +61909,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-7/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-7/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61946,13 +61946,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-7/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-7/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -61983,13 +61983,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-7/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-7/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-7/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-7/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-7/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62020,13 +62020,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-8/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-8/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62057,13 +62057,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-8/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-8/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62094,13 +62094,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-8/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-8/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-8/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-8/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-8/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62131,13 +62131,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-9/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-9/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62168,13 +62168,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-9/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-9/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62205,13 +62205,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-9/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-9/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-9/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-9/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-9/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62242,13 +62242,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-10/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-10/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62279,13 +62279,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-10/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-10/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62316,13 +62316,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-10/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-10/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-10/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-10/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-10/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62353,13 +62353,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-11/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-11/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62390,13 +62390,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-11/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-11/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62427,13 +62427,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-11/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-11/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-11/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-11/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-11/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62464,13 +62464,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-12/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-12/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62501,13 +62501,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-12/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-12/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62538,13 +62538,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-12/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-12/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-12/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-12/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-12/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62575,13 +62575,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-13/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-13/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62612,13 +62612,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-13/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-13/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62649,13 +62649,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-13/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-13/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-13/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-13/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-13/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62686,13 +62686,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-14/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-14/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62723,13 +62723,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-14/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-14/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62760,13 +62760,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-14/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-14/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-14/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-14/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-14/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62797,13 +62797,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-15/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-15/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62834,13 +62834,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-15/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-15/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62871,13 +62871,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-15/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-15/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-15/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-15/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-15/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62908,13 +62908,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-16/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-16/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62945,13 +62945,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-16/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-16/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -62982,13 +62982,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-16/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-16/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-16/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-16/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-16/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63019,13 +63019,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-17/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-17/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63056,13 +63056,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-17/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-17/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63093,13 +63093,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-17/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-17/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-17/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-17/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-17/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63130,13 +63130,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-18/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-18/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63167,13 +63167,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-18/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-18/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63204,13 +63204,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-18/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-18/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-18/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-18/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-18/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63241,13 +63241,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-19/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-19/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63278,13 +63278,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-19/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-19/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63315,13 +63315,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-19/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-19/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-19/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-19/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-19/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63352,13 +63352,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-20/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-20/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63389,13 +63389,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-20/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-20/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63426,13 +63426,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-20/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-20/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-20/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-20/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-20/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63463,13 +63463,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-21/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-21/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63500,13 +63500,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-21/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-21/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63537,13 +63537,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-21/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-21/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-21/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-21/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-21/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63574,13 +63574,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-22/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-22/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63611,13 +63611,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-22/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-22/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63648,13 +63648,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-22/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-22/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-22/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-22/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-22/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63685,13 +63685,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-23/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-23/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63722,13 +63722,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-23/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-23/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63759,13 +63759,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-23/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-23/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-23/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-23/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-23/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63796,13 +63796,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-24/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-24/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63833,13 +63833,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-24/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-24/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63870,13 +63870,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-24/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-24/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-24/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-24/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-24/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63907,13 +63907,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-25/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-25/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63944,13 +63944,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-25/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-25/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -63981,13 +63981,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-25/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-25/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-25/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-25/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-25/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64018,13 +64018,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-26/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-26/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64055,13 +64055,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-26/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-26/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64092,13 +64092,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-26/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-26/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-26/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-26/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-26/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64129,13 +64129,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-27/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-27/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64166,13 +64166,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-27/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-27/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64203,13 +64203,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-27/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-27/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-27/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-27/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-27/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64240,13 +64240,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-28/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-28/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64277,13 +64277,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-28/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-28/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64314,13 +64314,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-28/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-28/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-28/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-28/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-28/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64351,13 +64351,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-29/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-29/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64388,13 +64388,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-29/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-29/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64425,13 +64425,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-29/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-29/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-29/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-29/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-29/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64462,13 +64462,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-30/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-30/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64499,13 +64499,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-30/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-30/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64536,13 +64536,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-30/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-30/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-30/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-30/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-30/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64573,13 +64573,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/i2c-ts0</bus_id>
+		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/ts0/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-31/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts0</dest_target>
+		<dest_path>ddimm-connector-31/ddimm-0/ocmb/ts0/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64610,13 +64610,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/i2c-ts1</bus_id>
+		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/ts1/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-31/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts1</dest_target>
+		<dest_path>ddimm-connector-31/ddimm-0/ocmb/ts1/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -64647,13 +64647,13 @@
 		</bus_attribute>
 	</bus>
 	<bus>
-		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/i2c-ts2</bus_id>
+		<bus_id>ddimm-connector-31/ddimm-0/ocmb/i2c-ocmb-master => ddimm-connector-31/ddimm-0/ocmb/ts2/i2c-slave</bus_id>
 		<bus_type>I2C</bus_type>
 		<cable>no</cable>
 		<source_path>ddimm-connector-31/ddimm-0/ocmb/</source_path>
 		<source_target>i2c-ocmb-master</source_target>
-		<dest_path>ddimm-connector-31/ddimm-0/ocmb/</dest_path>
-		<dest_target>i2c-ts2</dest_target>
+		<dest_path>ddimm-connector-31/ddimm-0/ocmb/ts2/</dest_path>
+		<dest_target>i2c-slave</dest_target>
 		<bus_attribute>
 			<id>BUS_WIDTH</id>
 		<default>2</default>
@@ -129413,9 +129413,9 @@
 	<child_id>odyperv8</child_id>
 	<child_id>i2c-ocmb-master</child_id>
 	<child_id>i2c-ocmb-slave</child_id>
-	<child_id>i2c-ts0</child_id>
-	<child_id>i2c-ts1</child_id>
-	<child_id>i2c-ts2</child_id>
+	<child_id>ts0</child_id>
+	<child_id>ts1</child_id>
+	<child_id>ts2</child_id>
 	<attribute>
 		<id>AFFINITY_PATH</id>
 		<default></default>
@@ -129991,120 +129991,135 @@
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>i2c-ts0</id>
-	<type>unit-i2c-slave</type>
+	<id>ts0</id>
+	<type>temp_sensor</type>
 	<is_root>false</is_root>
-	<instance_name>i2c-ts0</instance_name>
+	<instance_name>ts0</instance_name>
 	<position>-1</position>
+	<child_id>i2c-slave</child_id>
 	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<id>AFFINITY_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default>UNIT</default>
+		<default>ASIC</default>
 	</attribute>
 	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default>0x30</default>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TEMP_SENSOR</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>i2c-ts1</id>
-	<type>unit-i2c-slave</type>
+	<id>ts1</id>
+	<type>temp_sensor</type>
 	<is_root>false</is_root>
-	<instance_name>i2c-ts1</instance_name>
+	<instance_name>ts1</instance_name>
 	<position>-1</position>
+	<child_id>i2c-slave</child_id>
 	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<id>AFFINITY_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default>UNIT</default>
+		<default>ASIC</default>
 	</attribute>
 	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default>0x32</default>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TEMP_SENSOR</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
-	<id>i2c-ts2</id>
-	<type>unit-i2c-slave</type>
+	<id>ts2</id>
+	<type>temp_sensor</type>
 	<is_root>false</is_root>
-	<instance_name>i2c-ts2</instance_name>
+	<instance_name>ts2</instance_name>
 	<position>-1</position>
+	<child_id>i2c-slave</child_id>
 	<attribute>
-		<id>BUS_TYPE</id>
-		<default>I2C</default>
-	</attribute>
-	<attribute>
-		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<id>AFFINITY_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
-		<default>UNIT</default>
+		<default>ASIC</default>
 	</attribute>
 	<attribute>
-		<id>DIRECTION</id>
-		<default>IN</default>
+		<id>FAPI_NAME</id>
+		<default>unknown</default>
 	</attribute>
 	<attribute>
-		<id>I2C_ADDRESS</id>
-		<default>0x34</default>
+		<id>MODEL</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>MRW_TYPE</id>
 		<default>NA</default>
 	</attribute>
 	<attribute>
-		<id>TYPE</id>
-		<default>NA</default>
+		<id>PHYS_PATH</id>
+		<default></default>
 	</attribute>
 	<attribute>
-		<id>VPD_SIZE</id>
-		<default>NA</default>
+		<id>POSITION</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>RESOURCE_IS_CRITICAL</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>TYPE</id>
+		<default>TEMP_SENSOR</default>
 	</attribute>
 </targetInstance>
 <targetInstance>
