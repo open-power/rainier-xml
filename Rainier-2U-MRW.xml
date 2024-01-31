@@ -1860,45 +1860,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MNFG_FLAGS</id>
-		<enumerator>
-		<name>MNFG_NO_FLAG</name>
-		<value>0x0000000000000000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_MEMORY_eREPAIR</name>
-		<value>0x0000000000001000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_ENABLE_STANDARD_PATTERN_TEST</name>
-		<value>0x0000000000000200</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DMI_DEPLOY_LANE_SPARES</name>
-		<value>0x0000000000004000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_TEST_ALL_SPARE_DRAM_ROWS</name>
-		<value>0x0000000000000040</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_THRESHOLDS</name>
-		<value>0x0000000000000001</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_DRAM_REPAIRS</name>
-		<value>0x0000000000000080</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_FABRIC_DEPLOY_LANE_SPARES</name>
-		<value>0x0000000000002000</value>
-		</enumerator>
-		<enumerator>
-		<name>MNFG_DISABLE_FABRIC_eREPAIR</name>
-		<value>0x0000000000000800</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>MODEL</id>
 		<enumerator>
 		<name>MURANO</name>
@@ -2667,17 +2628,6 @@
 		</enumerator>
 </enumerationType>
 <enumerationType>
-	<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
-		<enumerator>
-		<name>BIG_ENDIAN</name>
-		<value>1</value>
-		</enumerator>
-		<enumerator>
-		<name>LITTLE_ENDIAN</name>
-		<value>0</value>
-		</enumerator>
-</enumerationType>
-<enumerationType>
 	<id>MSS_OMI_EDPL_DISABLE</id>
 		<enumerator>
 		<name>TRUE</name>
@@ -2821,6 +2771,21 @@
 		<enumerator>
 		<name>FORCE_UPDATE_ONCE</name>
 		<value>5</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>ODY_RECOVERY_STATUS</id>
+		<enumerator>
+		<name>IN_PROGRESS</name>
+		<value>1</value>
+		</enumerator>
+		<enumerator>
+		<name>VIABLE</name>
+		<value>0</value>
+		</enumerator>
+		<enumerator>
+		<name>DEAD</name>
+		<value>2</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -3762,6 +3727,17 @@
 		<enumerator>
 		<name>CLEAR</name>
 		<value>0x0</value>
+		</enumerator>
+</enumerationType>
+<enumerationType>
+	<id>SB_SIGNING</id>
+		<enumerator>
+		<name>V1_CONTAINER</name>
+		<value>0x00</value>
+		</enumerator>
+		<enumerator>
+		<name>V2_CONTAINER</name>
+		<value>0x01</value>
 		</enumerator>
 </enumerationType>
 <enumerationType>
@@ -13402,6 +13378,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13443,35 +13448,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-0/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13690,6 +13666,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13731,35 +13736,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-1/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -13952,6 +13928,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -13993,35 +13998,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-10/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14240,6 +14216,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14281,35 +14286,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-11/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14513,6 +14489,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14554,35 +14559,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-12/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -14801,6 +14777,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -14842,35 +14847,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-13/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15063,6 +15039,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15104,35 +15109,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-14/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15340,6 +15316,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15381,35 +15386,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-15/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15602,6 +15578,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15643,35 +15648,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-16/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -15883,6 +15859,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -15924,35 +15929,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-17/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16145,6 +16121,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16186,35 +16191,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-18/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16407,6 +16383,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16448,35 +16453,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-19/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16684,6 +16660,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -16725,35 +16730,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-2/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -16961,6 +16937,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17002,35 +17007,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-20/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17242,6 +17218,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17283,35 +17288,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-21/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17515,6 +17491,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17556,35 +17561,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-22/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -17796,6 +17772,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -17837,35 +17842,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-23/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18058,6 +18034,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18099,35 +18104,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-24/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18335,6 +18311,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18376,35 +18381,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-25/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18612,6 +18588,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18653,35 +18658,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-26/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -18874,6 +18850,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -18915,35 +18920,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-27/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19136,6 +19112,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -19177,35 +19182,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-28/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19413,6 +19389,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -19454,35 +19459,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-29/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19686,6 +19662,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -19727,35 +19732,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-3/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -19948,6 +19924,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -19989,35 +19994,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-30/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20229,6 +20205,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20270,35 +20275,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-31/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20502,6 +20478,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20543,35 +20548,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-4/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -20783,6 +20759,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -20824,35 +20829,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-5/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21071,6 +21047,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -21112,35 +21117,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-6/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21348,6 +21324,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -21389,35 +21394,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-7/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21625,6 +21601,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -21666,35 +21671,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-8/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -21906,6 +21882,35 @@
 	</property>
 </globalSetting>
 <globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/mem_port0</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/mem_port1</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+	<property>
+	<id>RESOURCE_IS_CRITICAL</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
+	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/omi</id>
+	<property>
+	<id>DIRECTION</id>
+	<value></value>
+	</property>
+</globalSetting>
+<globalSetting>
 	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/ts0/i2c-slave</id>
 	<property>
 	<id>DIRECTION</id>
@@ -21947,35 +21952,6 @@
 	</property>
 	<property>
 	<id>VPD_SIZE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/mem_port0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/mem_port1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>RESOURCE_IS_CRITICAL</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/nisqually-0/ddimm-connector-9/ddimm-0/ocmb/omi</id>
-	<property>
-	<id>DIRECTION</id>
 	<value></value>
 	</property>
 </globalSetting>
@@ -43959,6 +43935,14 @@
 		<default>89</default>
 	</attribute>
 	<attribute>
+		<id>DDR5_N_MAX_MEM_POWER_WATTS</id>
+		<default>572</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_N_PLUS_ONE_MAX_MEM_POWER_WATTS</id>
+		<default>572</default>
+	</attribute>
+	<attribute>
 		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
 		<default>95</default>
 	</attribute>
@@ -43969,6 +43953,10 @@
 	<attribute>
 		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
 		<default>85</default>
+	</attribute>
+	<attribute>
+		<id>DDR5_VDN_UPLIFT_MV</id>
+		<default></default>
 	</attribute>
 	<attribute>
 		<id>DDS_DELAY_ADJUST</id>
@@ -43991,8 +43979,16 @@
 		<default>CHIP</default>
 	</attribute>
 	<attribute>
+		<id>DEFAULT_MIN_PROC_POWER_PER_CHIP</id>
+		<default>108</default>
+	</attribute>
+	<attribute>
 		<id>DIMM_ERROR_TEMP_DEG_C</id>
 		<default>80</default>
+	</attribute>
+	<attribute>
+		<id>DIMM_POWER_UTIL_INTERMEDIATE_POINTS</id>
+		<default>50,75,0,0,0,0,0,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>DIMM_READ_TIMEOUT_SEC</id>
@@ -44001,10 +43997,6 @@
 	<attribute>
 		<id>DIMM_THROTTLE_TEMP_DEG_C</id>
 		<default>77</default>
-	</attribute>
-	<attribute>
-		<id>EARLY_TESTCASES_ISTEP</id>
-		<default>0x0609</default>
 	</attribute>
 	<attribute>
 		<id>EXECUTION_PLATFORM</id>
@@ -44079,10 +44071,10 @@
 		<id>HW543822_WAR_MODE</id>
 		<default>NONE</default>
 	</attribute>
-	<attribute>	
-  		<id>INDEX_MIN_POWER_CAP_WATTS</id>	
-  		<default>1060,750,1060,750,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>	
-  	</attribute>	
+	<attribute>
+		<id>INDEX_MIN_POWER_CAP_WATTS</id>
+		<default>1060,750,1060,750,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
+	</attribute>
 	<attribute>
 		<id>INDEX_N_BULK_POWER_LIMIT_WATTS</id>
 		<default>1880,930,1880,930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</default>
@@ -44133,6 +44125,10 @@
 	</attribute>
 	<attribute>
 		<id>MAX_DIMMS_PER_MBA_PORT</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>MAX_DIMM_POWER</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44204,6 +44200,10 @@
 		<default>1600</default>
 	</attribute>
 	<attribute>
+		<id>MISC_POWER_PER_SYSTEM</id>
+		<default>661</default>
+	</attribute>
+	<attribute>
 		<id>MNFG_ABUS_MIN_EYE_HEIGHT</id>
 		<default></default>
 	</attribute>
@@ -44217,10 +44217,6 @@
 	</attribute>
 	<attribute>
 		<id>MNFG_DMI_MIN_EYE_WIDTH</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>MNFG_FLAGS</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44425,23 +44421,23 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_CURRENT_CURVE_WITH_LIMIT</id>
-		<default>0xFFFFFC0064152094,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0xFBFFFC0064152094,0xFFFFFC0064152094,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_INTERCEPT</id>
-		<default>0x2DFFFC0002830000,0x3DFFFC0002C70000,0x4DFFFC0002F60000,0x5DFFFC0003D40000,0xFFFFFC00044C0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0x29FFFC0002830000,0x39FFFC0002C70000,0x49FFFC0002F60000,0x59FFFC0003D40000,0xF9FFFC00044C0000,0x35FFFC00029B0000,0x45FFFC0002FF0000,0x55FFFC0003560000,0xFFFFFC0004B00000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_PWR_SLOPE</id>
-		<default>0x2DFFFC0001EC0000,0x3DFFFC0002A80000,0x4DFFFC0002D00000,0x5DFFFC0002CD0000,0xFFFFFC0002BC0000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0x29FFFC0001EC0000,0x39FFFC0002A80000,0x49FFFC0002D00000,0x59FFFC0002CD0000,0xF9FFFC0002BC0000,0x35FFFC0002A30000,0x45FFFC0005390000,0x55FFFC0005EC0000,0xFFFFFC0007D00000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_SAFEMODE_UTIL_ARRAY</id>
-		<default></default>
+		<default>0xFBFFFFC009C40000,0xFFFFFFC009C40000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OCMB_THERMAL_MEMORY_POWER_LIMIT</id>
-		<default>0xFFFFFC0009C40000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
+		<default>0xFBFFFC0009C40000,0xFFFFFC000C800000,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_OVERRIDE_THERM_SENSOR_USAGE</id>
@@ -44526,10 +44522,6 @@
 	<attribute>
 		<id>MSS_OCMB_ENTERPRISE_POLICY</id>
 		<default>ALLOW_ENTERPRISE</default>
-	</attribute>
-	<attribute>
-		<id>MSS_OCMB_ODY_OMI_CFG_ENDIAN_CTRL</id>
-		<default>LITTLE_ENDIAN</default>
 	</attribute>
 	<attribute>
 		<id>MSS_OMI_EDPL_DISABLE</id>
@@ -44787,6 +44779,10 @@
 		<default>SUPPORTED</default>
 	</attribute>
 	<attribute>
+		<id>SADDLEBACK_VRM_ROLLOVER_ENABLE</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>SBE_ADDR_KEY_STASH_ADDR</id>
 		<default></default>
 	</attribute>
@@ -44808,6 +44804,10 @@
 	</attribute>
 	<attribute>
 		<id>SBE_HW_KEY_HASH_ADDR</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SBE_SECURE_BOOT_MODE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -44880,7 +44880,7 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_MTM</id>
-		<default></default>
+		<default>NULL</default>
 	</attribute>
 	<attribute>
 		<id>SYSTEM_NAME</id>
@@ -44888,6 +44888,10 @@
 	</attribute>
 	<attribute>
 		<id>SYSTEM_RING_DBG_MODE</id>
+		<default></default>
+	</attribute>
+	<attribute>
+		<id>SYSTEM_THERMAL_RESISTANCE</id>
 		<default></default>
 	</attribute>
 	<attribute>
@@ -68128,6 +68132,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>CHIP_FAN_CFM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -68462,10 +68470,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SAFE_MODE_THROTTLE_IDX</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>SKEWADJ_BYPASS</id>
@@ -84263,6 +84267,10 @@
 		<default></default>
 	</attribute>
 	<attribute>
+		<id>CHIP_FAN_CFM</id>
+		<default></default>
+	</attribute>
+	<attribute>
 		<id>CLASS</id>
 		<default>CHIP</default>
 	</attribute>
@@ -84597,10 +84605,6 @@
 	<attribute>
 		<id>RU_TYPE</id>
 		<default>NA</default>
-	</attribute>
-	<attribute>
-		<id>SAFE_MODE_THROTTLE_IDX</id>
-		<default>0xFF</default>
 	</attribute>
 	<attribute>
 		<id>SKEWADJ_BYPASS</id>
@@ -129373,6 +129377,10 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>PREHEAT_PERCENT</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
 	</attribute>
@@ -129545,7 +129553,11 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>OMI_RX_HORIZ_OFFSET</id>
+		<id>OMI_RX_HORIZ_DATA_OFFSET</id>
+		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>OMI_RX_HORIZ_EDGE_OFFSET</id>
 		<default>0</default>
 	</attribute>
 	<attribute>
@@ -129558,10 +129570,6 @@
 	</attribute>
 	<attribute>
 		<id>OMI_RX_LTEZ</id>
-		<default></default>
-	</attribute>
-	<attribute>
-		<id>OMI_RX_PHASE_STEP</id>
 		<default></default>
 	</attribute>
 	<attribute>
