@@ -43888,7 +43888,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_ERROR_TEMP_DEG_C</id>
-		<default>84</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_READ_TIMEOUT_SEC</id>
@@ -43896,11 +43896,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_DIMM_THROTTLE_TEMP_DEG_C</id>
-		<default>69</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_READ_TIMEOUT_SEC</id>
@@ -43908,11 +43908,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_DRAM_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_READ_TIMEOUT_SEC</id>
@@ -43920,11 +43920,11 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MC_EXT_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_ERROR_TEMP_DEG_C</id>
-		<default>99</default>
+		<default>96</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_READ_TIMEOUT_SEC</id>
@@ -43932,7 +43932,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_MEMCTRL_THROTTLE_TEMP_DEG_C</id>
-		<default>89</default>
+		<default>91</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_N_MAX_MEM_POWER_WATTS</id>
@@ -43944,7 +43944,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_ERROR_TEMP_DEG_C</id>
-		<default>95</default>
+		<default>80</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_READ_TIMEOUT_SEC</id>
@@ -43952,7 +43952,7 @@
 	</attribute>
 	<attribute>
 		<id>DDR5_PMIC_THROTTLE_TEMP_DEG_C</id>
-		<default>85</default>
+		<default>77</default>
 	</attribute>
 	<attribute>
 		<id>DDR5_VDN_UPLIFT_MV</id>
