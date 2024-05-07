@@ -44932,7 +44932,7 @@
 	</attribute>
 	<attribute>
 		<id>VDN_UPLIFT_MV</id>
-		<default>25</default>
+		<default>125</default>
 	</attribute>
 	<attribute>
 		<id>VRM_VDD_DVFS_TEMP_DEG_C</id>
